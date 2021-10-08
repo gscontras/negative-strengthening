@@ -1,0 +1,17 @@
+,condition,predicate,response,slide_number,language,enjoyment,age,gender,education,comments,Browser,OS,screenH,screenW,time_in_minutes,participant_id
+0,nNegative,not rude,0.27,3,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1
+1,nPositive,not tall,0.66,4,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1
+2,nNegative,not unfair,0.34,5,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1
+3,nNegative,not short,0.63,6,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1
+4,nPositive,not possible,0.08,7,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1
+0,negative,short,0.48,3,blue,-1,,,-1,GREG1,Chrome,Mac,900,1440,0.24425,2
+1,nPositive,not kind,0.79,4,blue,-1,,,-1,GREG1,Chrome,Mac,900,1440,0.24425,2
+2,nPositive,note polite,0.27,5,blue,-1,,,-1,GREG1,Chrome,Mac,900,1440,0.24425,2
+3,nNegative,not unsatisfactory,0.5,6,blue,-1,,,-1,GREG1,Chrome,Mac,900,1440,0.24425,2
+0,nPositive,not accurate,0.83,3,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3
+1,nPositive,not useful,0.28,4,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3
+2,positive,good,0.55,5,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3
+3,positive,long,0.14,6,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3
+4,nPositive,not polite,0.62,7,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3
+5,negative,uncertain,0.33,8,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3
+6,nNegative,not rude,0.68,9,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3
