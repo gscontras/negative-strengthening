@@ -4,45 +4,34 @@ library(hydroGOF)
 library(tidyr)
 library(dplyr)
 
-setwd("~/git/multilingual-subjectivity/experiments/2-subjectivity-expanded/Submiterator-master")
-#setwd("~/git/kids-adjectives/experiments/1-kids-subjectivity/Submiterator-master/")
+setwd("~/git/negative-strengthening/experiments/1-subjectivity-negation/results")
 
-df = read.csv("2-subjectivity-expanded-trials.csv",header=T)
-s = read.csv("2-subjectivity-expanded-subject_information.csv",header=T)
-d = subset(df, select=c("workerid", "class","predicate","slide_number","response"))
-d$language = s$language[match(d$workerid,s$workerid)]
-d$assess = s$asses[match(d$workerid,s$workerid)]
-d$age = s$age[match(d$workerid,s$workerid)]
-d$gender = s$gender[match(d$workerid,s$workerid)]
-unique(d$language)
 
-length(unique(d$workerid)) # n=250
-head(d)
+df = read.csv("results.csv",header=T)
+
+unique(df$language)
+
+length(unique(df$participant_id)) # n=66
 
 ## remove non-English speakers
-d = d[d$language=="english"|
-        d$language=="English"|
-        d$language=="English "|
-        d$language=="ENGLISH"|
-        d$language=="englsh"|
-        d$language=="enlish"|
-        d$language=="Englisha"|
-        d$language=="eNGLISH"|
-        d$language=="Englsh"|
-        d$language=="Engliah"|
-        d$language=="Egnlsih"
+d = df[df$language!=""&
+        df$language!="blue"&
+        df$language!="tomato"
         ,]
-length(unique(d$workerid)) # n=235
-
-#write.csv(d,"../results/individual-adjective-subjectivity.csv")
+unique(d$language)
+length(unique(d$participant_id)) # n=60
 
 ## load helper file for bootstrapped CIs
 source("../results/helpers.r")
 
-agr = bootsSummary(data=d, measurevar="response", groupvars=c("predicate"))
+agr = bootsSummary(data=d, measurevar="response", groupvars=c("predicate","valence","negated"))
 
-mean(agr$N) ## 20.61404 (19.8995 in previous run)
+mean(agr$N) ## 16.67
 
-## write to CSV files
-#write.csv(agr,"../results/adjective-subjectivity.csv")
+agr_mean = bootsSummary(data=d, measurevar="response", groupvars=c("valence","negated"))
+
+## write to CSV file
+#write.csv(agr,"adjective-subjectivity.csv")
+
+summary(lmer(response~valence*negated+(1|participant_id),data=d))
 

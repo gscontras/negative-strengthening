@@ -1,42 +1,1242 @@
-,condition,predicate,response,slide_number,language,enjoyment,age,gender,education,comments,Browser,OS,screenH,screenW,time_in_minutes,participant_id,negated,valence
-0,nNegative,not rude,0.27,3,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1,,
-1,nPositive,not tall,0.66,4,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1,,
-2,nNegative,not unfair,0.34,5,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1,,
-3,nNegative,not short,0.63,6,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1,,
-4,nPositive,not possible,0.08,7,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1,,
-0,negative,short,0.48,3,blue,-1,,,-1,GREG1,Chrome,Mac,900,1440,0.24425,2,,
-1,nPositive,not kind,0.79,4,blue,-1,,,-1,GREG1,Chrome,Mac,900,1440,0.24425,2,,
-2,nPositive,note polite,0.27,5,blue,-1,,,-1,GREG1,Chrome,Mac,900,1440,0.24425,2,,
-3,nNegative,not unsatisfactory,0.5,6,blue,-1,,,-1,GREG1,Chrome,Mac,900,1440,0.24425,2,,
-0,nPositive,not accurate,0.83,3,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,
-1,nPositive,not useful,0.28,4,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,
-2,positive,good,0.55,5,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,
-3,positive,long,0.14,6,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,
-4,nPositive,not polite,0.62,7,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,
-5,negative,uncertain,0.33,8,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,
-6,nNegative,not rude,0.68,9,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,
-0,negative,bad,0.54,3,,-1,,,-1,,Safari,Mac,900,1440,0.20178333333333334,4,false,negative
-1,NPositive,not satisfactory,0.28,4,,-1,,,-1,,Safari,Mac,900,1440,0.20178333333333334,4,true,positive
-2,NPositive,not possible,0.7,5,,-1,,,-1,,Safari,Mac,900,1440,0.20178333333333334,4,true,positive
-0,NNegative,not impolite,0.74,3,,-1,,,-1,GREG3,Chrome,Mac,900,1440,0.29936666666666667,5,true,negative
-1,positive,strong,0.33,4,,-1,,,-1,GREG3,Chrome,Mac,900,1440,0.29936666666666667,5,false,positive
-0,negative,weak,0.59,3,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative
-1,NPositive,not tall,0.15,4,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,positive
-2,negative,short,0.82,5,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative
-3,negative,impolite,0.29,6,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative
-4,NNegative,not poor,0.3,7,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,negative
-5,NNegative,not useless,0.59,8,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,negative
-6,negative,unlucky,0.34,9,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative
-7,negative,rude,0.74,10,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative
-8,negative,bad,0.34,11,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative
-9,NNegative,not unfriendly,0.57,12,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,negative
-10,NPositive,not satisfactory,0.45,13,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,positive
-11,NNegative,not uncertain,0.73,14,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,negative
-12,NNegative,not sad,0.19,15,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,negative
-13,NPositive,not possible,0.82,16,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,positive
-14,NPositive,not kind,0.56,17,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,positive
-15,NPositive,not happy,0.33,18,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,positive
-16,negative,uninteresting,0.62,19,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative
-17,NNegative,not unfair,0.3,20,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,negative
-18,negative,unsatisfactory,0.69,21,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative
-19,NPositive,not accurate,0.4,22,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,positive
+,condition,predicate,response,slide_number,language,enjoyment,age,gender,education,comments,Browser,OS,screenH,screenW,time_in_minutes,participant_id,negated,valence,asses
+0,nNegative,not rude,0.27,3,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1,,,
+1,nPositive,not tall,0.66,4,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1,,,
+2,nNegative,not unfair,0.34,5,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1,,,
+3,nNegative,not short,0.63,6,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1,,,
+4,nPositive,not possible,0.08,7,tomato,-1,,Other,-1,GREG0,Chrome,Mac,900,1440,0.3304166666666667,1,,,
+0,negative,short,0.48,3,blue,-1,,,-1,GREG1,Chrome,Mac,900,1440,0.24425,2,,,
+1,nPositive,not kind,0.79,4,blue,-1,,,-1,GREG1,Chrome,Mac,900,1440,0.24425,2,,,
+2,nPositive,note polite,0.27,5,blue,-1,,,-1,GREG1,Chrome,Mac,900,1440,0.24425,2,,,
+3,nNegative,not unsatisfactory,0.5,6,blue,-1,,,-1,GREG1,Chrome,Mac,900,1440,0.24425,2,,,
+0,nPositive,not accurate,0.83,3,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,,
+1,nPositive,not useful,0.28,4,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,,
+2,positive,good,0.55,5,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,,
+3,positive,long,0.14,6,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,,
+4,nPositive,not polite,0.62,7,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,,
+5,negative,uncertain,0.33,8,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,,
+6,nNegative,not rude,0.68,9,,-1,,,-1,GREG2,Chrome,Mac,900,1440,0.27205,3,,,
+0,negative,bad,0.54,3,,-1,,,-1,,Safari,Mac,900,1440,0.20178333333333334,4,false,negative,
+1,NPositive,not satisfactory,0.28,4,,-1,,,-1,,Safari,Mac,900,1440,0.20178333333333334,4,true,positive,
+2,NPositive,not possible,0.7,5,,-1,,,-1,,Safari,Mac,900,1440,0.20178333333333334,4,true,positive,
+0,NNegative,not impolite,0.74,3,,-1,,,-1,GREG3,Chrome,Mac,900,1440,0.29936666666666667,5,true,negative,
+1,positive,strong,0.33,4,,-1,,,-1,GREG3,Chrome,Mac,900,1440,0.29936666666666667,5,false,positive,
+0,negative,weak,0.59,3,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative,
+1,NPositive,not tall,0.15,4,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,positive,
+2,negative,short,0.82,5,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative,
+3,negative,impolite,0.29,6,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative,
+4,NNegative,not poor,0.3,7,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,negative,
+5,NNegative,not useless,0.59,8,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,negative,
+6,negative,unlucky,0.34,9,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative,
+7,negative,rude,0.74,10,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative,
+8,negative,bad,0.34,11,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative,
+9,NNegative,not unfriendly,0.57,12,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,negative,
+10,NPositive,not satisfactory,0.45,13,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,positive,
+11,NNegative,not uncertain,0.73,14,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,negative,
+12,NNegative,not sad,0.19,15,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,negative,
+13,NPositive,not possible,0.82,16,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,positive,
+14,NPositive,not kind,0.56,17,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,positive,
+15,NPositive,not happy,0.33,18,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,positive,
+16,negative,uninteresting,0.62,19,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative,
+17,NNegative,not unfair,0.3,20,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,negative,
+18,negative,unsatisfactory,0.69,21,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,false,negative,
+19,NPositive,not accurate,0.4,22,,-1,,,-1,GREG4,Safari,Mac,900,1440,0.5875833333333333,6,true,positive,
+0,NPositive,not polite,0.4,3,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,true,positive,Yes
+1,NNegative,not unfair,0.36,4,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,true,negative,Yes
+2,negative,uninteresting,0.19,5,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,false,negative,Yes
+3,NPositive,not lucky,0.21,6,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,true,positive,Yes
+4,positive,certain,0.76,7,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,false,positive,Yes
+5,NPositive,not friendly,0.45,8,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,true,positive,Yes
+6,positive,kind,0.63,9,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,false,positive,Yes
+7,negative,useless,0.58,10,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,false,negative,Yes
+8,negative,short,0.59,11,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,false,negative,Yes
+9,positive,rich,0.53,12,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,false,positive,Yes
+10,NNegative,not inaccurate,0.26,13,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,true,negative,Yes
+11,NNegative,not short,0.28,14,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,true,negative,Yes
+12,NNegative,not unsatisfactory,0.25,15,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,true,negative,Yes
+13,positive,strong,0.5,16,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,false,positive,Yes
+14,NPositive,not polite,0.25,17,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,true,positive,Yes
+15,NNegative,not impossible,0.33,18,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,true,negative,Yes
+16,NNegative,not unhappy,0.28,19,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,true,negative,Yes
+17,NNegative,not frustrating,0.3,20,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,true,negative,Yes
+18,positive,good,0.45,21,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,false,positive,Yes
+19,positive,happy,0.5,22,ENGLISH,2,31,Male,4,NO,Chrome,Windows,768,1366,2.7094,7,false,positive,Yes
+0,NPositive,not happy,0.94,3,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,true,positive,Yes
+1,positive,rich,0.52,4,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,false,positive,Yes
+2,positive,possible,0.3,5,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,false,positive,Yes
+3,positive,fair,0.49,6,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,false,positive,Yes
+4,NPositive,not certain,0.68,7,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,true,positive,Yes
+5,NPositive,not useful,0.11,8,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,true,positive,Yes
+6,NNegative,not unfriendly,0.48,9,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,true,negative,Yes
+7,NNegative,not mean,0.47,10,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,true,negative,Yes
+8,positive,long,0.61,11,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,false,positive,Yes
+9,NNegative,not rude,0.56,12,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,true,negative,Yes
+10,positive,good,0.7,13,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,false,positive,Yes
+11,NPositive,not polite,0.91,14,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,true,positive,Yes
+12,NNegative,not inaccurate,0.15,15,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,true,negative,Yes
+13,positive,satisfactory,0.45,16,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,false,positive,Yes
+14,negative,unlucky,0.55,17,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,false,negative,Yes
+15,NNegative,not uninteresting,0.6,18,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,true,negative,Yes
+16,NNegative,not unhappy,0.51,19,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,true,negative,Yes
+17,NPositive,not tall,0.93,20,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,true,positive,Yes
+18,positive,strong,0.61,21,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,false,positive,Yes
+19,NPositive,not satisfactory,0.5,22,English ,2,25,Male,2,,Safari,iPhone/iPod,896,414,5.9786,8,true,positive,Yes
+0,negative,uninteresting,0.7,3,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,negative,Yes
+1,NPositive,not friendly,0.82,4,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,true,positive,Yes
+2,negative,bad,0.56,5,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,negative,Yes
+3,NPositive,not polite,0.69,6,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,true,positive,Yes
+4,negative,unlucky,0.69,7,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,negative,Yes
+5,positive,useful,0.63,8,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,positive,Yes
+6,negative,unfair,0.66,9,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,negative,Yes
+7,negative,uncertain,0.27,10,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,negative,Yes
+8,negative,sad,0.71,11,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,negative,Yes
+9,NPositive,not satisfactory,0.82,12,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,true,positive,Yes
+10,negative,weak,0.43,13,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,negative,Yes
+11,positive,accurate,0.16,14,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,positive,Yes
+12,NNegative,not impossible,0.56,15,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,true,negative,Yes
+13,positive,tall,0.12,16,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,positive,Yes
+14,NPositive,not polite,0.82,17,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,true,positive,Yes
+15,positive,long,0.17,18,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,positive,Yes
+16,negative,mean,0.7,19,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,negative,Yes
+17,positive,happy,0.74,20,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,positive,Yes
+18,NPositive,not satisfactory,0.6,21,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,true,positive,Yes
+19,positive,rich,0.35,22,English,2,33,Male,4,,Chrome,Linux,820,360,2.594333333333333,9,false,positive,Yes
+0,negative,unhappy,0.01,3,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,false,negative,Yes
+1,negative,inaccurate,0.03,4,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,false,negative,Yes
+2,NPositive,not strong,0.98,5,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,true,positive,Yes
+3,positive,certain,0.02,6,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,false,positive,Yes
+4,NPositive,not fair,0.96,7,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,true,positive,Yes
+5,positive,satisfactory,0.98,8,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,false,positive,Yes
+6,negative,short,0.95,9,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,false,negative,Yes
+7,NPositive,not possible,0.01,10,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,true,positive,Yes
+8,negative,unlucky,0.0,11,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,false,negative,Yes
+9,NNegative,not mean,0.02,12,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,true,negative,Yes
+10,NPositive,not interesting,0.03,13,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,true,positive,Yes
+11,positive,friendly,0.99,14,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,false,positive,Yes
+12,negative,sad,0.98,15,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,false,negative,Yes
+13,negative,short,0.97,16,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,false,negative,Yes
+14,NPositive,not polite,0.01,17,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,true,positive,Yes
+15,NPositive,not satisfactory,0.03,18,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,true,positive,Yes
+16,positive,useful,0.97,19,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,false,positive,Yes
+17,negative,bad,0.95,20,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,false,negative,Yes
+18,NNegative,not impolite,0.01,21,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,true,negative,Yes
+19,negative,poor,0.96,22,English,2,31,Male,4,survey was fun and interesting ,Firefox,Mac,900,1440,5.774133333333333,10,false,negative,Yes
+0,NPositive,not happy,0.0,3,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,true,positive,Yes
+1,positive,friendly,1.0,4,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,false,positive,Yes
+2,negative,unlucky,0.0,5,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,false,negative,Yes
+3,negative,bad,0.0,6,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,false,negative,Yes
+4,NPositive,not polite,0.0,7,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,true,positive,Yes
+5,NNegative,not short,1.0,8,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,true,negative,Yes
+6,NPositive,not fair,0.56,9,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,true,positive,Yes
+7,NNegative,not weak,0.49,10,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,true,negative,Yes
+8,NPositive,not rich,0.5,11,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,true,positive,Yes
+9,positive,useful,1.0,12,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,false,positive,Yes
+10,positive,satisfactory,1.0,13,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,false,positive,Yes
+11,NPositive,not certain,0.48,14,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,true,positive,Yes
+12,NNegative,not unsatisfactory,0.51,15,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,true,negative,Yes
+13,NNegative,not impossible,0.53,16,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,true,negative,Yes
+14,NPositive,not interesting,0.49,17,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,true,positive,Yes
+15,NNegative,not short,0.49,18,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,true,negative,Yes
+16,NNegative,not mean,0.5,19,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,true,negative,Yes
+17,negative,inaccurate,0.48,20,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,false,negative,Yes
+18,negative,unhappy,0.49,21,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,false,negative,Yes
+19,NPositive,not polite,0.49,22,English,2,41,Female,4,no,Chrome,Windows,720,1280,4.785433333333334,11,true,positive,Yes
+0,negative,sad,0.98,3,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,false,negative,Yes
+1,NNegative,not impolite,0.35,4,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,true,negative,Yes
+2,negative,unsatisfactory,0.41,5,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,false,negative,Yes
+3,negative,uninteresting,0.95,6,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,false,negative,Yes
+4,negative,unlucky,0.86,7,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,false,negative,Yes
+5,NPositive,not certain,0.41,8,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,true,positive,Yes
+6,NPositive,not fair,0.35,9,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,true,positive,Yes
+7,NNegative,not unhappy,0.95,10,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,true,negative,Yes
+8,positive,polite,0.4,11,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,false,positive,Yes
+9,positive,long,0.52,12,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,false,positive,Yes
+10,positive,strong,0.51,13,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,false,positive,Yes
+11,NPositive,not possible,0.35,14,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,true,positive,Yes
+12,positive,accurate,0.58,15,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,false,positive,Yes
+13,NNegative,not short,0.5,16,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,true,negative,Yes
+14,NNegative,not unfriendly,0.5,17,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,true,negative,Yes
+15,NNegative,not frustrating,0.49,18,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,true,negative,Yes
+16,positive,good,0.68,19,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,false,positive,Yes
+17,NNegative,not mean,0.71,20,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,true,negative,Yes
+18,NNegative,not poor,0.25,21,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,true,negative,Yes
+19,NNegative,not useless,0.33,22,English,1,48,Female,4,,Chrome,Windows,1920,1080,1.97835,12,true,negative,Yes
+0,NPositive,not interesting,0.79,3,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,true,positive,Yes
+1,NPositive,not happy,1.0,4,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,true,positive,Yes
+2,NPositive,not satisfactory,0.23,5,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,true,positive,Yes
+3,NNegative,not mean,0.2,6,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,true,negative,Yes
+4,positive,good,1.0,7,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,false,positive,Yes
+5,negative,unfair,0.94,8,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,false,negative,Yes
+6,negative,unlucky,0.91,9,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,false,negative,Yes
+7,negative,poor,1.0,10,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,false,negative,Yes
+8,positive,tall,0.31,11,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,false,positive,Yes
+9,NPositive,not long,0.1,12,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,true,positive,Yes
+10,positive,strong,0.55,13,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,false,positive,Yes
+11,negative,inaccurate,0.62,14,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,false,negative,Yes
+12,negative,useless,0.78,15,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,false,negative,Yes
+13,negative,uncertain,0.25,16,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,false,negative,Yes
+14,NNegative,not rude,0.52,17,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,true,negative,Yes
+15,NPositive,not possible,0.53,18,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,true,positive,Yes
+16,negative,sad,0.92,19,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,false,negative,Yes
+17,NNegative,not unfriendly,0.86,20,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,true,negative,Yes
+18,NNegative,not unsatisfactory,0.17,21,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,true,negative,Yes
+19,positive,polite,0.99,22,ENGLISH,1,,Male,3,,Chrome,Windows,768,1366,7.4864,13,false,positive,Yes
+0,negative,impossible,0.02,3,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,false,negative,Yes
+1,NNegative,not mean,0.09,4,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,true,negative,Yes
+2,NPositive,not long,0.12,5,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,true,positive,Yes
+3,negative,bad,0.14,6,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,false,negative,Yes
+4,negative,short,0.17,7,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,false,negative,Yes
+5,NPositive,not friendly,0.1,8,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,true,positive,Yes
+6,NPositive,not happy,0.06,9,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,true,positive,Yes
+7,positive,accurate,0.74,10,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,false,positive,Yes
+8,NPositive,not useful,0.34,11,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,true,positive,Yes
+9,positive,satisfactory,0.1,12,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,false,positive,Yes
+10,NPositive,not satisfactory,0.08,13,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,true,positive,Yes
+11,NNegative,not uninteresting,0.06,14,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,true,negative,Yes
+12,NPositive,not strong,0.11,15,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,true,positive,Yes
+13,NNegative,not rude,0.07,16,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,true,negative,Yes
+14,NNegative,not unfair,0.12,17,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,true,negative,Yes
+15,NNegative,not poor,0.11,18,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,true,negative,Yes
+16,NPositive,not certain,0.47,19,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,true,positive,Yes
+17,positive,happy,0.07,20,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,false,positive,Yes
+18,NPositive,not lucky,0.11,21,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,true,positive,Yes
+19,positive,polite,0.12,22,English,1,39,Female,2,"A description of the words ""objective"" and ""subjective"" in the description or on the question pages would have been helpful",Firefox,Windows,720,1280,4.243683333333333,14,false,positive,Yes
+0,positive,polite,0.66,3,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,false,positive,Yes
+1,NPositive,not happy,0.03,4,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,true,positive,Yes
+2,NNegative,not uninteresting,0.98,5,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,true,negative,Yes
+3,negative,unfriendly,0.68,6,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,false,negative,Yes
+4,NNegative,not frustrating,0.98,7,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,true,negative,Yes
+5,positive,lucky,0.55,8,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,false,positive,Yes
+6,NPositive,not tall,0.22,9,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,true,positive,Yes
+7,positive,kind,0.76,10,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,false,positive,Yes
+8,negative,unfair,0.91,11,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,false,negative,Yes
+9,NPositive,not possible,0.33,12,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,true,positive,Yes
+10,NNegative,not impolite,0.68,13,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,true,negative,Yes
+11,NPositive,not satisfactory,0.98,14,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,true,positive,Yes
+12,NNegative,not useless,0.17,15,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,true,negative,Yes
+13,positive,long,0.07,16,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,false,positive,Yes
+14,NPositive,not strong,0.11,17,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,true,positive,Yes
+15,positive,happy,0.91,18,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,false,positive,Yes
+16,NPositive,not rich,0.2,19,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,true,positive,Yes
+17,positive,good,0.92,20,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,false,positive,Yes
+18,NNegative,not inaccurate,0.04,21,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,true,negative,Yes
+19,negative,uncertain,0.48,22,English ,2,68,Male,4,,Safari,Mac,900,1440,2.5988333333333333,15,false,negative,Yes
+0,NPositive,not tall,0.94,3,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,true,positive,Yes
+1,NNegative,not impolite,0.59,4,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,true,negative,Yes
+2,negative,weak,0.97,5,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,false,negative,Yes
+3,negative,useless,0.1,6,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,false,negative,Yes
+4,positive,satisfactory,0.91,7,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,false,positive,Yes
+5,negative,unlucky,0.24,8,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,false,negative,Yes
+6,NPositive,not possible,0.26,9,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,true,positive,Yes
+7,positive,certain,0.38,10,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,false,positive,Yes
+8,NPositive,not long,0.61,11,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,true,positive,Yes
+9,positive,happy,0.84,12,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,false,positive,Yes
+10,negative,uninteresting,0.8,13,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,false,negative,Yes
+11,NPositive,not good,0.82,14,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,true,positive,Yes
+12,NPositive,not happy,0.88,15,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,true,positive,Yes
+13,NNegative,not inaccurate,0.18,16,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,true,negative,Yes
+14,positive,satisfactory,0.92,17,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,false,positive,Yes
+15,negative,mean,0.77,18,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,false,negative,Yes
+16,NPositive,not polite,0.86,19,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,true,positive,Yes
+17,NNegative,not unfriendly,0.75,20,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,true,negative,Yes
+18,NPositive,not fair,0.36,21,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,true,positive,Yes
+19,positive,rich,0.21,22,English ,2,33,Female,3,,Safari,iPhone/iPod,896,414,2.0591666666666666,16,false,positive,Yes
+0,negative,unfair,0.46,3,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,false,negative,Yes
+1,negative,useless,0.67,4,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,false,negative,Yes
+2,NNegative,not inaccurate,0.71,5,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,true,negative,Yes
+3,positive,interesting,0.69,6,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,false,positive,Yes
+4,negative,unsatisfactory,0.63,7,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,false,negative,Yes
+5,positive,kind,0.86,8,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,false,positive,Yes
+6,positive,polite,1.0,9,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,false,positive,Yes
+7,NPositive,not lucky,0.95,10,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,true,positive,Yes
+8,NPositive,not good,0.88,11,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,true,positive,Yes
+9,NPositive,not rich,0.21,12,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,true,positive,Yes
+10,NPositive,not polite,0.24,13,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,true,positive,Yes
+11,NNegative,not short,0.1,14,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,true,negative,Yes
+12,negative,weak,0.81,15,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,false,negative,Yes
+13,NNegative,not uncertain,0.89,16,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,true,negative,Yes
+14,NPositive,not possible,0.86,17,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,true,positive,Yes
+15,NNegative,not short,0.87,18,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,true,negative,Yes
+16,NNegative,not sad,0.93,19,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,true,negative,Yes
+17,positive,satisfactory,0.07,20,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,false,positive,Yes
+18,NPositive,not friendly,0.92,21,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,true,positive,Yes
+19,NPositive,not happy,0.9,22,english,2,28,Male,3,satisfactory,Chrome,Windows,768,1366,3.9751833333333333,17,true,positive,Yes
+0,NPositive,not long,0.64,3,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,true,positive,Yes
+1,positive,polite,1.0,4,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,false,positive,Yes
+2,positive,lucky,0.09,5,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,false,positive,Yes
+3,positive,accurate,0.09,6,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,false,positive,Yes
+4,negative,useless,0.48,7,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,false,negative,Yes
+5,NPositive,not happy,0.95,8,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,true,positive,Yes
+6,NNegative,not mean,0.89,9,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,true,negative,Yes
+7,negative,sad,0.95,10,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,false,negative,Yes
+8,negative,weak,0.71,11,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,false,negative,Yes
+9,positive,fair,0.11,12,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,false,positive,Yes
+10,positive,good,0.32,13,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,false,positive,Yes
+11,NNegative,not frustrating,0.87,14,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,true,negative,Yes
+12,negative,impolite,0.85,15,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,false,negative,Yes
+13,negative,impossible,0.18,16,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,false,negative,Yes
+14,NNegative,not uncertain,0.27,17,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,true,negative,Yes
+15,positive,rich,0.83,18,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,false,positive,Yes
+16,NPositive,not friendly,0.87,19,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,true,positive,Yes
+17,NNegative,not short,0.17,20,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,true,negative,Yes
+18,NPositive,not interesting,0.16,21,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,true,positive,Yes
+19,positive,satisfactory,0.82,22,English,1,28,Male,4,,Chrome,Windows,864,1536,4.296333333333333,18,false,positive,Yes
+0,NPositive,not happy,1.0,3,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,positive,Yes
+1,NPositive,not interesting,1.0,4,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,positive,Yes
+2,positive,lucky,1.0,5,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,false,positive,Yes
+3,NNegative,not unfair,0.4,6,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,negative,Yes
+4,NPositive,not tall,0.22,7,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,positive,Yes
+5,NNegative,not bad,0.6,8,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,negative,Yes
+6,NNegative,not poor,0.61,9,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,negative,Yes
+7,negative,frustrating,1.0,10,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,false,negative,Yes
+8,NNegative,not unsatisfactory,0.31,11,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,negative,Yes
+9,NNegative,not impossible,0.41,12,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,negative,Yes
+10,NPositive,not long,0.17,13,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,positive,Yes
+11,NNegative,not inaccurate,0.06,14,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,negative,Yes
+12,NNegative,not weak,0.26,15,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,negative,Yes
+13,positive,happy,0.98,16,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,false,positive,Yes
+14,negative,mean,1.0,17,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,false,negative,Yes
+15,NNegative,not unfriendly,0.85,18,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,negative,Yes
+16,NNegative,not rude,0.77,19,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,negative,Yes
+17,negative,impolite,0.62,20,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,false,negative,Yes
+18,negative,uncertain,0.29,21,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,false,negative,Yes
+19,NPositive,not useful,0.18,22,English,2,39,Female,2,,Chrome,Windows,1080,2560,3.1882,19,true,positive,Yes
+0,positive,interesting,0.84,3,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,false,positive,Yes
+1,NPositive,not happy,0.17,4,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,true,positive,Yes
+2,positive,possible,0.75,5,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,false,positive,Yes
+3,NPositive,not rich,0.66,6,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,true,positive,Yes
+4,negative,unlucky,0.29,7,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,false,negative,Yes
+5,positive,happy,0.81,8,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,false,positive,Yes
+6,negative,useless,0.93,9,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,false,negative,Yes
+7,NPositive,not fair,0.19,10,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,true,positive,Yes
+8,NNegative,not uncertain,0.97,11,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,true,negative,Yes
+9,negative,unfriendly,0.89,12,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,false,negative,Yes
+10,positive,polite,0.82,13,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,false,positive,Yes
+11,negative,inaccurate,0.61,14,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,false,negative,Yes
+12,positive,strong,0.89,15,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,false,positive,Yes
+13,NPositive,not satisfactory,0.21,16,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,true,positive,Yes
+14,NPositive,not good,0.88,17,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,true,positive,Yes
+15,NPositive,not long,0.71,18,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,true,positive,Yes
+16,NPositive,not tall,0.64,19,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,true,positive,Yes
+17,positive,kind,0.62,20,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,false,positive,Yes
+18,NPositive,not satisfactory,0.51,21,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,true,positive,Yes
+19,NNegative,not impolite,0.6,22,English,1,44,Male,3,No,Firefox,Linux,888,414,1.5955166666666667,20,true,negative,Yes
+0,negative,uncertain,0.85,3,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,false,negative,Yes
+1,NPositive,not polite,0.59,4,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,true,positive,Yes
+2,negative,frustrating,0.13,5,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,false,negative,Yes
+3,NPositive,not happy,0.72,6,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,true,positive,Yes
+4,NPositive,not interesting,1.0,7,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,true,positive,Yes
+5,NPositive,not tall,0.65,8,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,true,positive,Yes
+6,NNegative,not unfriendly,0.09,9,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,true,negative,Yes
+7,NPositive,not satisfactory,1.0,10,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,true,positive,Yes
+8,negative,unfair,0.24,11,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,false,negative,Yes
+9,NNegative,not inaccurate,0.86,12,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,true,negative,Yes
+10,NNegative,not bad,1.0,13,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,true,negative,Yes
+11,negative,weak,1.0,14,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,false,negative,Yes
+12,NNegative,not poor,0.0,15,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,true,negative,Yes
+13,negative,rude,0.93,16,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,false,negative,Yes
+14,negative,unlucky,0.75,17,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,false,negative,Yes
+15,NNegative,not mean,0.94,18,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,true,negative,Yes
+16,positive,possible,1.0,19,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,false,positive,Yes
+17,NPositive,not useful,0.69,20,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,true,positive,Yes
+18,negative,unhappy,0.4,21,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,false,negative,Yes
+19,NPositive,not long,1.0,22,english,1,28,Female,4,We would be interested in any comments you have about this task,Firefox,Windows,1080,1920,3.33485,21,true,positive,Yes
+0,NPositive,not possible,0.47,3,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,true,positive,Yes
+1,NPositive,not good,0.57,4,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,true,positive,Yes
+2,negative,poor,0.94,5,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,false,negative,Yes
+3,negative,mean,0.9,6,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,false,negative,Yes
+4,NNegative,not unsatisfactory,0.48,7,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,true,negative,Yes
+5,negative,sad,0.96,8,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,false,negative,Yes
+6,NPositive,not polite,0.46,9,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,true,positive,Yes
+7,positive,strong,0.93,10,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,false,positive,Yes
+8,positive,happy,0.97,11,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,false,positive,Yes
+9,NNegative,not uninteresting,0.55,12,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,true,negative,Yes
+10,NPositive,not accurate,0.41,13,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,true,positive,Yes
+11,NNegative,not uncertain,0.44,14,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,true,negative,Yes
+12,positive,tall,0.96,15,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,false,positive,Yes
+13,negative,unfair,0.38,16,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,false,negative,Yes
+14,NPositive,not polite,0.56,17,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,true,positive,Yes
+15,NPositive,not lucky,0.65,18,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,true,positive,Yes
+16,negative,unfriendly,0.8,19,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,false,negative,Yes
+17,negative,frustrating,0.39,20,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,false,negative,Yes
+18,NNegative,not short,0.51,21,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,true,negative,Yes
+19,NPositive,not useful,0.55,22,English Language,2,31,Male,3,It was interesting,Chrome,Windows,768,1366,5.551516666666667,22,true,positive,Yes
+0,NNegative,not short,0.25,3,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,true,negative,Yes
+1,positive,useful,0.81,4,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,false,positive,Yes
+2,negative,poor,0.19,5,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,false,negative,Yes
+3,negative,unlucky,0.22,6,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,false,negative,Yes
+4,NNegative,not unsatisfactory,0.51,7,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,true,negative,Yes
+5,negative,uninteresting,0.4,8,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,false,negative,Yes
+6,NPositive,not friendly,0.73,9,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,true,positive,Yes
+7,NPositive,not polite,0.7,10,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,true,positive,Yes
+8,negative,mean,0.28,11,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,false,negative,Yes
+9,NNegative,not bad,0.61,12,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,true,negative,Yes
+10,NPositive,not happy,0.69,13,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,true,positive,Yes
+11,NNegative,not rude,0.68,14,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,true,negative,Yes
+12,NPositive,not strong,0.67,15,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,true,positive,Yes
+13,negative,frustrating,0.64,16,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,false,negative,Yes
+14,negative,short,0.4,17,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,false,negative,Yes
+15,positive,accurate,0.35,18,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,false,positive,Yes
+16,NPositive,not happy,0.64,19,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,true,positive,Yes
+17,NPositive,not possible,0.65,20,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,true,positive,Yes
+18,NPositive,not fair,0.65,21,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,true,positive,Yes
+19,negative,uncertain,0.59,22,english,1,25,Male,3,,Chrome,Windows,768,1366,2.9067,23,false,negative,Yes
+0,positive,happy,0.76,3,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,false,positive,Yes
+1,NNegative,not mean,0.68,4,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,true,negative,Yes
+2,negative,uncertain,0.16,5,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,false,negative,Yes
+3,negative,unhappy,0.72,6,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,false,negative,Yes
+4,NNegative,not impolite,0.47,7,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,true,negative,Yes
+5,NPositive,not interesting,0.91,8,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,true,positive,Yes
+6,negative,short,0.29,9,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,false,negative,Yes
+7,NNegative,not unlucky,0.64,10,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,true,negative,Yes
+8,positive,strong,0.29,11,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,false,positive,Yes
+9,negative,useless,0.61,12,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,false,negative,Yes
+10,negative,frustrating,0.83,13,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,false,negative,Yes
+11,positive,fair,0.62,14,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,false,positive,Yes
+12,NNegative,not unfriendly,0.42,15,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,true,negative,Yes
+13,positive,rich,0.28,16,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,false,positive,Yes
+14,NPositive,not possible,0.25,17,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,true,positive,Yes
+15,positive,good,0.85,18,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,false,positive,Yes
+16,positive,accurate,0.18,19,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,false,positive,Yes
+17,NPositive,not satisfactory,0.72,20,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,true,positive,Yes
+18,negative,rude,0.37,21,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,false,negative,Yes
+19,NPositive,not long,0.25,22,english,1,40,Male,3,,Chrome,Windows,900,1600,2.5326,24,true,positive,Yes
+0,NNegative,not unlucky,0.65,3,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,true,negative,Yes
+1,negative,bad,0.98,4,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,negative,Yes
+2,negative,mean,0.46,5,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,negative,Yes
+3,NPositive,not tall,0.49,6,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,true,positive,Yes
+4,negative,impossible,0.86,7,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,negative,Yes
+5,negative,unfair,0.78,8,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,negative,Yes
+6,negative,sad,0.75,9,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,negative,Yes
+7,NNegative,not frustrating,0.41,10,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,true,negative,Yes
+8,NPositive,not strong,0.49,11,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,true,positive,Yes
+9,positive,certain,0.9,12,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,positive,Yes
+10,negative,impolite,0.49,13,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,negative,Yes
+11,NPositive,not happy,0.46,14,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,true,positive,Yes
+12,negative,unsatisfactory,0.9,15,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,negative,Yes
+13,positive,polite,0.87,16,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,positive,Yes
+14,positive,friendly,0.85,17,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,positive,Yes
+15,negative,poor,0.86,18,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,negative,Yes
+16,positive,useful,0.56,19,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,positive,Yes
+17,NNegative,not uninteresting,0.38,20,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,true,negative,Yes
+18,negative,inaccurate,0.27,21,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,negative,Yes
+19,negative,short,0.37,22,english,1,66,Female,4,,Chrome,Windows,720,1280,3.0101166666666668,25,false,negative,Yes
+0,negative,unlucky,0.63,3,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,false,negative,Yes
+1,NPositive,not rich,0.49,4,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,true,positive,Yes
+2,negative,rude,0.87,5,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,false,negative,Yes
+3,NPositive,not tall,0.05,6,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,true,positive,Yes
+4,NPositive,not fair,0.29,7,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,true,positive,Yes
+5,NNegative,not mean,0.54,8,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,true,negative,Yes
+6,NNegative,not unhappy,0.89,9,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,true,negative,Yes
+7,positive,friendly,0.86,10,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,false,positive,Yes
+8,positive,accurate,0.84,11,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,false,positive,Yes
+9,negative,uninteresting,0.78,12,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,false,negative,Yes
+10,NNegative,not unsatisfactory,0.72,13,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,true,negative,Yes
+11,negative,weak,0.61,14,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,false,negative,Yes
+12,NNegative,not short,0.65,15,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,true,negative,Yes
+13,negative,useless,0.81,16,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,false,negative,Yes
+14,negative,sad,0.9,17,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,false,negative,Yes
+15,NNegative,not impolite,0.89,18,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,true,negative,Yes
+16,positive,satisfactory,0.77,19,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,false,positive,Yes
+17,negative,uncertain,0.94,20,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,false,negative,Yes
+18,NNegative,not bad,0.96,21,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,true,negative,Yes
+19,negative,impossible,0.87,22,English,2,38,Male,4,,Chrome,Linux,892,412,8.579583333333334,26,false,negative,Yes
+0,NPositive,not accurate,0.24,3,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,true,positive,Yes
+1,NPositive,not lucky,0.48,4,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,true,positive,Yes
+2,negative,uninteresting,0.75,5,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,false,negative,Yes
+3,positive,happy,0.8,6,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,false,positive,Yes
+4,NNegative,not poor,0.23,7,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,true,negative,Yes
+5,NPositive,not strong,0.3,8,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,true,positive,Yes
+6,NNegative,not useless,0.39,9,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,true,negative,Yes
+7,negative,short,0.11,10,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,false,negative,Yes
+8,NNegative,not impossible,0.14,11,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,true,negative,Yes
+9,NNegative,not impolite,0.7,12,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,true,negative,Yes
+10,negative,uncertain,0.56,13,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,false,negative,Yes
+11,NPositive,not friendly,0.72,14,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,true,positive,Yes
+12,positive,fair,0.49,15,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,false,positive,Yes
+13,negative,frustrating,0.68,16,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,false,negative,Yes
+14,NNegative,not bad,0.75,17,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,true,negative,Yes
+15,NNegative,not rude,0.63,18,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,true,negative,Yes
+16,NPositive,not kind,0.63,19,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,true,positive,Yes
+17,negative,unsatisfactory,0.26,20,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,false,negative,Yes
+18,positive,happy,0.36,21,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,false,positive,Yes
+19,negative,short,0.35,22,english,1,25,Male,3,,Safari,Mac,900,1440,1.2827166666666667,27,false,negative,Yes
+0,negative,unfriendly,0.63,3,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,false,negative,Yes
+1,NPositive,not good,0.18,4,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,true,positive,Yes
+2,negative,unhappy,0.64,5,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,false,negative,Yes
+3,NNegative,not uninteresting,0.74,6,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,true,negative,Yes
+4,NNegative,not short,0.33,7,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,true,negative,Yes
+5,NNegative,not short,0.5,8,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,true,negative,Yes
+6,positive,kind,0.04,9,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,false,positive,Yes
+7,positive,satisfactory,1.0,10,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,false,positive,Yes
+8,negative,rude,0.46,11,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,false,negative,Yes
+9,negative,unfair,0.46,12,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,false,negative,Yes
+10,NNegative,not poor,0.57,13,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,true,negative,Yes
+11,NPositive,not lucky,0.57,14,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,true,positive,Yes
+12,positive,polite,0.58,15,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,false,positive,Yes
+13,NNegative,not useless,0.57,16,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,true,negative,Yes
+14,NNegative,not sad,0.59,17,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,true,negative,Yes
+15,negative,uncertain,0.57,18,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,false,negative,Yes
+16,NNegative,not impossible,0.58,19,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,true,negative,Yes
+17,NPositive,not satisfactory,0.42,20,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,true,positive,Yes
+18,positive,strong,0.87,21,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,false,positive,Yes
+19,NNegative,not inaccurate,0.39,22,English,2,33,Male,4,no,Chrome,Windows,768,1366,2.8903333333333334,28,true,negative,Yes
+0,NPositive,not polite,0.62,3,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,true,positive,No
+1,NPositive,not happy,0.57,4,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,true,positive,No
+2,negative,mean,0.69,5,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,false,negative,No
+3,NPositive,not interesting,1.0,6,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,true,positive,No
+4,NNegative,not poor,1.0,7,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,true,negative,No
+5,NPositive,not satisfactory,0.97,8,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,true,positive,No
+6,positive,useful,0.29,9,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,false,positive,No
+7,positive,good,1.0,10,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,false,positive,No
+8,NPositive,not tall,0.0,11,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,true,positive,No
+9,positive,fair,0.7,12,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,false,positive,No
+10,NNegative,not inaccurate,0.87,13,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,true,negative,No
+11,NNegative,not unfriendly,0.7,14,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,true,negative,No
+12,NPositive,not possible,1.0,15,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,true,positive,No
+13,positive,long,0.0,16,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,false,positive,No
+14,NPositive,not strong,1.0,17,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,true,positive,No
+15,negative,impolite,0.52,18,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,false,negative,No
+16,negative,unsatisfactory,0.53,19,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,false,negative,No
+17,NNegative,not unlucky,0.53,20,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,true,negative,No
+18,NNegative,not sad,0.47,21,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,true,negative,No
+19,NPositive,not certain,0.48,22,english,1,37,Male,2,,Chrome,Windows,1080,1920,3.2169833333333333,29,true,positive,No
+0,positive,accurate,0.1,3,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,positive,Yes
+1,NPositive,not fair,0.88,4,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,true,positive,Yes
+2,NNegative,not rude,0.85,5,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,true,negative,Yes
+3,positive,happy,0.81,6,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,positive,Yes
+4,negative,short,0.66,7,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,negative,Yes
+5,positive,interesting,0.69,8,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,positive,Yes
+6,NPositive,not kind,0.73,9,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,true,positive,Yes
+7,negative,short,0.58,10,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,negative,Yes
+8,negative,bad,0.68,11,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,negative,Yes
+9,negative,useless,0.7,12,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,negative,Yes
+10,positive,strong,0.53,13,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,positive,Yes
+11,NNegative,not unlucky,0.71,14,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,true,negative,Yes
+12,negative,sad,0.53,15,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,negative,Yes
+13,negative,impossible,0.4,16,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,negative,Yes
+14,negative,uncertain,0.5,17,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,negative,Yes
+15,negative,poor,0.34,18,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,negative,Yes
+16,positive,friendly,0.65,19,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,positive,Yes
+17,NNegative,not impolite,0.67,20,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,true,negative,Yes
+18,negative,unsatisfactory,0.45,21,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,false,negative,Yes
+19,NPositive,not satisfactory,0.48,22,English,2,22,Male,3,N/A,Chrome,Windows,864,1536,2.1318,30,true,positive,Yes
+0,negative,short,0.19,3,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,false,negative,Yes
+1,NPositive,not accurate,0.18,4,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,true,positive,Yes
+2,negative,mean,0.97,5,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,false,negative,Yes
+3,NPositive,not interesting,0.88,6,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,true,positive,Yes
+4,negative,uncertain,0.54,7,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,false,negative,Yes
+5,negative,bad,0.9,8,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,false,negative,Yes
+6,NPositive,not useful,0.84,9,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,true,positive,Yes
+7,negative,unhappy,0.04,10,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,false,negative,Yes
+8,NNegative,not sad,0.18,11,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,true,negative,Yes
+9,negative,unfair,0.96,12,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,false,negative,Yes
+10,NPositive,not satisfactory,0.54,13,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,true,positive,Yes
+11,positive,polite,0.93,14,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,false,positive,Yes
+12,negative,unfriendly,0.96,15,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,false,negative,Yes
+13,positive,rich,0.52,16,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,false,positive,Yes
+14,negative,impossible,0.99,17,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,false,negative,Yes
+15,NPositive,not polite,0.94,18,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,true,positive,Yes
+16,negative,unsatisfactory,0.96,19,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,false,negative,Yes
+17,NPositive,not lucky,0.94,20,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,true,positive,Yes
+18,NPositive,not tall,0.95,21,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,true,positive,Yes
+19,positive,strong,0.96,22,English ,1,38,Male,2,,Chrome,Linux,846,412,2.52585,31,false,positive,Yes
+0,NPositive,not interesting,0.7,3,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,true,positive,Yes
+1,NPositive,not possible,0.55,4,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,true,positive,Yes
+2,positive,happy,0.84,5,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,false,positive,Yes
+3,positive,satisfactory,0.57,6,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,false,positive,Yes
+4,positive,good,0.59,7,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,false,positive,Yes
+5,negative,rude,0.36,8,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,false,negative,Yes
+6,NNegative,not unfriendly,0.93,9,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,true,negative,Yes
+7,NPositive,not long,0.5,10,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,true,positive,Yes
+8,positive,fair,0.18,11,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,false,positive,Yes
+9,NNegative,not short,0.22,12,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,true,negative,Yes
+10,positive,useful,0.1,13,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,false,positive,Yes
+11,negative,inaccurate,0.19,14,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,false,negative,Yes
+12,NPositive,not rich,0.79,15,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,true,positive,Yes
+13,positive,kind,0.62,16,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,false,positive,Yes
+14,NPositive,not certain,0.12,17,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,true,positive,Yes
+15,positive,strong,0.26,18,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,false,positive,Yes
+16,negative,impolite,0.2,19,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,false,negative,Yes
+17,positive,satisfactory,0.16,20,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,false,positive,Yes
+18,negative,unlucky,0.21,21,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,false,negative,Yes
+19,NNegative,not unhappy,0.67,22,English ,2,68,Male,4,None,Chrome,Linux,732,458,5.0014,32,true,negative,Yes
+0,NPositive,not happy,0.91,3,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,true,positive,Yes
+1,NPositive,not interesting,0.04,4,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,true,positive,Yes
+2,positive,strong,0.96,5,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,false,positive,Yes
+3,positive,kind,0.96,6,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,false,positive,Yes
+4,negative,unlucky,0.96,7,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,false,negative,Yes
+5,negative,uncertain,0.91,8,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,false,negative,Yes
+6,negative,impolite,0.04,9,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,false,negative,Yes
+7,negative,sad,0.99,10,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,false,negative,Yes
+8,positive,friendly,0.09,11,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,false,positive,Yes
+9,NNegative,not frustrating,0.07,12,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,true,negative,Yes
+10,NNegative,not impossible,0.1,13,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,true,negative,Yes
+11,NNegative,not bad,0.14,14,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,true,negative,Yes
+12,NNegative,not unsatisfactory,0.23,15,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,true,negative,Yes
+13,negative,inaccurate,0.24,16,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,false,negative,Yes
+14,NPositive,not tall,0.17,17,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,true,positive,Yes
+15,NPositive,not fair,0.22,18,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,true,positive,Yes
+16,negative,short,0.68,19,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,false,negative,Yes
+17,negative,poor,0.15,20,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,false,negative,Yes
+18,NNegative,not rude,0.19,21,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,true,negative,Yes
+19,positive,useful,0.2,22,English,1,34,Male,1,,Safari,Mac,1080,810,2.88015,33,false,positive,Yes
+0,NNegative,not poor,0.12,3,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,true,negative,Confused
+1,positive,certain,0.11,4,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,false,positive,Confused
+2,negative,unfriendly,0.91,5,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,false,negative,Confused
+3,NPositive,not lucky,0.02,6,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,true,positive,Confused
+4,positive,happy,0.06,7,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,false,positive,Confused
+5,negative,sad,0.07,8,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,false,negative,Confused
+6,NNegative,not inaccurate,0.1,9,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,true,negative,Confused
+7,positive,long,0.07,10,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,false,positive,Confused
+8,negative,weak,0.06,11,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,false,negative,Confused
+9,negative,unfair,0.08,12,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,false,negative,Confused
+10,NPositive,not possible,0.05,13,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,true,positive,Confused
+11,negative,frustrating,0.08,14,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,false,negative,Confused
+12,negative,bad,0.07,15,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,false,negative,Confused
+13,NNegative,not uninteresting,0.06,16,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,true,negative,Confused
+14,NNegative,not short,0.08,17,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,true,negative,Confused
+15,positive,kind,0.07,18,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,false,positive,Confused
+16,positive,polite,0.07,19,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,false,positive,Confused
+17,NPositive,not useful,0.06,20,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,true,positive,Confused
+18,NPositive,not polite,0.09,21,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,true,positive,Confused
+19,positive,satisfactory,0.06,22,english,1,34,Male,3,the words were confusing but was able to scale through ,Chrome,Windows,768,1366,5.6981166666666665,34,false,positive,Confused
+0,NPositive,not interesting,0.5,3,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,positive,Yes
+1,NPositive,not happy,0.6,4,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,positive,Yes
+2,NPositive,not long,0.54,5,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,positive,Yes
+3,NPositive,not accurate,0.56,6,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,positive,Yes
+4,NNegative,not uncertain,0.57,7,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,negative,Yes
+5,NNegative,not rude,0.62,8,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,negative,Yes
+6,NNegative,not short,0.53,9,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,negative,Yes
+7,positive,useful,0.26,10,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,false,positive,Yes
+8,negative,unsatisfactory,0.21,11,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,false,negative,Yes
+9,NPositive,not lucky,0.59,12,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,positive,Yes
+10,positive,strong,0.24,13,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,false,positive,Yes
+11,NNegative,not unfriendly,0.63,14,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,negative,Yes
+12,NPositive,not possible,0.27,15,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,positive,Yes
+13,positive,good,0.28,16,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,false,positive,Yes
+14,NNegative,not poor,0.55,17,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,negative,Yes
+15,positive,satisfactory,0.27,18,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,false,positive,Yes
+16,NPositive,not polite,0.61,19,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,positive,Yes
+17,NPositive,not fair,0.23,20,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,positive,Yes
+18,NNegative,not mean,0.52,21,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,true,negative,Yes
+19,negative,unhappy,0.52,22,English,1,20,Female,2,,Chrome,Windows,720,1280,2.1638166666666665,35,false,negative,Yes
+0,negative,unfriendly,0.72,3,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,false,negative,Yes
+1,positive,kind,0.4,4,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,false,positive,Yes
+2,NNegative,not impossible,0.22,5,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,true,negative,Yes
+3,NPositive,not happy,0.23,6,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,true,positive,Yes
+4,NNegative,not sad,0.23,7,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,true,negative,Yes
+5,NNegative,not rude,0.22,8,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,true,negative,Yes
+6,negative,inaccurate,0.04,9,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,false,negative,Yes
+7,positive,satisfactory,0.84,10,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,false,positive,Yes
+8,negative,short,0.11,11,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,false,negative,Yes
+9,NNegative,not short,0.12,12,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,true,negative,Yes
+10,negative,unlucky,0.86,13,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,false,negative,Yes
+11,positive,satisfactory,0.87,14,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,false,positive,Yes
+12,negative,uncertain,0.53,15,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,false,negative,Yes
+13,negative,unfair,0.88,16,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,false,negative,Yes
+14,NNegative,not useless,0.84,17,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,true,negative,Yes
+15,positive,good,0.61,18,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,false,positive,Yes
+16,negative,impolite,0.28,19,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,false,negative,Yes
+17,NNegative,not uninteresting,0.62,20,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,true,negative,Yes
+18,NNegative,not poor,0.24,21,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,true,negative,Yes
+19,NNegative,not weak,0.26,22,english,2,39,Male,3,,Chrome,Windows,720,1280,1.8423333333333334,36,true,negative,Yes
+0,negative,uncertain,0.55,3,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,false,negative,Yes
+1,NPositive,not lucky,0.76,4,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,true,positive,Yes
+2,NNegative,not unsatisfactory,0.54,5,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,true,negative,Yes
+3,NNegative,not inaccurate,0.55,6,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,true,negative,Yes
+4,NNegative,not short,0.39,7,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,true,negative,Yes
+5,NNegative,not uninteresting,0.84,8,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,true,negative,Yes
+6,positive,rich,0.75,9,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,false,positive,Yes
+7,NPositive,not friendly,0.62,10,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,true,positive,Yes
+8,NPositive,not satisfactory,0.49,11,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,true,positive,Yes
+9,negative,rude,0.31,12,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,false,negative,Yes
+10,NNegative,not impossible,0.66,13,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,true,negative,Yes
+11,NNegative,not unhappy,0.66,14,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,true,negative,Yes
+12,negative,bad,0.7,15,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,false,negative,Yes
+13,NPositive,not fair,0.52,16,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,true,positive,Yes
+14,NNegative,not short,0.41,17,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,true,negative,Yes
+15,negative,useless,0.73,18,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,false,negative,Yes
+16,negative,impolite,0.5,19,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,false,negative,Yes
+17,positive,strong,0.52,20,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,false,positive,Yes
+18,NPositive,not happy,0.68,21,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,true,positive,Yes
+19,NPositive,not kind,0.59,22,English,1,36,Female,3,,Chrome,Windows,900,1600,2.0335,37,true,positive,Yes
+0,negative,mean,0.22,3,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,false,negative,Yes
+1,positive,tall,0.21,4,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,false,positive,Yes
+2,positive,strong,0.13,5,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,false,positive,Yes
+3,positive,useful,0.59,6,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,false,positive,Yes
+4,NPositive,not lucky,0.16,7,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,true,positive,Yes
+5,positive,rich,0.24,8,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,false,positive,Yes
+6,NPositive,not good,0.59,9,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,true,positive,Yes
+7,NPositive,not friendly,0.56,10,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,true,positive,Yes
+8,NNegative,not inaccurate,0.22,11,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,true,negative,Yes
+9,NNegative,not impolite,0.6,12,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,true,negative,Yes
+10,negative,frustrating,0.31,13,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,false,negative,Yes
+11,NPositive,not polite,0.57,14,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,true,positive,Yes
+12,NNegative,not uninteresting,0.32,15,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,true,negative,Yes
+13,positive,certain,0.35,16,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,false,positive,Yes
+14,NPositive,not fair,0.34,17,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,true,positive,Yes
+15,positive,possible,0.71,18,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,false,positive,Yes
+16,positive,long,0.65,19,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,false,positive,Yes
+17,NNegative,not unsatisfactory,0.39,20,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,true,negative,Yes
+18,negative,sad,0.35,21,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,false,negative,Yes
+19,positive,happy,0.23,22,English ,2,29,Female,4,,Firefox,Windows,768,1366,4.362716666666667,38,false,positive,Yes
+0,negative,short,1.0,3,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,false,negative,Yes
+1,negative,sad,0.06,4,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,false,negative,Yes
+2,positive,satisfactory,1.0,5,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,false,positive,Yes
+3,NPositive,not accurate,0.0,6,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,true,positive,Yes
+4,NNegative,not rude,0.01,7,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,true,negative,Yes
+5,positive,kind,1.0,8,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,false,positive,Yes
+6,positive,rich,0.0,9,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,false,positive,Yes
+7,NPositive,not strong,0.0,10,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,true,positive,Yes
+8,negative,useless,1.0,11,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,false,negative,Yes
+9,negative,unhappy,0.0,12,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,false,negative,Yes
+10,NPositive,not possible,0.0,13,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,true,positive,Yes
+11,positive,polite,1.0,14,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,false,positive,Yes
+12,negative,unlucky,1.0,15,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,false,negative,Yes
+13,NPositive,not friendly,1.0,16,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,true,positive,Yes
+14,positive,satisfactory,0.0,17,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,false,positive,Yes
+15,NNegative,not short,0.84,18,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,true,negative,Yes
+16,NNegative,not uncertain,0.14,19,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,true,negative,Yes
+17,NNegative,not unfair,1.0,20,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,true,negative,Yes
+18,NNegative,not bad,1.0,21,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,true,negative,Yes
+19,NPositive,not interesting,0.99,22,English,2,41,Male,4,No,Chrome,Windows,768,1366,2.127683333333333,39,true,positive,Yes
+0,NPositive,not good,0.96,3,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,true,positive,Confused
+1,NPositive,not polite,1.0,4,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,true,positive,Confused
+2,positive,tall,0.0,5,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,false,positive,Confused
+3,negative,sad,0.0,6,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,false,negative,Confused
+4,NPositive,not fair,1.0,7,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,true,positive,Confused
+5,positive,kind,0.0,8,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,false,positive,Confused
+6,NPositive,not certain,1.0,9,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,true,positive,Confused
+7,NNegative,not impolite,1.0,10,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,true,negative,Confused
+8,positive,strong,0.0,11,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,false,positive,Confused
+9,positive,friendly,0.0,12,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,false,positive,Confused
+10,NNegative,not frustrating,1.0,13,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,true,negative,Confused
+11,positive,happy,0.0,14,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,false,positive,Confused
+12,negative,uninteresting,0.0,15,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,false,negative,Confused
+13,positive,satisfactory,0.0,16,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,false,positive,Confused
+14,NNegative,not unlucky,1.0,17,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,true,negative,Confused
+15,NNegative,not short,1.0,18,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,true,negative,Confused
+16,NPositive,not possible,1.0,19,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,true,positive,Confused
+17,negative,useless,0.0,20,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,false,negative,Confused
+18,NPositive,not accurate,1.0,21,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,true,positive,Confused
+19,NNegative,not poor,1.0,22,english,1,23,Male,1,,Chrome,Windows,1080,1920,1.81215,40,true,negative,Confused
+0,NPositive,not satisfactory,0.95,3,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,true,positive,Yes
+1,NNegative,not unhappy,0.97,4,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,true,negative,Yes
+2,NPositive,not polite,0.99,5,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,true,positive,Yes
+3,negative,bad,0.94,6,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,false,negative,Yes
+4,negative,unfriendly,0.94,7,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,false,negative,Yes
+5,NNegative,not unfair,0.96,8,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,true,negative,Yes
+6,NNegative,not unlucky,0.02,9,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,true,negative,Yes
+7,NNegative,not useless,0.06,10,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,true,negative,Yes
+8,positive,polite,0.03,11,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,false,positive,Yes
+9,positive,kind,0.04,12,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,false,positive,Yes
+10,positive,satisfactory,0.01,13,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,false,positive,Yes
+11,NPositive,not accurate,0.96,14,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,true,positive,Yes
+12,positive,long,0.05,15,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,false,positive,Yes
+13,NPositive,not happy,0.94,16,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,true,positive,Yes
+14,positive,strong,0.0,17,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,false,positive,Yes
+15,positive,rich,0.04,18,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,false,positive,Yes
+16,NPositive,not tall,0.94,19,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,true,positive,Yes
+17,negative,uninteresting,0.95,20,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,false,negative,Yes
+18,NPositive,not possible,0.93,21,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,true,positive,Yes
+19,NNegative,not uncertain,1.0,22,English,2,33,Male,3,,Chrome,Windows,768,1366,4.813416666666667,41,true,negative,Yes
+0,positive,lucky,0.74,3,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,false,positive,Yes
+1,positive,certain,0.31,4,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,false,positive,Yes
+2,NPositive,not satisfactory,0.26,5,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,true,positive,Yes
+3,negative,uninteresting,0.09,6,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,false,negative,Yes
+4,NPositive,not happy,0.86,7,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,true,positive,Yes
+5,NNegative,not frustrating,0.88,8,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,true,negative,Yes
+6,positive,happy,0.95,9,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,false,positive,Yes
+7,positive,accurate,0.11,10,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,false,positive,Yes
+8,negative,weak,0.1,11,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,false,negative,Yes
+9,negative,bad,0.08,12,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,false,negative,Yes
+10,NNegative,not impolite,0.13,13,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,true,negative,Yes
+11,NPositive,not long,0.05,14,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,true,positive,Yes
+12,positive,rich,0.97,15,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,false,positive,Yes
+13,positive,useful,0.16,16,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,false,positive,Yes
+14,NPositive,not polite,0.07,17,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,true,positive,Yes
+15,NNegative,not mean,0.06,18,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,true,negative,Yes
+16,negative,impossible,0.13,19,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,false,negative,Yes
+17,negative,short,0.96,20,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,false,negative,Yes
+18,negative,unfair,0.11,21,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,false,negative,Yes
+19,negative,unfriendly,0.98,22,English,2,32,Female,4,,Chrome,Windows,768,1366,3.6943166666666665,42,false,negative,Yes
+0,NPositive,not certain,0.98,3,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,true,positive,Yes
+1,NPositive,not good,0.95,4,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,true,positive,Yes
+2,positive,useful,0.0,5,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,false,positive,Yes
+3,positive,long,0.01,6,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,false,positive,Yes
+4,NNegative,not poor,0.03,7,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,true,negative,Yes
+5,NPositive,not friendly,0.14,8,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,true,positive,Yes
+6,negative,unsatisfactory,0.94,9,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,false,negative,Yes
+7,NNegative,not unlucky,0.96,10,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,true,negative,Yes
+8,NNegative,not frustrating,0.51,11,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,true,negative,Yes
+9,negative,impolite,0.52,12,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,false,negative,Yes
+10,NPositive,not interesting,0.03,13,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,true,positive,Yes
+11,NPositive,not accurate,0.02,14,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,true,positive,Yes
+12,NPositive,not happy,0.03,15,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,true,positive,Yes
+13,NPositive,not polite,0.03,16,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,true,positive,Yes
+14,positive,kind,0.02,17,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,false,positive,Yes
+15,negative,weak,0.02,18,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,false,negative,Yes
+16,negative,sad,0.03,19,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,false,negative,Yes
+17,NNegative,not unfair,0.04,20,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,true,negative,Yes
+18,NPositive,not tall,0.55,21,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,true,positive,Yes
+19,NPositive,not possible,0.55,22,english,0,33,Male,3,kind of confusing,Chrome,Windows,768,1366,1.7833333333333334,43,true,positive,Yes
+0,NNegative,not short,0.86,3,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,true,negative,Yes
+1,positive,accurate,0.94,4,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,false,positive,Yes
+2,positive,strong,0.53,5,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,false,positive,Yes
+3,NNegative,not unhappy,0.98,6,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,true,negative,Yes
+4,NNegative,not unlucky,0.13,7,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,true,negative,Yes
+5,positive,polite,0.89,8,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,false,positive,Yes
+6,NNegative,not useless,0.2,9,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,true,negative,Yes
+7,NPositive,not satisfactory,0.83,10,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,true,positive,Yes
+8,positive,tall,0.94,11,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,false,positive,Yes
+9,positive,polite,0.08,12,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,false,positive,Yes
+10,positive,kind,0.12,13,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,false,positive,Yes
+11,positive,possible,0.11,14,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,false,positive,Yes
+12,NNegative,not poor,0.02,15,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,true,negative,Yes
+13,NNegative,not bad,0.09,16,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,true,negative,Yes
+14,negative,uninteresting,0.91,17,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,false,negative,Yes
+15,positive,happy,0.88,18,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,false,positive,Yes
+16,NNegative,not uncertain,0.88,19,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,true,negative,Yes
+17,NPositive,not satisfactory,0.92,20,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,true,positive,Yes
+18,NNegative,not unfair,0.88,21,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,true,negative,Yes
+19,NNegative,not unfriendly,0.62,22,English,2,25,Male,1,I forgot that objective is factual,Safari,iPhone/iPod,896,414,3.1645,44,true,negative,Yes
+0,NNegative,not uncertain,0.41,3,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,true,negative,Yes
+1,negative,unsatisfactory,0.71,4,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,false,negative,Yes
+2,positive,friendly,0.78,5,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,false,positive,Yes
+3,positive,interesting,0.74,6,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,false,positive,Yes
+4,positive,accurate,0.19,7,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,false,positive,Yes
+5,NPositive,not polite,0.76,8,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,true,positive,Yes
+6,negative,weak,0.52,9,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,false,negative,Yes
+7,NNegative,not impossible,0.36,10,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,true,negative,Yes
+8,positive,good,0.25,11,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,false,positive,Yes
+9,positive,kind,0.7,12,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,false,positive,Yes
+10,negative,rude,0.76,13,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,false,negative,Yes
+11,negative,unlucky,0.77,14,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,false,negative,Yes
+12,NNegative,not unfair,0.3,15,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,true,negative,Yes
+13,NNegative,not short,0.14,16,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,true,negative,Yes
+14,NPositive,not useful,0.5,17,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,true,positive,Yes
+15,negative,unhappy,0.74,18,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,false,negative,Yes
+16,negative,sad,0.72,19,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,false,negative,Yes
+17,NPositive,not satisfactory,0.33,20,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,true,positive,Yes
+18,positive,long,0.23,21,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,false,positive,Yes
+19,positive,rich,0.28,22,English,1,19,Female,1,No thank you,Chrome,Mac,900,1440,1.89745,45,false,positive,Yes
+0,NPositive,not long,0.93,3,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,true,positive,Confused
+1,NNegative,not uncertain,0.03,4,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,true,negative,Confused
+2,negative,rude,0.55,5,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,false,negative,Confused
+3,positive,friendly,0.63,6,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,false,positive,Confused
+4,NPositive,not rich,1.0,7,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,true,positive,Confused
+5,negative,unfair,0.75,8,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,false,negative,Confused
+6,positive,good,0.97,9,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,false,positive,Confused
+7,NPositive,not tall,0.69,10,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,true,positive,Confused
+8,NPositive,not accurate,0.05,11,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,true,positive,Confused
+9,positive,interesting,0.93,12,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,false,positive,Confused
+10,positive,strong,0.78,13,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,false,positive,Confused
+11,NNegative,not impossible,0.98,14,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,true,negative,Confused
+12,NPositive,not polite,0.48,15,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,true,positive,Confused
+13,negative,useless,0.46,16,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,false,negative,Confused
+14,NNegative,not unsatisfactory,0.49,17,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,true,negative,Confused
+15,positive,lucky,0.98,18,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,false,positive,Confused
+16,NPositive,not satisfactory,0.58,19,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,true,positive,Confused
+17,negative,mean,0.7,20,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,false,negative,Confused
+18,NPositive,not happy,0.34,21,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,true,positive,Confused
+19,NPositive,not happy,0.31,22,English,0,55,Female,2,"I looked up the definition of subjective and objective just to be sure how this related to these questions. To answer the questions, I found it would be a matter of perspective, not emotions.",Chrome,Windows,1080,1920,4.160733333333333,46,true,positive,Confused
+0,NPositive,not satisfactory,0.7,3,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,true,positive,Yes
+1,negative,poor,0.51,4,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,false,negative,Yes
+2,NPositive,not interesting,0.84,5,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,true,positive,Yes
+3,NNegative,not unlucky,0.85,6,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,true,negative,Yes
+4,negative,unhappy,0.88,7,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,false,negative,Yes
+5,negative,rude,0.81,8,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,false,negative,Yes
+6,negative,short,0.88,9,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,false,negative,Yes
+7,negative,unsatisfactory,0.85,10,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,false,negative,Yes
+8,negative,inaccurate,0.07,11,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,false,negative,Yes
+9,negative,sad,0.83,12,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,false,negative,Yes
+10,NPositive,not long,0.86,13,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,true,positive,Yes
+11,positive,kind,0.88,14,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,false,positive,Yes
+12,NPositive,not friendly,0.87,15,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,true,positive,Yes
+13,NPositive,not strong,0.92,16,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,true,positive,Yes
+14,negative,uncertain,0.05,17,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,false,negative,Yes
+15,positive,good,0.89,18,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,false,positive,Yes
+16,NNegative,not unfair,0.93,19,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,true,negative,Yes
+17,positive,useful,0.86,20,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,false,positive,Yes
+18,negative,impolite,0.91,21,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,false,negative,Yes
+19,NPositive,not possible,0.05,22,English,1,28,Male,2,,Chrome,Windows,1080,1920,2.4008166666666666,47,true,positive,Yes
+0,NNegative,not impolite,0.69,3,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,true,negative,Yes
+1,NPositive,not strong,0.45,4,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,true,positive,Yes
+2,positive,friendly,0.63,5,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,false,positive,Yes
+3,positive,lucky,0.51,6,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,false,positive,Yes
+4,NPositive,not kind,0.85,7,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,true,positive,Yes
+5,NPositive,not polite,0.83,8,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,true,positive,Yes
+6,NPositive,not fair,0.62,9,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,true,positive,Yes
+7,NPositive,not useful,0.73,10,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,true,positive,Yes
+8,positive,accurate,0.33,11,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,false,positive,Yes
+9,negative,short,0.47,12,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,false,negative,Yes
+10,NPositive,not tall,0.74,13,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,true,positive,Yes
+11,positive,good,0.4,14,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,false,positive,Yes
+12,NNegative,not unsatisfactory,0.8,15,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,true,negative,Yes
+13,positive,satisfactory,0.74,16,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,false,positive,Yes
+14,NPositive,not rich,0.84,17,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,true,positive,Yes
+15,negative,uncertain,0.56,18,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,false,negative,Yes
+16,NPositive,not possible,0.79,19,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,true,positive,Yes
+17,NNegative,not sad,0.77,20,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,true,negative,Yes
+18,positive,interesting,0.52,21,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,false,positive,Yes
+19,negative,unhappy,0.84,22,English,1,20,Male,1,It was easy to complete ,Safari,iPhone/iPod,896,414,2.1872833333333332,48,false,negative,Yes
+0,NPositive,not useful,0.63,3,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,true,positive,Yes
+1,NPositive,not possible,0.36,4,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,true,positive,Yes
+2,NPositive,not satisfactory,0.64,5,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,true,positive,Yes
+3,positive,lucky,0.19,6,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,false,positive,Yes
+4,NNegative,not mean,0.17,7,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,true,negative,Yes
+5,negative,weak,0.2,8,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,false,negative,Yes
+6,negative,unfair,0.6,9,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,false,negative,Yes
+7,NPositive,not satisfactory,0.57,10,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,true,positive,Yes
+8,positive,interesting,0.28,11,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,false,positive,Yes
+9,NPositive,not tall,0.23,12,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,true,positive,Yes
+10,negative,sad,0.25,13,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,false,negative,Yes
+11,negative,unfriendly,0.52,14,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,false,negative,Yes
+12,NPositive,not polite,0.65,15,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,true,positive,Yes
+13,NPositive,not certain,0.31,16,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,true,positive,Yes
+14,positive,accurate,0.24,17,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,false,positive,Yes
+15,positive,long,0.27,18,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,false,positive,Yes
+16,NPositive,not polite,0.74,19,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,true,positive,Yes
+17,positive,good,0.72,20,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,false,positive,Yes
+18,positive,rich,0.3,21,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,false,positive,Yes
+19,negative,unhappy,0.4,22,English ,2,21,Female,2,,Safari,Mac,1180,820,2.3515166666666665,49,false,negative,Yes
+0,negative,unsatisfactory,0.87,3,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,false,negative,Yes
+1,NPositive,not long,0.02,4,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,positive,Yes
+2,NPositive,not kind,0.89,5,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,positive,Yes
+3,negative,short,0.13,6,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,false,negative,Yes
+4,NPositive,not possible,0.88,7,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,positive,Yes
+5,NPositive,not strong,0.08,8,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,positive,Yes
+6,NNegative,not unhappy,0.04,9,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,negative,Yes
+7,negative,sad,0.83,10,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,false,negative,Yes
+8,NNegative,not uncertain,0.15,11,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,negative,Yes
+9,NPositive,not polite,0.83,12,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,positive,Yes
+10,NPositive,not fair,0.51,13,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,positive,Yes
+11,NNegative,not bad,0.91,14,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,negative,Yes
+12,negative,inaccurate,0.18,15,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,false,negative,Yes
+13,NNegative,not uninteresting,0.86,16,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,negative,Yes
+14,positive,lucky,0.72,17,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,false,positive,Yes
+15,NPositive,not satisfactory,0.87,18,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,positive,Yes
+16,negative,rude,0.19,19,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,false,negative,Yes
+17,NNegative,not useless,0.46,20,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,negative,Yes
+18,NNegative,not poor,0.91,21,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,negative,Yes
+19,NPositive,not friendly,0.78,22,English ,1,31,Female,1,,Safari,iPhone/iPod,896,414,1.8620166666666667,50,true,positive,Yes
+0,NNegative,not unlucky,0.68,3,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,true,negative,Yes
+1,positive,satisfactory,0.29,4,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,false,positive,Yes
+2,NNegative,not inaccurate,0.02,5,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,true,negative,Yes
+3,negative,unfriendly,0.65,6,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,false,negative,Yes
+4,positive,strong,0.81,7,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,false,positive,Yes
+5,NPositive,not good,0.92,8,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,true,positive,Yes
+6,positive,fair,0.36,9,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,false,positive,Yes
+7,NPositive,not rich,0.59,10,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,true,positive,Yes
+8,negative,uninteresting,0.82,11,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,false,negative,Yes
+9,positive,happy,0.84,12,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,false,positive,Yes
+10,positive,tall,0.62,13,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,false,positive,Yes
+11,NNegative,not mean,0.63,14,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,true,negative,Yes
+12,NPositive,not possible,0.32,15,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,true,positive,Yes
+13,positive,satisfactory,0.31,16,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,false,positive,Yes
+14,negative,unhappy,0.71,17,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,false,negative,Yes
+15,negative,rude,0.75,18,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,false,negative,Yes
+16,positive,useful,0.7,19,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,false,positive,Yes
+17,NNegative,not uncertain,0.35,20,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,true,negative,Yes
+18,NNegative,not short,0.65,21,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,true,negative,Yes
+19,NPositive,not polite,0.82,22,English,1,31,Male,4,,Chrome,Mac,900,1440,2.5673833333333334,51,true,positive,Yes
+0,NPositive,not happy,0.94,3,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,positive,Confused
+1,NPositive,not kind,0.96,4,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,positive,Confused
+2,negative,bad,0.45,5,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,false,negative,Confused
+3,NPositive,not strong,0.99,6,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,positive,Confused
+4,NNegative,not useless,0.95,7,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,negative,Confused
+5,NPositive,not accurate,0.48,8,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,positive,Confused
+6,NNegative,not rude,0.69,9,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,negative,Confused
+7,NPositive,not satisfactory,0.49,10,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,positive,Confused
+8,NPositive,not fair,0.48,11,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,positive,Confused
+9,positive,tall,0.97,12,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,false,positive,Confused
+10,NNegative,not unlucky,0.46,13,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,negative,Confused
+11,NNegative,not impolite,0.45,14,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,negative,Confused
+12,NNegative,not poor,0.06,15,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,negative,Confused
+13,NPositive,not friendly,0.15,16,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,positive,Confused
+14,positive,interesting,0.04,17,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,false,positive,Confused
+15,NNegative,not unsatisfactory,0.49,18,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,negative,Confused
+16,NPositive,not happy,0.49,19,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,positive,Confused
+17,negative,short,0.46,20,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,false,negative,Confused
+18,negative,impossible,0.6,21,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,false,negative,Confused
+19,NNegative,not uncertain,0.05,22,english,1,49,Female,2,,Chrome,Linux,768,1366,3.11395,52,true,negative,Confused
+0,NPositive,not lucky,0.66,3,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,true,positive,Yes
+1,NPositive,not certain,0.74,4,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,true,positive,Yes
+2,positive,accurate,0.16,5,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,false,positive,Yes
+3,positive,possible,0.07,6,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,false,positive,Yes
+4,NPositive,not good,0.8,7,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,true,positive,Yes
+5,NNegative,not uninteresting,0.92,8,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,true,negative,Yes
+6,positive,satisfactory,0.84,9,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,false,positive,Yes
+7,NPositive,not polite,0.26,10,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,true,positive,Yes
+8,negative,mean,0.06,11,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,false,negative,Yes
+9,negative,sad,0.84,12,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,false,negative,Yes
+10,negative,unfair,0.82,13,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,false,negative,Yes
+11,positive,friendly,0.09,14,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,false,positive,Yes
+12,NPositive,not happy,0.66,15,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,true,positive,Yes
+13,NNegative,not short,0.03,16,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,true,negative,Yes
+14,NPositive,not strong,0.19,17,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,true,positive,Yes
+15,NPositive,not useful,0.69,18,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,true,positive,Yes
+16,negative,frustrating,0.5,19,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,false,negative,Yes
+17,negative,poor,0.76,20,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,false,negative,Yes
+18,positive,polite,0.2,21,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,false,positive,Yes
+19,positive,long,0.03,22,English,1,32,Male,1,,Chrome,Windows,900,1600,2.838616666666667,53,false,positive,Yes
+0,NNegative,not uncertain,0.82,3,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,true,negative,Yes
+1,NPositive,not happy,0.71,4,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,true,positive,Yes
+2,positive,long,0.99,5,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,false,positive,Yes
+3,NPositive,not kind,0.59,6,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,true,positive,Yes
+4,negative,useless,0.43,7,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,false,negative,Yes
+5,NNegative,not unlucky,0.98,8,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,true,negative,Yes
+6,NNegative,not unhappy,0.82,9,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,true,negative,Yes
+7,positive,friendly,0.69,10,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,false,positive,Yes
+8,positive,possible,0.3,11,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,false,positive,Yes
+9,positive,strong,0.31,12,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,false,positive,Yes
+10,NPositive,not interesting,0.55,13,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,true,positive,Yes
+11,NPositive,not accurate,0.8,14,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,true,positive,Yes
+12,negative,unfair,0.73,15,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,false,negative,Yes
+13,NNegative,not rude,0.74,16,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,true,negative,Yes
+14,NNegative,not bad,0.25,17,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,true,negative,Yes
+15,positive,rich,0.65,18,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,false,positive,Yes
+16,NPositive,not satisfactory,0.53,19,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,true,positive,Yes
+17,NPositive,not polite,0.73,20,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,true,positive,Yes
+18,negative,short,0.75,21,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,false,negative,Yes
+19,negative,frustrating,0.78,22,English,2,31,Female,1,,Safari,iPhone/iPod,896,414,1.5708333333333333,54,false,negative,Yes
+0,NNegative,not weak,0.63,3,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,true,negative,Yes
+1,NNegative,not useless,0.66,4,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,true,negative,Yes
+2,NNegative,not impolite,0.38,5,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,true,negative,Yes
+3,NPositive,not possible,0.79,6,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,true,positive,Yes
+4,NNegative,not short,0.82,7,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,true,negative,Yes
+5,positive,lucky,0.73,8,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,false,positive,Yes
+6,NNegative,not frustrating,0.85,9,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,true,negative,Yes
+7,NNegative,not unfair,0.85,10,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,true,negative,Yes
+8,NPositive,not interesting,0.79,11,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,true,positive,Yes
+9,positive,happy,0.9,12,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,false,positive,Yes
+10,NPositive,not kind,0.86,13,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,true,positive,Yes
+11,negative,unhappy,0.81,14,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,false,negative,Yes
+12,NNegative,not uncertain,0.53,15,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,true,negative,Yes
+13,positive,friendly,0.86,16,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,false,positive,Yes
+14,positive,tall,0.87,17,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,false,positive,Yes
+15,NPositive,not satisfactory,0.82,18,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,true,positive,Yes
+16,NNegative,not bad,0.79,19,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,true,negative,Yes
+17,negative,rude,0.78,20,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,false,negative,Yes
+18,negative,inaccurate,0.78,21,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,false,negative,Yes
+19,NPositive,not rich,0.79,22,English,1,57,Female,3,,Chrome,Windows,1080,1920,1.61605,55,true,positive,Yes
+0,NNegative,not rude,0.99,3,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,true,negative,Yes
+1,NNegative,not useless,0.98,4,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,true,negative,Yes
+2,negative,frustrating,0.98,5,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,false,negative,Yes
+3,positive,interesting,0.92,6,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,false,positive,Yes
+4,positive,happy,0.95,7,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,false,positive,Yes
+5,positive,kind,0.98,8,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,false,positive,Yes
+6,NPositive,not long,0.97,9,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,true,positive,Yes
+7,negative,weak,1.0,10,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,false,negative,Yes
+8,positive,rich,0.94,11,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,false,positive,Yes
+9,positive,certain,0.97,12,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,false,positive,Yes
+10,positive,polite,0.95,13,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,false,positive,Yes
+11,NPositive,not possible,0.96,14,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,true,positive,Yes
+12,negative,sad,0.97,15,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,false,negative,Yes
+13,NNegative,not bad,0.95,16,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,true,negative,Yes
+14,negative,unlucky,0.88,17,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,false,negative,Yes
+15,NNegative,not short,0.88,18,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,true,negative,Yes
+16,negative,unfriendly,0.87,19,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,false,negative,Yes
+17,positive,satisfactory,0.86,20,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,false,positive,Yes
+18,NNegative,not inaccurate,0.76,21,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,true,negative,Yes
+19,NPositive,not fair,0.76,22,English,1,21,Female,1,,Safari,iPhone/iPod,667,375,1.7021166666666667,56,true,positive,Yes
+0,positive,accurate,0.02,3,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,positive,Yes
+1,NPositive,not fair,0.99,4,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,true,positive,Yes
+2,positive,useful,0.42,5,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,positive,Yes
+3,positive,polite,0.97,6,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,positive,Yes
+4,positive,possible,0.04,7,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,positive,Yes
+5,NNegative,not uncertain,0.04,8,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,true,negative,Yes
+6,negative,mean,0.98,9,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,negative,Yes
+7,negative,short,0.89,10,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,negative,Yes
+8,negative,frustrating,0.97,11,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,negative,Yes
+9,NPositive,not good,0.99,12,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,true,positive,Yes
+10,positive,polite,0.97,13,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,positive,Yes
+11,negative,unfriendly,0.98,14,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,negative,Yes
+12,negative,weak,0.88,15,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,negative,Yes
+13,negative,unlucky,1.0,16,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,negative,Yes
+14,positive,long,0.82,17,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,positive,Yes
+15,negative,poor,0.98,18,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,negative,Yes
+16,negative,unsatisfactory,0.98,19,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,negative,Yes
+17,NNegative,not uninteresting,0.97,20,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,true,negative,Yes
+18,NPositive,not happy,0.98,21,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,true,positive,Yes
+19,negative,sad,0.98,22,English,2,47,Female,4,"I felt the task was straightforward, and the survey seemed to work fine.  I found some of the wording strange (wordy) like saying not happy rather than unhappy, but perhaps that was deliberate.  Good luck with your research!",Chrome,Windows,720,1280,8.062833333333334,57,false,negative,Yes
+0,positive,satisfactory,0.81,3,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,false,positive,Yes
+1,negative,bad,0.98,4,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,false,negative,Yes
+2,negative,uninteresting,0.79,5,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,false,negative,Yes
+3,NNegative,not unlucky,0.5,6,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,true,negative,Yes
+4,positive,friendly,0.59,7,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,false,positive,Yes
+5,negative,mean,0.51,8,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,false,negative,Yes
+6,positive,accurate,0.3,9,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,false,positive,Yes
+7,NNegative,not unfair,0.58,10,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,true,negative,Yes
+8,NNegative,not rude,0.75,11,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,true,negative,Yes
+9,negative,impossible,0.82,12,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,false,negative,Yes
+10,NPositive,not rich,0.49,13,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,true,positive,Yes
+11,NNegative,not unsatisfactory,0.77,14,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,true,negative,Yes
+12,negative,uncertain,0.15,15,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,false,negative,Yes
+13,negative,impolite,0.79,16,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,false,negative,Yes
+14,NPositive,not happy,0.96,17,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,true,positive,Yes
+15,positive,strong,0.39,18,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,false,positive,Yes
+16,negative,short,0.21,19,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,false,negative,Yes
+17,positive,useful,0.88,20,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,false,positive,Yes
+18,negative,short,0.09,21,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,false,negative,Yes
+19,NPositive,not happy,0.91,22,English,1,20,Female,2,,Chrome,Mac,900,1440,1.9928166666666667,58,true,positive,Yes
+0,negative,sad,0.74,3,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,false,negative,Yes
+1,NNegative,not rude,0.69,4,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,true,negative,Yes
+2,negative,inaccurate,0.41,5,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,false,negative,Yes
+3,NPositive,not fair,0.84,6,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,true,positive,Yes
+4,negative,mean,0.73,7,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,false,negative,Yes
+5,negative,unlucky,0.41,8,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,false,negative,Yes
+6,negative,short,0.6,9,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,false,negative,Yes
+7,NNegative,not weak,0.56,10,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,true,negative,Yes
+8,positive,polite,0.75,11,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,false,positive,Yes
+9,negative,uncertain,0.53,12,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,false,negative,Yes
+10,NNegative,not unhappy,0.69,13,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,true,negative,Yes
+11,positive,interesting,0.6,14,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,false,positive,Yes
+12,NNegative,not poor,0.52,15,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,true,negative,Yes
+13,negative,frustrating,0.32,16,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,false,negative,Yes
+14,negative,bad,0.62,17,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,false,negative,Yes
+15,NPositive,not useful,0.22,18,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,true,positive,Yes
+16,positive,satisfactory,0.32,19,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,false,positive,Yes
+17,positive,friendly,0.47,20,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,false,positive,Yes
+18,NPositive,not tall,0.64,21,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,true,positive,Yes
+19,positive,possible,0.42,22,English,1,22,Male,2,,Chrome,Windows,1080,1920,1.6596666666666666,59,false,positive,Yes
+0,NPositive,not polite,1.0,3,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,true,positive,Yes
+1,NNegative,not uninteresting,0.54,4,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,true,negative,Yes
+2,NNegative,not rude,1.0,5,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,true,negative,Yes
+3,positive,happy,1.0,6,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,false,positive,Yes
+4,negative,unhappy,1.0,7,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,false,negative,Yes
+5,positive,satisfactory,0.29,8,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,false,positive,Yes
+6,NPositive,not kind,1.0,9,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,true,positive,Yes
+7,negative,inaccurate,0.0,10,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,false,negative,Yes
+8,negative,unfriendly,1.0,11,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,false,negative,Yes
+9,NNegative,not uncertain,1.0,12,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,true,negative,Yes
+10,NPositive,not tall,0.0,13,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,true,positive,Yes
+11,NNegative,not weak,0.54,14,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,true,negative,Yes
+12,negative,unsatisfactory,0.0,15,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,false,negative,Yes
+13,NNegative,not impossible,0.4,16,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,true,negative,Yes
+14,NPositive,not fair,1.0,17,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,true,positive,Yes
+15,negative,poor,0.69,18,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,false,negative,Yes
+16,negative,bad,1.0,19,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,false,negative,Yes
+17,NPositive,not long,0.0,20,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,true,positive,Yes
+18,NPositive,not useful,0.0,21,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,true,positive,Yes
+19,positive,lucky,1.0,22,English,1,32,Male,3,,Chrome,Windows,1050,1680,2.338966666666667,60,false,positive,Yes
+0,positive,accurate,0.18,3,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,false,positive,Yes
+1,negative,unfair,0.69,4,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,false,negative,Yes
+2,NPositive,not satisfactory,0.9,5,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,true,positive,Yes
+3,NNegative,not unhappy,0.86,6,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,true,negative,Yes
+4,NNegative,not unlucky,0.7,7,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,true,negative,Yes
+5,positive,kind,0.77,8,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,false,positive,Yes
+6,positive,friendly,0.76,9,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,false,positive,Yes
+7,NPositive,not polite,0.59,10,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,true,positive,Yes
+8,NNegative,not uninteresting,0.87,11,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,true,negative,Yes
+9,positive,useful,0.39,12,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,false,positive,Yes
+10,negative,short,0.2,13,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,false,negative,Yes
+11,positive,certain,0.71,14,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,false,positive,Yes
+12,positive,strong,0.4,15,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,false,positive,Yes
+13,positive,good,0.83,16,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,false,positive,Yes
+14,NPositive,not satisfactory,0.79,17,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,true,positive,Yes
+15,positive,rich,0.37,18,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,false,positive,Yes
+16,NPositive,not long,0.48,19,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,true,positive,Yes
+17,positive,happy,0.71,20,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,false,positive,Yes
+18,NPositive,not polite,0.58,21,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,true,positive,Yes
+19,positive,possible,0.25,22,English,1,31,Female,3,,Chrome,Linux,768,1366,2.2195833333333335,61,false,positive,Yes
+0,negative,unsatisfactory,0.8,3,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,false,negative,Yes
+1,negative,short,0.18,4,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,false,negative,Yes
+2,NPositive,not useful,0.71,5,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,true,positive,Yes
+3,positive,polite,0.22,6,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,false,positive,Yes
+4,positive,kind,0.59,7,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,false,positive,Yes
+5,NNegative,not unfriendly,0.67,8,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,true,negative,Yes
+6,NNegative,not impossible,0.64,9,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,true,negative,Yes
+7,NNegative,not inaccurate,0.64,10,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,true,negative,Yes
+8,NNegative,not unlucky,0.65,11,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,true,negative,Yes
+9,NNegative,not bad,0.65,12,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,true,negative,Yes
+10,negative,short,0.21,13,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,false,negative,Yes
+11,positive,certain,0.61,14,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,false,positive,Yes
+12,negative,unhappy,0.38,15,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,false,negative,Yes
+13,NNegative,not frustrating,0.62,16,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,true,negative,Yes
+14,negative,sad,0.33,17,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,false,negative,Yes
+15,positive,fair,0.68,18,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,false,positive,Yes
+16,NPositive,not rich,0.77,19,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,true,positive,Yes
+17,NPositive,not polite,0.81,20,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,true,positive,Yes
+18,negative,weak,0.29,21,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,false,negative,Yes
+19,positive,interesting,0.69,22,English,1,49,Male,3,interesting way of asking the questions,Chrome,Windows,1080,2560,2.6639166666666667,62,false,positive,Yes
+0,negative,inaccurate,0.09,3,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,false,negative,Yes
+1,NNegative,not frustrating,0.71,4,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,true,negative,Yes
+2,positive,tall,0.24,5,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,false,positive,Yes
+3,negative,weak,0.86,6,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,false,negative,Yes
+4,NPositive,not long,0.35,7,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,true,positive,Yes
+5,NNegative,not rude,0.81,8,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,true,negative,Yes
+6,negative,impolite,0.7,9,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,false,negative,Yes
+7,NPositive,not satisfactory,0.34,10,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,true,positive,Yes
+8,negative,bad,0.35,11,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,false,negative,Yes
+9,positive,friendly,0.7,12,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,false,positive,Yes
+10,negative,unhappy,0.67,13,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,false,negative,Yes
+11,NNegative,not sad,0.52,14,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,true,negative,Yes
+12,NPositive,not interesting,0.87,15,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,true,positive,Yes
+13,negative,impossible,0.27,16,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,false,negative,Yes
+14,positive,lucky,0.87,17,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,false,positive,Yes
+15,NPositive,not fair,0.36,18,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,true,positive,Yes
+16,NPositive,not certain,0.14,19,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,true,positive,Yes
+17,positive,kind,0.36,20,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,false,positive,Yes
+18,NNegative,not useless,0.67,21,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,true,negative,Yes
+19,NNegative,not poor,0.18,22,english,1,47,Female,3,,Chrome,Windows,864,1536,2.4684333333333335,63,true,negative,Yes
+0,NNegative,not unlucky,0.48,3,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,true,negative,Yes
+1,NPositive,not polite,0.1,4,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,true,positive,Yes
+2,NNegative,not uncertain,0.8,5,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,true,negative,Yes
+3,positive,accurate,0.06,6,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,false,positive,Yes
+4,positive,friendly,0.01,7,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,false,positive,Yes
+5,positive,satisfactory,0.02,8,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,false,positive,Yes
+6,negative,uninteresting,0.95,9,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,false,negative,Yes
+7,positive,rich,0.05,10,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,false,positive,Yes
+8,positive,fair,0.11,11,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,false,positive,Yes
+9,positive,kind,0.06,12,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,false,positive,Yes
+10,negative,unsatisfactory,0.91,13,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,false,negative,Yes
+11,negative,sad,0.06,14,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,false,negative,Yes
+12,NNegative,not bad,0.47,15,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,true,negative,Yes
+13,NNegative,not impossible,0.48,16,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,true,negative,Yes
+14,positive,tall,0.05,17,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,false,positive,Yes
+15,negative,useless,0.04,18,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,false,negative,Yes
+16,negative,weak,0.04,19,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,false,negative,Yes
+17,NNegative,not unhappy,0.53,20,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,true,negative,Yes
+18,NPositive,not polite,0.48,21,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,true,positive,Yes
+19,negative,short,0.05,22,English,1,33,Female,4,No comment,Chrome,Windows,900,1440,3.1405,64,false,negative,Yes
+0,NNegative,not weak,1.0,3,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,true,negative,Yes
+1,positive,accurate,0.76,4,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,false,positive,Yes
+2,NNegative,not impolite,1.0,5,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,true,negative,Yes
+3,NPositive,not long,0.32,6,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,true,positive,Yes
+4,positive,interesting,0.33,7,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,false,positive,Yes
+5,NPositive,not possible,0.71,8,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,true,positive,Yes
+6,negative,poor,1.0,9,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,false,negative,Yes
+7,NNegative,not sad,0.3,10,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,true,negative,Yes
+8,positive,satisfactory,0.72,11,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,false,positive,Yes
+9,NPositive,not fair,0.29,12,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,true,positive,Yes
+10,NNegative,not uncertain,0.19,13,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,true,negative,Yes
+11,positive,happy,0.7,14,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,false,positive,Yes
+12,positive,friendly,0.83,15,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,false,positive,Yes
+13,positive,useful,0.75,16,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,false,positive,Yes
+14,positive,kind,0.76,17,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,false,positive,Yes
+15,NPositive,not satisfactory,0.54,18,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,true,positive,Yes
+16,positive,good,0.75,19,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,false,positive,Yes
+17,positive,polite,0.68,20,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,false,positive,Yes
+18,positive,lucky,0.78,21,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,false,positive,Yes
+19,NPositive,not tall,0.18,22,ENglish,1,27,Male,3,,Chrome,Windows,1080,1920,15.463616666666667,65,true,positive,Yes
+0,positive,happy,0.88,3,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,false,positive,Yes
+1,NNegative,not impolite,0.9,4,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,true,negative,Yes
+2,negative,unsatisfactory,0.08,5,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,false,negative,Yes
+3,negative,uncertain,0.01,6,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,false,negative,Yes
+4,NNegative,not short,0.53,7,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,true,negative,Yes
+5,negative,unlucky,0.11,8,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,false,negative,Yes
+6,negative,bad,0.03,9,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,false,negative,Yes
+7,NNegative,not unfair,0.84,10,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,true,negative,Yes
+8,NPositive,not polite,0.05,11,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,true,positive,Yes
+9,positive,strong,0.86,12,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,false,positive,Yes
+10,NPositive,not accurate,0.04,13,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,true,positive,Yes
+11,NPositive,not happy,0.03,14,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,true,positive,Yes
+12,NNegative,not mean,0.45,15,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,true,negative,Yes
+13,NPositive,not interesting,0.06,16,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,true,positive,Yes
+14,negative,useless,0.08,17,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,false,negative,Yes
+15,NPositive,not possible,0.04,18,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,true,positive,Yes
+16,NNegative,not short,0.14,19,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,true,negative,Yes
+17,negative,poor,0.09,20,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,false,negative,Yes
+18,NNegative,not frustrating,0.05,21,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,true,negative,Yes
+19,NNegative,not unfriendly,0.95,22,english,2,30,Male,4,,Chrome,Windows,768,1366,6.24945,66,true,negative,Yes
