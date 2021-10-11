@@ -31,8 +31,24 @@ function make_slides(f) {
       exp.sliderPost = null;
       // $('input[name="sense"]:checked').attr('checked',false);
       this.stim = stim; //FRED: allows you to access stim in helpers
-      condition = _.sample(["positive","nPositive","negative","nNegative"])
+      condition = _.sample(["positive","NPositive","negative","NNegative"])
       // condition = "positive"
+
+      if(condition.slice(0,1)=="N") {
+        $(".words").html("words")
+        $(".are").html("are the words")
+        negated = "true"
+      } else {
+        $(".words").html("word")
+        $(".are").html("is the word")
+        negated = "false"
+      }
+
+      if(condition.slice(0,2)=="po"|condition.slice(0,2)=="NP") {
+        valence = "positive"
+      } else {
+        valence = "negative"
+      }
 
       $(".adjective").html(stim[condition]);
 
@@ -68,7 +84,9 @@ function make_slides(f) {
           // "noun" : this.stim.Noun,          
           "predicate" : this.stim[condition],
           // "nounclass" : this.stim.NounClass,
-          "condition" : condition,                    
+          "condition" : condition, 
+          "negated" : negated,    
+          "valence" : valence,               
           // "firstutterance" : this.verbs[0],
           // "sense" : $('input[name="sense"]:checked').val(),        
           "slide_number" : exp.phase

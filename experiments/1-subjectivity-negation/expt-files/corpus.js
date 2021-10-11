@@ -6,26 +6,26 @@
 //		]
 
 var adjectives = _.shuffle([
-		{"positive": "certain", "nPositive": "not certain", "negative": "uncertain", "nNegative": "not uncertain"},
-		{"positive": "lucky", "nPositive": "not lucky", "negative": "unlucky", "nNegative": "not unlucky"},
-		{"positive": "accurate", "nPositive": "not accurate", "negative": "inaccurate", "nNegative": "not inaccurate"},
-		{"positive": "happy", "nPositive": "not happy", "negative": "unhappy", "nNegative": "not unhappy"},
-		{"positive": "interesting", "nPositive": "not interesting", "negative": "uninteresting", "nNegative": "not uninteresting"},
-		{"positive": "fair", "nPositive": "not fair", "negative": "unfair", "nNegative": "not unfair"},
-		{"positive": "polite", "nPositive": "not polite", "negative": "impolite", "nNegative": "not impolite"},
-		{"positive": "possible", "nPositive": "not possible", "negative": "impossible", "nNegative": "not impossible"},
-		{"positive": "satisfactory", "nPositive": "not satisfactory", "negative": "unsatisfactory", "nNegative": "not unsatisfactory"},
-		{"positive": "friendly", "nPositive": "not friendly", "negative": "unfriendly", "nNegative": "not unfriendly"},
-		{"positive": "useful", "nPositive": "not useful", "negative": "useless", "nNegative": "not useless"},
-		{"positive": "good", "nPositive": "not good", "negative": "bad", "nNegative": "not bad"},
-		{"positive": "strong", "nPositive": "not strong", "negative": "weak", "nNegative": "not weak"},
-		{"positive": "kind", "nPositive": "not kind", "negative": "mean", "nNegative": "not mean"},
-		{"positive": "tall", "nPositive": "not tall", "negative": "short", "nNegative": "not short"},
-		{"positive": "happy", "nPositive": "not happy", "negative": "sad", "nNegative": "not sad"},
-		{"positive": "long", "nPositive": "not long", "negative": "short", "nNegative": "not short"},
-		{"positive": "polite", "nPositive": "not polite", "negative": "rude", "nNegative": "not rude"},
-		{"positive": "rich", "nPositive": "not rich", "negative": "poor", "nNegative": "not poor"},
-		{"positive": "satisfactory", "nPositive": "not satisfactory", "negative": "frustrating", "nNegative": "not frustrating"}		
+		{"positive": "certain", "NPositive": "not certain", "negative": "uncertain", "NNegative": "not uncertain"},
+		{"positive": "lucky", "NPositive": "not lucky", "negative": "unlucky", "NNegative": "not unlucky"},
+		{"positive": "accurate", "NPositive": "not accurate", "negative": "inaccurate", "NNegative": "not inaccurate"},
+		{"positive": "happy", "NPositive": "not happy", "negative": "unhappy", "NNegative": "not unhappy"},
+		{"positive": "interesting", "NPositive": "not interesting", "negative": "uninteresting", "NNegative": "not uninteresting"},
+		{"positive": "fair", "NPositive": "not fair", "negative": "unfair", "NNegative": "not unfair"},
+		{"positive": "polite", "NPositive": "not polite", "negative": "impolite", "NNegative": "not impolite"},
+		{"positive": "possible", "NPositive": "not possible", "negative": "impossible", "NNegative": "not impossible"},
+		{"positive": "satisfactory", "NPositive": "not satisfactory", "negative": "unsatisfactory", "NNegative": "not unsatisfactory"},
+		{"positive": "friendly", "NPositive": "not friendly", "negative": "unfriendly", "NNegative": "not unfriendly"},
+		{"positive": "useful", "NPositive": "not useful", "negative": "useless", "NNegative": "not useless"},
+		{"positive": "good", "NPositive": "not good", "negative": "bad", "NNegative": "not bad"},
+		{"positive": "strong", "NPositive": "not strong", "negative": "weak", "NNegative": "not weak"},
+		{"positive": "kind", "NPositive": "not kind", "negative": "mean", "NNegative": "not mean"},
+		{"positive": "tall", "NPositive": "not tall", "negative": "short", "NNegative": "not short"},
+		{"positive": "happy", "NPositive": "not happy", "negative": "sad", "NNegative": "not sad"},
+		{"positive": "long", "NPositive": "not long", "negative": "short", "NNegative": "not short"},
+		{"positive": "polite", "NPositive": "not polite", "negative": "rude", "NNegative": "not rude"},
+		{"positive": "rich", "NPositive": "not rich", "negative": "poor", "NNegative": "not poor"},
+		{"positive": "satisfactory", "NPositive": "not satisfactory", "negative": "frustrating", "NNegative": "not frustrating"}		
 ]);
 
 // var nouns = [
