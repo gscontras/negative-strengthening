@@ -35,3 +35,14 @@ agr_mean = bootsSummary(data=d, measurevar="response", groupvars=c("valence","ne
 
 summary(lmer(response~valence*negated+(1|participant_id),data=d))
 
+e$notAdj_subj = agr$response[match(concatenate("not ",e$adjective),agr$predicate]
+e$highScale_subj = agr$response[match(e$item2,agr$predicate)]
+
+
+paste("not_",)
+
+agg = aggregate(value~adjective,fun=mean,data=e)
+
+
+ggplot(data=agr,aes(x=response))+
+  geom_density()
