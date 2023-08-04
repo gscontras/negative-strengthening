@@ -150,3 +150,15 @@ ggplot(ag, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
   #geom_point(size=2,alpha=0.25)+ 
   theme_bw()
 #ggsave("neg-strengthening-vs-neg-adj-subj-new-data-labeled.pdf",width=6.25,height=3.25)
+
+
+ag_p <- summarySE(e, measurevar="value", groupvars=c("polarity","adjective","notAdj_subj","politeness"),na.rm=T)
+
+ggplot(ag_p, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
+  labs(y='negative strengthening\n', x="\nnegated adjective subjectivity",colour="adjective\npolarity") +
+  scale_color_manual(labels = c("positive", "negative"),values=c("blue","red"))+
+  #geom_text()+
+  geom_smooth(method="lm")+
+  geom_point(size=2)+ 
+  facet_grid(~politeness)+
+  theme_bw()
