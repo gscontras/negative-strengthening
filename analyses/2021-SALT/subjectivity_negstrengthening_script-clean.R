@@ -86,9 +86,22 @@ e$Gender<-relevel(e$Gender,ref="Female")
 ###### model ######
 ###################
 
+head(e)
+length(unique(e$item))
+
 e$cnotadj<-e$notAdj_subj-mean(e$notAdj_subj)
 m2<-clmm(valuef~polarity*cnotadj+ (1|item) + (polarity|Worker_ID) , data =e)
 summary(m2)
+
+## without "accurate"
+
+e_new = e[e$item!="Accurate_Inaccurate",]
+
+length(unique(e_new$item))
+
+e_new$cnotadj<-e_new$notAdj_subj-mean(e_new$notAdj_subj)
+m2_new<-clmm(valuef~polarity*cnotadj+ (1|item) + (polarity|Worker_ID) , data =e_new)
+summary(m2_new)
 
 
 ###################
@@ -100,14 +113,25 @@ library(Rmisc)
 ag <- summarySE(e, measurevar="value", groupvars=c("polarity","adjective","notAdj_subj"),na.rm=T)
 
 ag$polarity<-factor(ag$polarity,levels=c("Pos","Neg"))
-ggplot(ag, aes(y=value,x=notAdj_subj, colour=polarity)) +
+ggplot(ag, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
   labs(y='negative strengthening\n', x="\nnegated adjective subjectivity",colour="adjective\npolarity") +
   scale_color_manual(labels = c("positive", "negative"),values=c("blue","red"))+
+  #geom_text()+
   geom_smooth(method="lm")+
-  geom_point(size=2,alpha=0.75)+ 
+  geom_point(size=2)+ 
   theme_bw()
 #ggsave("neg-strengthening-vs-neg-adj-subj.pdf",width=4.25,height=2.25)
 
+
+ggplot(ag, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
+  labs(y='negative strengthening\n', x="\nnegated adjective subjectivity",colour="adjective\npolarity") +
+  scale_color_manual(labels = c("positive", "negative"),values=c("blue","red"))+
+  geom_text(position=position_jitter())+
+  geom_smooth(method="lm",alpha=0.15)+
+  xlim(.35,0.8)+
+  #geom_point(size=2,alpha=0.25)+ 
+  theme_bw()
+#ggsave("neg-strengthening-vs-neg-adj-subj-labeled.pdf",width=6.25,height=3.25)
 
 #######################################
 ###### bootstrapping correlation ######
@@ -131,3 +155,15 @@ gof(n$value,n$notAdj_subj)
 results <- boot(data=n, statistic=rsq, R=10000, formula=value~notAdj_subj)
 boot.ci(results, type="bca") 
 # 95%   ( 0.0000,  0.3189 ) 
+
+
+
+## without "accurate"
+
+p_new = aggregate(value~polarity*adjective*notAdj_subj,data=e_new[e_new$polarity=="Pos",],FUN=mean)
+
+gof(p_new$value,p_new$notAdj_subj)
+# r = 0.05, r2 = 0.00
+results <- boot(data=p_new, statistic=rsq, R=10000, formula=value~notAdj_subj)
+boot.ci(results, type="bca") 
+# 95%   ( 0.000,  0.024 )  
