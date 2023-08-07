@@ -46,14 +46,23 @@ neg_neg_subj<-subset(neg_subj, neg_subj$valence=="negative")
 
 
 #################################################
-#### data from mazzarella and gotzner (2021) ####
+#### data from four experiments              ####
 #################################################
 
 crit<-read.delim("exp1_power_osf.txt",header=T, dec=",")
-#crit2<-read.delim("facethreat_standard-nonstandard_anonymous.txt",header=T, dec=",")
-#crit2$context<-NULL
+crit2<-read.delim("exp2_socialdistance_osf.txt",header=T, dec=",")
+crit3<-read.delim("facethreat_anonymous.txt",header=T, dec=",")
+crit4<-read.delim("facethreat_standard-nonstandard_anonymous.txt",header=T, dec=",")
+crit2$person<-NULL
+crit$context<-NULL
+crit2$context<-NULL
+crit4$context<-NULL
+crit3$adjective<-NULL
+crit4$adjective<-NULL
+crit$politeness<-NULL
+crit2$politeness<-NULL
 
-#crit<-rbind(crit, crit2)
+crit<-rbind(crit, crit2,crit3,crit4)
 #crit$X<-NULL
 str(crit)
 head(crit)
@@ -61,7 +70,7 @@ head(crit)
 crit$complexity<-factor(crit$complexity)
 crit$polarity<-factor(crit$polarity)
 crit$Gender<-factor(crit$Gender)
-crit$politeness<-factor(crit$politeness)
+#crit$politeness<-factor(crit$politeness)
 
 e<-crit
 
@@ -104,6 +113,14 @@ e$cnotadj<-e$notAdj_subj-mean(e$notAdj_subj)
 m2<-clmm(valuef~polarity*cnotadj+ (1|item) + (polarity|Worker_ID) , data =e)
 summary(m2)
 
+#Number of groups:  Worker_ID 240,  item 20 
+#
+#Coefficients:
+#  Estimate Std. Error z value Pr(>|z|)    
+#polarity1         -0.59743    0.05872 -10.175  < 2e-16 ***
+#  cnotadj           -1.08473    0.37039  -2.929   0.0034 ** 
+#  polarity1:cnotadj -1.91937    0.28337  -6.773 1.26e-11 ***
+
 ## without "accurate"
 
 e_new = e[e$item!="Accurate_Inaccurate",]
@@ -113,6 +130,14 @@ length(unique(e_new$item))
 e_new$cnotadj<-e_new$notAdj_subj-mean(e_new$notAdj_subj)
 m2_new<-clmm(valuef~polarity*cnotadj+ (1|item) + (polarity|Worker_ID) , data =e_new)
 summary(m2_new)
+
+#Number of groups:  Worker_ID 240,  item 19 
+#
+#Coefficients:
+#  Estimate Std. Error z value Pr(>|z|)    
+#polarity1         -0.63611    0.06104 -10.420  < 2e-16 ***
+#  cnotadj           -1.20734    0.37639  -3.208  0.00134 ** 
+#  polarity1:cnotadj -2.18738    0.32617  -6.706    2e-11 ***
 
 
 
@@ -138,7 +163,7 @@ ggplot(ag, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
   geom_smooth(method="lm")+
   geom_point(size=2)+ 
   theme_bw()
-#ggsave("neg-strengthening-vs-neg-adj-subj-new-data.pdf",width=4.25,height=2.25)
+#ggsave("neg-strengthening-vs-neg-adj-subj-all-data.pdf",width=4.25,height=2.25)
 
 
 ggplot(ag, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
@@ -149,7 +174,7 @@ ggplot(ag, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
   xlim(.35,0.8)+
   #geom_point(size=2,alpha=0.25)+ 
   theme_bw()
-#ggsave("neg-strengthening-vs-neg-adj-subj-new-data-labeled.pdf",width=6.25,height=3.25)
+#ggsave("neg-strengthening-vs-neg-adj-subj-all-data-labeled.pdf",width=6.25,height=3.25)
 
 
 ag_p <- summarySE(e, measurevar="value", groupvars=c("polarity","adjective","notAdj_subj","politeness"),na.rm=T)
@@ -162,3 +187,28 @@ ggplot(ag_p, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
   geom_point(size=2)+ 
   facet_grid(~politeness)+
   theme_bw()
+
+
+
+#######################################
+###### bootstrapping correlation ######
+#######################################
+
+library(hydroGOF)
+library(boot)
+
+p = aggregate(value~polarity*adjective*notAdj_subj,data=e[e$polarity=="Pos",],FUN=mean)
+
+gof(p$value,p$notAdj_subj)
+# r = 0.37, r2 = 0.14
+results <- boot(data=p, statistic=rsq, R=10000, formula=value~notAdj_subj)
+boot.ci(results, type="bca") 
+# 95%   ( 0.0020,  0.5423 )  
+
+n = aggregate(value~polarity*adjective*notAdj_subj,data=e[e$polarity=="Neg",],FUN=mean)
+
+gof(n$value,n$notAdj_subj)
+# r = -0.20, r2 = 0.04
+results <- boot(data=n, statistic=rsq, R=10000, formula=value~notAdj_subj)
+boot.ci(results, type="bca") 
+# 95%   ( 0.0001,  0.3334 )  
