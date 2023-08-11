@@ -59,8 +59,12 @@ crit2$context<-NULL
 crit4$context<-NULL
 crit3$adjective<-NULL
 crit4$adjective<-NULL
-crit$politeness<-NULL
-crit2$politeness<-NULL
+crit3$politeness<-"NA"
+crit4$politeness<-"NA"
+crit$exp = "e1"
+crit2$exp = "e2"
+crit3$exp = "e3"
+crit4$exp = "e4"
 
 crit<-rbind(crit, crit2,crit3,crit4)
 #crit$X<-NULL
@@ -70,7 +74,12 @@ head(crit)
 crit$complexity<-factor(crit$complexity)
 crit$polarity<-factor(crit$polarity)
 crit$Gender<-factor(crit$Gender)
-#crit$politeness<-factor(crit$politeness)
+crit$politeness<-factor(crit$politeness)
+
+#contrasts(crit$politeness) <- "contr.sum"
+#contrasts(crit$polarity) <- "contr.sum"
+#contrasts(crit$complexity) <- "contr.sum"
+#contrasts(crit$Gender) <- "contr.sum"
 
 e<-crit
 
@@ -97,10 +106,14 @@ e$valuef<-factor(e$value)
 e$polarity<-factor(e$polarity)
 e$complexity<-factor(e$complexity)
 e$Gender<-factor(e$Gender)
+e$polarity<-relevel(e$polarity,ref="Pos")
 contrasts(e$polarity) <- "contr.sum"
 contrasts(e$complexity) <- "contr.sum"
 e$Gender<-relevel(e$Gender,ref="Female")
-
+contrasts(e$Gender) <- "contr.sum"
+e$politeness<-factor(e$politeness)
+e$politeness<-relevel(e$politeness,ref="Low")
+contrasts(e$politeness) <- "contr.sum"
 
 ###################
 ###### model ######
@@ -110,16 +123,16 @@ head(e)
 length(unique(e$item))
 
 e$cnotadj<-e$notAdj_subj-mean(e$notAdj_subj)
-m2<-clmm(valuef~polarity*cnotadj+ (1|item) + (polarity|Worker_ID) , data =e)
+m2<-clmm(valuef~polarity*cnotadj+ (1|item) + (1|Worker_ID) , data =e)
 summary(m2)
 
 #Number of groups:  Worker_ID 240,  item 20 
 #
 #Coefficients:
-#  Estimate Std. Error z value Pr(>|z|)    
-#polarity1         -0.59743    0.05872 -10.175  < 2e-16 ***
-#  cnotadj           -1.08473    0.37039  -2.929   0.0034 ** 
-#  polarity1:cnotadj -1.91937    0.28337  -6.773 1.26e-11 ***
+#                   Estimate Std. Error z value Pr(>|z|)    
+# polarity1          0.55079    0.04532  12.152  < 2e-16 ***
+# cnotadj           -0.88546    0.38803  -2.282   0.0225 *  
+# polarity1:cnotadj  1.81195    0.28142   6.439 1.21e-10 ***
 
 ## without "accurate"
 
@@ -128,23 +141,46 @@ e_new = e[e$item!="Accurate_Inaccurate",]
 length(unique(e_new$item))
 
 e_new$cnotadj<-e_new$notAdj_subj-mean(e_new$notAdj_subj)
-m2_new<-clmm(valuef~polarity*cnotadj+ (1|item) + (polarity|Worker_ID) , data =e_new)
+m2_new<-clmm(valuef~polarity*cnotadj+ (1|item) + (1|Worker_ID) , data =e_new)
 summary(m2_new)
 
 #Number of groups:  Worker_ID 240,  item 19 
 #
 #Coefficients:
-#  Estimate Std. Error z value Pr(>|z|)    
-#polarity1         -0.63611    0.06104 -10.420  < 2e-16 ***
-#  cnotadj           -1.20734    0.37639  -3.208  0.00134 ** 
-#  polarity1:cnotadj -2.18738    0.32617  -6.706    2e-11 ***
+#                   Estimate Std. Error z value Pr(>|z|)    
+# polarity1          0.57378    0.02282  25.149  < 2e-16 ***
+# cnotadj           -0.98457    0.36481  -2.699  0.00696 ** 
+# polarity1:cnotadj  2.00041    0.31943   6.262 3.79e-10 ***
 
 
+## exp1 base model from paper plus subjectivity
+me1<-clmm(valuef~polarity*politeness*Gender+cnotadj + (1|item) + (1|Worker_ID) , 
+          data =e[e$exp=="e1",])
+summary(me1)
+me1_subj<-clmm(valuef~polarity*politeness*Gender+polarity:cnotadj + (1|item) + (1|Worker_ID) , 
+                 data =e[e$exp=="e1",])
+summary(me1_subj)
 
-## base model from paper plus subjectivity
-m1<-clmm(valuef~polarity*politeness + (1|item) + (1|Worker_ID) , data =e)
-summary(m1)
+anova(me1,me1_subj)
 
+#no.par    AIC  logLik LR.stat df Pr(>Chisq)
+#me1          16 5733.1 -2850.6                      
+#me1_subj     17 5733.5 -2849.7    1.66  1     0.1976
+
+
+## exp2 base model from paper plus subjectivity
+me2<-clmm(valuef~polarity*politeness*Gender+cnotadj + (1|item) + (1|Worker_ID) , 
+         data =e[e$exp=="e2",])
+summary(me2)
+me2_subj<-clmm(valuef~polarity*politeness*Gender+polarity:cnotadj + (1|item) + (1|Worker_ID) , 
+          data =e[e$exp=="e2",])
+summary(me1_subj)
+
+anova(me2,me2_subj)
+
+#no.par    AIC  logLik LR.stat df Pr(>Chisq)   
+#me2          16 5253.8 -2610.9                         
+#me2_subj     17 5245.9 -2605.9  9.8628  1   0.001687 **
 
 
 ###################
