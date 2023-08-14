@@ -67,6 +67,7 @@ crit3$exp = "e3"
 crit4$exp = "e4"
 
 crit<-rbind(crit, crit2,crit3,crit4)
+crit<-crit[crit$Gender!="",]
 #crit$X<-NULL
 str(crit)
 head(crit)
@@ -110,7 +111,7 @@ e$polarity<-relevel(e$polarity,ref="Pos")
 contrasts(e$polarity) <- "contr.sum"
 contrasts(e$complexity) <- "contr.sum"
 e$Gender<-relevel(e$Gender,ref="Female")
-contrasts(e$Gender) <- "contr.sum"
+#contrasts(e$Gender) <- "contr.sum"
 e$politeness<-factor(e$politeness)
 e$politeness<-relevel(e$politeness,ref="Low")
 contrasts(e$politeness) <- "contr.sum"
@@ -151,6 +152,26 @@ summary(m2_new)
 # polarity1          0.57378    0.02282  25.149  < 2e-16 ***
 # cnotadj           -0.98457    0.36481  -2.699  0.00696 ** 
 # polarity1:cnotadj  2.00041    0.31943   6.262 3.79e-10 ***
+
+
+## combined gender analaysis
+
+m_gender<-clmm(valuef~polarity*Gender*cnotadj+ (1|item) + (1|Worker_ID) , 
+               data =e)
+summary(m_gender)
+
+Number of groups:  Worker_ID 239,  item 20 
+
+#  Coefficients:
+#                               Estimate Std. Error z value Pr(>|z|)    
+#  polarity1                     0.72753    0.03303  22.028  < 2e-16 ***
+#  GenderMale                   -0.37677    0.24307  -1.550    0.121    
+#  cnotadj                      -0.83478    0.44211  -1.888    0.059 .  
+#  polarity1:GenderMale         -0.31498    0.04240  -7.428 1.10e-13 ***
+#  polarity1:cnotadj             1.99805    0.37971   5.262 1.42e-07 ***
+#  GenderMale:cnotadj           -0.08554    0.45287  -0.189    0.850    
+#  polarity1:GenderMale:cnotadj -0.26665    0.45313  -0.588    0.556
+
 
 
 ## exp1 base model from paper plus subjectivity
@@ -213,7 +234,7 @@ ggplot(ag, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
 #ggsave("neg-strengthening-vs-neg-adj-subj-all-data-labeled.pdf",width=6.25,height=3.25)
 
 
-ag_p <- summarySE(e, measurevar="value", groupvars=c("polarity","adjective","notAdj_subj","politeness"),na.rm=T)
+ag_p <- summarySE(e, measurevar="value", groupvars=c("polarity","adjective","notAdj_subj","Gender"),na.rm=T)
 
 ggplot(ag_p, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
   labs(y='negative strengthening\n', x="\nnegated adjective subjectivity",colour="adjective\npolarity") +
@@ -221,7 +242,7 @@ ggplot(ag_p, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
   #geom_text()+
   geom_smooth(method="lm")+
   geom_point(size=2)+ 
-  facet_grid(~politeness)+
+  facet_grid(~Gender)+
   theme_bw()
 
 
