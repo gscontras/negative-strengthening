@@ -1,5 +1,5 @@
-#setwd("~/git/negative-strengthening/analyses/2023-XPRAG")
-setwd("~/Library/Mobile Documents/com~apple~CloudDocs/dropbox copy/Emmy Noether project/Experiments/Subjectivity Greg/subjectivity ratings mg2021")
+setwd("~/git/negative-strengthening/analyses/2023-XPRAG")
+#setwd("~/Library/Mobile Documents/com~apple~CloudDocs/dropbox copy/Emmy Noether project/Experiments/Subjectivity Greg/subjectivity ratings mg2021")
 
 ####################################
 #### load new subjectivity data ####
@@ -61,10 +61,10 @@ crit3$adjective<-NULL
 crit4$adjective<-NULL
 crit3$politeness<-"NA"
 crit4$politeness<-"NA"
-crit$exp = "e1"
-crit2$exp = "e2"
-crit3$exp = "e3"
-crit4$exp = "e4"
+crit$exp = "e3"
+crit2$exp = "e4"
+crit3$exp = "e1"
+crit4$exp = "e2"
 
 crit<-rbind(crit, crit2,crit3,crit4)
 crit<-crit[crit$Gender!="",]
@@ -116,24 +116,139 @@ e$politeness<-factor(e$politeness)
 e$politeness<-relevel(e$politeness,ref="Low")
 contrasts(e$politeness) <- "contr.sum"
 
-###################
-###### model ######
-###################
-
 head(e)
 length(unique(e$item))
 
 e$cnotadj<-e$notAdj_subj-mean(e$notAdj_subj)
-m2<-clmm(valuef~polarity*cnotadj+ (1|item) + (1|Worker_ID) , data =e)
-summary(m2)
 
-#Number of groups:  Worker_ID 240,  item 20 
+##############################################################################
+########################## FIRST TWO EXPERIMENTS #############################
+##############################################################################
+
+###################
+###### model ######
+###################
+
+e12 = e[e$exp=="e1"|e$exp=="e2",]
+
+e12$cnotadj<-e12$notAdj_subj-mean(e12$notAdj_subj)
+m12<-clmm(valuef~polarity*cnotadj+ (1|item) + (1|Worker_ID) , data =e12)
+summary(m12)
+
+#Number of groups:  Worker_ID 139,  item 20 
+#
+# Coefficients:
+#                   Estimate Std. Error z value Pr(>|z|)    
+# polarity1          0.42096    0.03054  13.782  < 2e-16 ***
+# cnotadj           -0.91873    0.50030  -1.836   0.0663 .  
+# polarity1:cnotadj  2.18369    0.39453   5.535 3.11e-08 ***
+
+## without "accurate"
+
+e12_new = e12[e12$item!="Accurate_Inaccurate",]
+
+length(unique(e12_new$item))
+
+e12_new$cnotadj<-e12_new$notAdj_subj-mean(e12_new$notAdj_subj)
+m12_new<-clmm(valuef~polarity*cnotadj+ (1|item) + (1|Worker_ID) , data =e12_new)
+summary(m12_new)
+
+#Number of groups:  Worker_ID 139,  item 19 
+#
+# Coefficients:
+#                   Estimate Std. Error z value Pr(>|z|)    
+# polarity1          0.46311    0.03163  14.643  < 2e-16 ***
+# cnotadj           -1.11048    0.49386  -2.249   0.0245 *  
+# polarity1:cnotadj  1.85434    0.44874   4.132 3.59e-05 ***
+
+
+###################
+###### plots ######
+###################
+
+library(ggplot2)
+library(Rmisc)
+ag12 <- summarySE(e12, measurevar="value", groupvars=c("polarity","adjective","notAdj_subj"),na.rm=T)
+
+ag12$polarity<-factor(ag12$polarity,levels=c("Pos","Neg"))
+ggplot(ag12, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
+  labs(y='negative strengthening\n', x="\nsubjectivity",colour="adjective\npolarity") +
+  scale_color_manual(labels = c("positive", "negative"),values=c("blue","red"))+
+  #geom_text()+
+  geom_smooth(method="lm")+
+  geom_point(size=2)+ 
+  xlim(0.35,0.8)+
+  theme_bw()
+#ggsave("neg-strengthening-vs-neg-adj-subj-e12-data.pdf",width=6.25,height=4.25)
+
+ggplot(ag12, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
+  labs(y='negative strengthening\n', x="\nsubjectivity",colour="adjective\npolarity") +
+  scale_color_manual(labels = c("positive", "negative"),values=c("blue","red"))+
+  geom_text()+
+  geom_smooth(method="lm")+
+  geom_point(size=2,alpha=0.15)+ 
+  xlim(0.35,0.8)+
+  theme_bw()
+#ggsave("neg-strengthening-vs-neg-adj-subj-e12-data-labeled.pdf",width=6.25,height=4.25)
+
+
+ggplot(ag12, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
+  labs(y='negative strengthening\n', x="\nsubjectivity",colour="adjective\npolarity") +
+  scale_color_manual(labels = c("positive", "negative"),values=c("blue","red"))+
+  geom_text(alpha=0.25)+
+  geom_smooth(method="lm")+
+  geom_point(size=2,alpha=0.15)+ 
+  xlim(0.35,0.8)+
+  theme_bw()
+#ggsave("neg-strengthening-vs-neg-adj-subj-e12-data-labeled-alpha.pdf",width=6.25,height=4.25)
+
+
+
+#######################################
+###### bootstrapping correlation ######
+#######################################
+
+library(hydroGOF)
+library(boot)
+
+p12 = aggregate(value~polarity*adjective*notAdj_subj,data=e12[e12$polarity=="Pos",],FUN=mean)
+
+gof(p12$value,p12$notAdj_subj)
+# r = 0.37, r2 = 0.14
+results <- boot(data=p12, statistic=rsq, R=10000, formula=value~notAdj_subj)
+boot.ci(results, type="bca") 
+# 95%   ( 0.0010,  0.5742 )  
+
+n12 = aggregate(value~polarity*adjective*notAdj_subj,data=e12[e12$polarity=="Neg",],FUN=mean)
+
+gof(n12$value,n12$notAdj_subj)
+# r = -0.24, r2 = 0.06
+results <- boot(data=n12, statistic=rsq, R=10000, formula=value~notAdj_subj)
+boot.ci(results, type="bca") 
+# 95%  ( 0.0001,  0.3309 )   
+
+
+##############################################################################
+########################## ALL FOUR EXPERIMENTS ##############################
+##############################################################################
+
+
+
+###################
+###### model ######
+###################
+
+
+m1234<-clmm(valuef~polarity*cnotadj+ (1|item) + (1|Worker_ID) , data =e)
+summary(m1234)
+
+#Number of groups:  Worker_ID 239,  item 20 
 #
 #Coefficients:
 #                   Estimate Std. Error z value Pr(>|z|)    
-# polarity1          0.55079    0.04532  12.152  < 2e-16 ***
-# cnotadj           -0.88546    0.38803  -2.282   0.0225 *  
-# polarity1:cnotadj  1.81195    0.28142   6.439 1.21e-10 ***
+# polarity1          0.54701    0.02211  24.744  < 2e-16 ***
+# cnotadj           -0.88541    0.35936  -2.464   0.0137 *  
+# polarity1:cnotadj  1.82685    0.27932   6.540 6.14e-11 ***
 
 ## without "accurate"
 
@@ -142,26 +257,26 @@ e_new = e[e$item!="Accurate_Inaccurate",]
 length(unique(e_new$item))
 
 e_new$cnotadj<-e_new$notAdj_subj-mean(e_new$notAdj_subj)
-m2_new<-clmm(valuef~polarity*cnotadj+ (1|item) + (1|Worker_ID) , data =e_new)
-summary(m2_new)
+m1234_new<-clmm(valuef~polarity*cnotadj+ (1|item) + (1|Worker_ID) , data =e_new)
+summary(m1234_new)
 
-#Number of groups:  Worker_ID 240,  item 19 
+#Number of groups:  Worker_ID 239,  item 19 
 #
-#Coefficients:
+# Coefficients:
 #                   Estimate Std. Error z value Pr(>|z|)    
-# polarity1          0.57378    0.02282  25.149  < 2e-16 ***
-# cnotadj           -0.98457    0.36481  -2.699  0.00696 ** 
-# polarity1:cnotadj  2.00041    0.31943   6.262 3.79e-10 ***
+# polarity1          0.57025    0.02285  24.953  < 2e-16 ***
+# cnotadj           -0.98398    0.36523  -2.694  0.00706 ** 
+# polarity1:cnotadj  2.00793    0.32031   6.269 3.64e-10 ***
 
 
 ## combined gender analaysis
 
-m_gender<-clmm(valuef~polarity*Gender*cnotadj+ (1|item) + (1|Worker_ID) , 
+m1234_gender<-clmm(valuef~polarity*Gender*cnotadj+ (1|item) + (1|Worker_ID) , 
                data =e)
-summary(m_gender)
+summary(m1234_gender)
 
-Number of groups:  Worker_ID 239,  item 20 
-
+# Number of groups:  Worker_ID 239,  item 20 
+#
 #  Coefficients:
 #                               Estimate Std. Error z value Pr(>|z|)    
 #  polarity1                     0.72753    0.03303  22.028  < 2e-16 ***
@@ -174,30 +289,30 @@ Number of groups:  Worker_ID 239,  item 20
 
 
 
-## exp1 base model from paper plus subjectivity
-me1<-clmm(valuef~polarity*politeness*Gender+cnotadj + (1|item) + (1|Worker_ID) , 
-          data =e[e$exp=="e1",])
-summary(me1)
-me1_subj<-clmm(valuef~polarity*politeness*Gender+polarity:cnotadj + (1|item) + (1|Worker_ID) , 
-                 data =e[e$exp=="e1",])
-summary(me1_subj)
+## exp1 (our exp3) base model from paper plus subjectivity
+me3<-clmm(valuef~polarity*politeness*Gender+cnotadj + (1|item) + (1|Worker_ID) , 
+          data =e[e$exp=="e3",])
+summary(me3)
+me3_subj<-clmm(valuef~polarity*politeness*Gender+polarity:cnotadj + (1|item) + (1|Worker_ID) , 
+                 data =e[e$exp=="e3",])
+summary(me3_subj)
 
-anova(me1,me1_subj)
+anova(me3,me3_subj)
 
 #no.par    AIC  logLik LR.stat df Pr(>Chisq)
 #me1          16 5733.1 -2850.6                      
 #me1_subj     17 5733.5 -2849.7    1.66  1     0.1976
 
 
-## exp2 base model from paper plus subjectivity
-me2<-clmm(valuef~polarity*politeness*Gender+cnotadj + (1|item) + (1|Worker_ID) , 
-         data =e[e$exp=="e2",])
-summary(me2)
-me2_subj<-clmm(valuef~polarity*politeness*Gender+polarity:cnotadj + (1|item) + (1|Worker_ID) , 
-          data =e[e$exp=="e2",])
-summary(me1_subj)
+## exp2 (our exp4) base model from paper plus subjectivity
+me4<-clmm(valuef~polarity*politeness*Gender+cnotadj + (1|item) + (1|Worker_ID) , 
+         data =e[e$exp=="e4",])
+summary(me4)
+me4_subj<-clmm(valuef~polarity*politeness*Gender+polarity:cnotadj + (1|item) + (1|Worker_ID) , 
+          data =e[e$exp=="e4",])
+summary(me4_subj)
 
-anova(me2,me2_subj)
+anova(me4,me4_subj)
 
 #no.par    AIC  logLik LR.stat df Pr(>Chisq)   
 #me2          16 5253.8 -2610.9                         
@@ -214,25 +329,25 @@ ag <- summarySE(e, measurevar="value", groupvars=c("polarity","adjective","notAd
 
 ag$polarity<-factor(ag$polarity,levels=c("Pos","Neg"))
 ggplot(ag, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
-  labs(y='negative strengthening\n', x="\nnegated adjective subjectivity",colour="adjective\npolarity") +
+  labs(y='negative strengthening\n', x="\nsubjectivity",colour="adjective\npolarity") +
   scale_color_manual(labels = c("positive", "negative"),values=c("blue","red"))+
   #geom_text()+
   geom_smooth(method="lm")+
   geom_point(size=2)+ 
+  xlim(0.35,0.8)+
   theme_bw()
-#ggsave("neg-strengthening-vs-neg-adj-subj-all-data.pdf",width=4.25,height=2.25)
+#ggsave("neg-strengthening-vs-neg-adj-subj-e1234-data.pdf",width=6.25,height=4.25)
 
 
 ggplot(ag, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
-  labs(y='negative strengthening\n', x="\nnegated adjective subjectivity",colour="adjective\npolarity") +
+  labs(y='negative strengthening\n', x="\nsubjectivity",colour="adjective\npolarity") +
   scale_color_manual(labels = c("positive", "negative"),values=c("blue","red"))+
-  geom_text(position=position_jitter())+
-  geom_smooth(method="lm",alpha=0.15)+
-  xlim(.35,0.8)+
-  #geom_point(size=2,alpha=0.25)+ 
+  geom_text(alpha=0.25)+
+  geom_smooth(method="lm")+
+  geom_point(size=2,alpha=0.15)+ 
+  xlim(0.35,0.8)+
   theme_bw()
-#ggsave("neg-strengthening-vs-neg-adj-subj-all-data-labeled.pdf",width=6.25,height=3.25)
-
+#ggsave("neg-strengthening-vs-neg-adj-subj-e1234-data-labeled.pdf",width=6.25,height=4.25)
 
 ag_p <- summarySE(e, measurevar="value", groupvars=c("polarity","adjective","notAdj_subj","Gender"),na.rm=T)
 
