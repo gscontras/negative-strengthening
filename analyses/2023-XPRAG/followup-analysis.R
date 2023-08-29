@@ -98,6 +98,7 @@ e[e$polarity=="Pos",]$adjective <- e[e$polarity=="Pos",]$item1
 e[e$polarity=="Neg",]$adjective <- e[e$polarity=="Neg",]$item2
 e$notAdj_subj = agr$response[match(paste("not",tolower(e$adjective)),agr$predicate)]
 e$highScale_subj = agr$response[match(tolower(e$item2),agr$predicate)]
+e$lowScale_subj = agr$response[match(tolower(e$item1),agr$predicate)]
 e$diff<-e$notAdj_subj - e$highScale_subj
 
 head(e)
@@ -120,6 +121,9 @@ head(e)
 length(unique(e$item))
 
 e$cnotadj<-e$notAdj_subj-mean(e$notAdj_subj)
+e$clowscale<-e$lowScale_subj-mean(e$lowScale_subj)
+e$chighscale<-e$highScale_subj-mean(e$highScale_subj)
+e$cdiff<-e$diff-mean(e$diff)
 
 ##############################################################################
 ########################## FIRST TWO EXPERIMENTS #############################
@@ -132,7 +136,13 @@ e$cnotadj<-e$notAdj_subj-mean(e$notAdj_subj)
 e12 = e[e$exp=="e1"|e$exp=="e2",]
 
 e12$cnotadj<-e12$notAdj_subj-mean(e12$notAdj_subj)
+e12$clowscale<-e12$lowScale_subj-mean(e12$lowScale_subj)
+e12$chighscale<-e12$highScale_subj-mean(e12$highScale_subj)
+e12$cdiff<-e12$diff-mean(e12$diff)
 m12<-clmm(valuef~polarity*cnotadj+ (1|item) + (1|Worker_ID) , data =e12)
+# m12<-clmm(valuef~polarity*clowscale+ (1|item) + (1|Worker_ID) , data =e12)
+# m12<-clmm(valuef~polarity*chighscale+ (1|item) + (1|Worker_ID) , data =e12)
+# m12<-clmm(valuef~polarity*cdiff+ (1|item) + (1|Worker_ID) , data =e12)
 summary(m12)
 
 #Number of groups:  Worker_ID 139,  item 20 
@@ -240,6 +250,9 @@ boot.ci(results, type="bca")
 
 
 m1234<-clmm(valuef~polarity*cnotadj+ (1|item) + (1|Worker_ID) , data =e)
+#m1234<-clmm(valuef~polarity*clowscale+ (1|item) + (1|Worker_ID) , data =e)
+#m1234<-clmm(valuef~polarity*chighscale+ (1|item) + (1|Worker_ID) , data =e)
+#m1234<-clmm(valuef~polarity*cdiff+ (1|item) + (1|Worker_ID) , data =e)
 summary(m1234)
 
 #Number of groups:  Worker_ID 239,  item 20 
