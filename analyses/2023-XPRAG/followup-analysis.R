@@ -99,7 +99,9 @@ e[e$polarity=="Neg",]$adjective <- e[e$polarity=="Neg",]$item2
 e$notAdj_subj = agr$response[match(paste("not",tolower(e$adjective)),agr$predicate)]
 e$highScale_subj = agr$response[match(tolower(e$item2),agr$predicate)]
 e$lowScale_subj = agr$response[match(tolower(e$item1),agr$predicate)]
-e$diff<-e$notAdj_subj - e$highScale_subj
+e$diff=NA
+e[e$polarity=="Neg",]$diff<-e[e$polarity=="Neg",]$notAdj_subj - e[e$polarity=="Neg",]$lowScale_subj
+e[e$polarity=="Pos",]$diff<-e[e$polarity=="Pos",]$notAdj_subj - e[e$polarity=="Pos",]$highScale_subj
 
 head(e)
 
@@ -140,10 +142,8 @@ e12$clowscale<-e12$lowScale_subj-mean(e12$lowScale_subj)
 e12$chighscale<-e12$highScale_subj-mean(e12$highScale_subj)
 e12$cdiff<-e12$diff-mean(e12$diff)
 m12<-clmm(valuef~polarity*cnotadj+ (1|item) + (1|Worker_ID) , data =e12)
-# m12<-clmm(valuef~polarity*clowscale+ (1|item) + (1|Worker_ID) , data =e12)
-# m12<-clmm(valuef~polarity*chighscale+ (1|item) + (1|Worker_ID) , data =e12)
-# m12<-clmm(valuef~polarity*cdiff+ (1|item) + (1|Worker_ID) , data =e12)
 summary(m12)
+
 
 #Number of groups:  Worker_ID 139,  item 20 
 #
@@ -170,6 +170,22 @@ summary(m12_new)
 # polarity1          0.46311    0.03163  14.643  < 2e-16 ***
 # cnotadj           -1.11048    0.49386  -2.249   0.0245 *  
 # polarity1:cnotadj  1.85434    0.44874   4.132 3.59e-05 ***
+
+## checking other correlations
+m12low<-clmm(valuef~polarity*clowscale+ (1|item) + (1|Worker_ID) , data =e12)
+m12high<-clmm(valuef~polarity*chighscale+ (1|item) + (1|Worker_ID) , data =e12)
+m12diff<-clmm(valuef~polarity*cdiff+ (1|item) + (1|Worker_ID) , data =e12)
+summary(m12diff)
+
+# check one at a time
+m12all<-clmm(valuef~polarity*cnotadj+
+               #polarity*clowscale+ # not significant
+               #polarity*chighscale+ # significant
+               polarity*cdiff+ # not significant
+                (1|item) + (1|Worker_ID) , data =e12)
+summary(m12all)
+
+
 
 
 ###################
@@ -212,6 +228,19 @@ ggplot(ag12, aes(y=value,x=notAdj_subj, colour=polarity, label=adjective)) +
   theme_bw()
 #ggsave("neg-strengthening-vs-neg-adj-subj-e12-data-labeled-alpha.pdf",width=6.25,height=4.25)
 
+
+diff12 <- summarySE(e12, measurevar="value", groupvars=c("polarity","adjective","diff"),na.rm=T)
+
+diff12$polarity<-factor(diff12$polarity,levels=c("Pos","Neg"))
+ggplot(diff12, aes(y=value,x=diff, colour=polarity, label=adjective)) +
+  labs(y='negative strengthening\n', x="\nsubjectivity difference",colour="adjective\npolarity") +
+  scale_color_manual(labels = c("positive", "negative"),values=c("blue","red"))+
+  #geom_text()+
+  geom_smooth(method="lm")+
+  geom_point(size=2)+ 
+  #xlim(0.35,0.8)+
+  theme_bw()
+#ggsave("neg-strengthening-vs-neg-adj-subj-e12-data.pdf",width=6.25,height=4.25)
 
 
 #######################################
