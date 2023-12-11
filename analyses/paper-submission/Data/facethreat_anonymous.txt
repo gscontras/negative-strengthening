@@ -1,0 +1,1101 @@
+Worker_ID	Gender	Education	Lang	Age	variable	value	polarity	complexity	item1	item2	list	item	adjective
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Neg_Morph_Accurate_Inaccurate	7	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A2EI0	Male	High School Graduate	English	42	Neg_Morph_Accurate_Inaccurate	7	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A3DHA	Male	High School Graduate	English	23	Neg_Morph_Accurate_Inaccurate	7	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A1XKL	Male	Some college, no degree	English	31	Neg_Morph_Accurate_Inaccurate	7	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A2C73	Male	High School Graduate	english	28	Neg_Morph_Accurate_Inaccurate	4	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+AHYTT	Female	Bachelors degree	english	37	Neg_Morph_Accurate_Inaccurate	6	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A53WV	Male	Some High School	english	26	Neg_Morph_Accurate_Inaccurate	5	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A27VF	Female	High School Graduate	English	48	Neg_Morph_Accurate_Inaccurate	6	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A1PMJ	Male	Bachelors degree	english	28	Neg_Morph_Accurate_Inaccurate	6	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+AV5FC	Male	Some college, no degree	English	45	Neg_Morph_Accurate_Inaccurate	5	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A2WHC	Female	Bachelors degree	English	53	Neg_Morph_Accurate_Inaccurate	4	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A2ZDX	Male	Bachelors degree	English	30	Neg_Morph_Accurate_Inaccurate	4	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A3MFK	Male	Bachelors degree	English	36	Neg_Morph_Accurate_Inaccurate	4	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A3QSJ	Female	Some college, no degree	English	37	Neg_Morph_Accurate_Inaccurate	6	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A2YGO	Male	Some college, no degree	english	38	Neg_Morph_Accurate_Inaccurate	4	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A25FH	Female	Associates degree	english	53	Neg_Morph_Accurate_Inaccurate	1	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Morph_Accurate_Inaccurate	7	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A190P	Female	Some college, no degree	English	28	Neg_Morph_Accurate_Inaccurate	7	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A1GF9	Female	Bachelors degree	english	26	Neg_Morph_Accurate_Inaccurate	4	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A3OZ8	Male	Some college, no degree	English	54	Neg_Morph_Accurate_Inaccurate	7	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A1OIH	Male	Bachelors degree	English	27	Neg_Morph_Accurate_Inaccurate	4	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A3ARC	Male	Bachelors degree	E	40	Neg_Morph_Accurate_Inaccurate	NA	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+AWVL6	Female	Bachelors degree	English	29	Neg_Morph_Accurate_Inaccurate	7	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A2O7L	Male	High School Graduate	English	49	Neg_Morph_Accurate_Inaccurate	7	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A2BZY	Male	High School Graduate	English	31	Neg_Morph_Accurate_Inaccurate	7	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A30UE	Female	Associates degree	english	31	Neg_Morph_Accurate_Inaccurate	5	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A2Q4Z	Male	Bachelors degree	English	35	Neg_Morph_Accurate_Inaccurate	7	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A2915	Male	Bachelors degree	American	28	Neg_Morph_Accurate_Inaccurate	6	Neg	Morph	Accurate	Inaccurate	a	Accurate_Inaccurate	inaccurate
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Neg_Morph_Certain_Uncertain	7	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A2EI0	Male	High School Graduate	English	42	Neg_Morph_Certain_Uncertain	7	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A3DHA	Male	High School Graduate	English	23	Neg_Morph_Certain_Uncertain	4	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A1XKL	Male	Some college, no degree	English	31	Neg_Morph_Certain_Uncertain	7	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A2C73	Male	High School Graduate	english	28	Neg_Morph_Certain_Uncertain	4	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+AHYTT	Female	Bachelors degree	english	37	Neg_Morph_Certain_Uncertain	6	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A53WV	Male	Some High School	english	26	Neg_Morph_Certain_Uncertain	4	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A27VF	Female	High School Graduate	English	48	Neg_Morph_Certain_Uncertain	6	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A1PMJ	Male	Bachelors degree	english	28	Neg_Morph_Certain_Uncertain	6	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+AV5FC	Male	Some college, no degree	English	45	Neg_Morph_Certain_Uncertain	4	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A2WHC	Female	Bachelors degree	English	53	Neg_Morph_Certain_Uncertain	6	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A2ZDX	Male	Bachelors degree	English	30	Neg_Morph_Certain_Uncertain	5	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A3MFK	Male	Bachelors degree	English	36	Neg_Morph_Certain_Uncertain	3	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A3QSJ	Female	Some college, no degree	English	37	Neg_Morph_Certain_Uncertain	6	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A2YGO	Male	Some college, no degree	english	38	Neg_Morph_Certain_Uncertain	4	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A25FH	Female	Associates degree	english	53	Neg_Morph_Certain_Uncertain	4	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Morph_Certain_Uncertain	7	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A190P	Female	Some college, no degree	English	28	Neg_Morph_Certain_Uncertain	7	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A1GF9	Female	Bachelors degree	english	26	Neg_Morph_Certain_Uncertain	7	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A3OZ8	Male	Some college, no degree	English	54	Neg_Morph_Certain_Uncertain	2	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A1OIH	Male	Bachelors degree	English	27	Neg_Morph_Certain_Uncertain	6	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A3ARC	Male	Bachelors degree	E	40	Neg_Morph_Certain_Uncertain	NA	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+AWVL6	Female	Bachelors degree	English	29	Neg_Morph_Certain_Uncertain	7	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A2O7L	Male	High School Graduate	English	49	Neg_Morph_Certain_Uncertain	6	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A2BZY	Male	High School Graduate	English	31	Neg_Morph_Certain_Uncertain	4	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A30UE	Female	Associates degree	english	31	Neg_Morph_Certain_Uncertain	3	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A2Q4Z	Male	Bachelors degree	English	35	Neg_Morph_Certain_Uncertain	6	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A2915	Male	Bachelors degree	American	28	Neg_Morph_Certain_Uncertain	7	Neg	Morph	Certain	Uncertain	a	Certain_Uncertain	uncertain
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Neg_Morph_Happy_Unhappy	6	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A2EI0	Male	High School Graduate	English	42	Neg_Morph_Happy_Unhappy	4	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A3DHA	Male	High School Graduate	English	23	Neg_Morph_Happy_Unhappy	6	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A1XKL	Male	Some college, no degree	English	31	Neg_Morph_Happy_Unhappy	7	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A2C73	Male	High School Graduate	english	28	Neg_Morph_Happy_Unhappy	4	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+AHYTT	Female	Bachelors degree	english	37	Neg_Morph_Happy_Unhappy	6	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A53WV	Male	Some High School	english	26	Neg_Morph_Happy_Unhappy	3	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A27VF	Female	High School Graduate	English	48	Neg_Morph_Happy_Unhappy	6	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A1PMJ	Male	Bachelors degree	english	28	Neg_Morph_Happy_Unhappy	5	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+AV5FC	Male	Some college, no degree	English	45	Neg_Morph_Happy_Unhappy	5	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A2WHC	Female	Bachelors degree	English	53	Neg_Morph_Happy_Unhappy	4	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A2ZDX	Male	Bachelors degree	English	30	Neg_Morph_Happy_Unhappy	NA	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A3MFK	Male	Bachelors degree	English	36	Neg_Morph_Happy_Unhappy	4	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A3QSJ	Female	Some college, no degree	English	37	Neg_Morph_Happy_Unhappy	6	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A2YGO	Male	Some college, no degree	english	38	Neg_Morph_Happy_Unhappy	4	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A25FH	Female	Associates degree	english	53	Neg_Morph_Happy_Unhappy	4	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Morph_Happy_Unhappy	1	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A190P	Female	Some college, no degree	English	28	Neg_Morph_Happy_Unhappy	7	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A1GF9	Female	Bachelors degree	english	26	Neg_Morph_Happy_Unhappy	7	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A3OZ8	Male	Some college, no degree	English	54	Neg_Morph_Happy_Unhappy	6	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A1OIH	Male	Bachelors degree	English	27	Neg_Morph_Happy_Unhappy	4	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A3ARC	Male	Bachelors degree	E	40	Neg_Morph_Happy_Unhappy	NA	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+AWVL6	Female	Bachelors degree	English	29	Neg_Morph_Happy_Unhappy	3	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A2O7L	Male	High School Graduate	English	49	Neg_Morph_Happy_Unhappy	5	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A2BZY	Male	High School Graduate	English	31	Neg_Morph_Happy_Unhappy	7	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A30UE	Female	Associates degree	english	31	Neg_Morph_Happy_Unhappy	7	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A2Q4Z	Male	Bachelors degree	English	35	Neg_Morph_Happy_Unhappy	6	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A2915	Male	Bachelors degree	American	28	Neg_Morph_Happy_Unhappy	7	Neg	Morph	Happy	Unhappy	a	Happy_Unhappy	unhappy
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Neg_Morph_Interesting_Uninteresting	7	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A2EI0	Male	High School Graduate	English	42	Neg_Morph_Interesting_Uninteresting	4	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A3DHA	Male	High School Graduate	English	23	Neg_Morph_Interesting_Uninteresting	6	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A1XKL	Male	Some college, no degree	English	31	Neg_Morph_Interesting_Uninteresting	7	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A2C73	Male	High School Graduate	english	28	Neg_Morph_Interesting_Uninteresting	4	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+AHYTT	Female	Bachelors degree	english	37	Neg_Morph_Interesting_Uninteresting	6	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A53WV	Male	Some High School	english	26	Neg_Morph_Interesting_Uninteresting	4	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A27VF	Female	High School Graduate	English	48	Neg_Morph_Interesting_Uninteresting	5	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A1PMJ	Male	Bachelors degree	english	28	Neg_Morph_Interesting_Uninteresting	4	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+AV5FC	Male	Some college, no degree	English	45	Neg_Morph_Interesting_Uninteresting	4	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A2WHC	Female	Bachelors degree	English	53	Neg_Morph_Interesting_Uninteresting	4	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A2ZDX	Male	Bachelors degree	English	30	Neg_Morph_Interesting_Uninteresting	6	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A3MFK	Male	Bachelors degree	English	36	Neg_Morph_Interesting_Uninteresting	6	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A3QSJ	Female	Some college, no degree	English	37	Neg_Morph_Interesting_Uninteresting	6	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A2YGO	Male	Some college, no degree	english	38	Neg_Morph_Interesting_Uninteresting	4	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A25FH	Female	Associates degree	english	53	Neg_Morph_Interesting_Uninteresting	4	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Morph_Interesting_Uninteresting	7	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A190P	Female	Some college, no degree	English	28	Neg_Morph_Interesting_Uninteresting	7	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A1GF9	Female	Bachelors degree	english	26	Neg_Morph_Interesting_Uninteresting	2	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A3OZ8	Male	Some college, no degree	English	54	Neg_Morph_Interesting_Uninteresting	6	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A1OIH	Male	Bachelors degree	English	27	Neg_Morph_Interesting_Uninteresting	3	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A3ARC	Male	Bachelors degree	E	40	Neg_Morph_Interesting_Uninteresting	NA	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+AWVL6	Female	Bachelors degree	English	29	Neg_Morph_Interesting_Uninteresting	7	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A2O7L	Male	High School Graduate	English	49	Neg_Morph_Interesting_Uninteresting	6	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A2BZY	Male	High School Graduate	English	31	Neg_Morph_Interesting_Uninteresting	7	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A30UE	Female	Associates degree	english	31	Neg_Morph_Interesting_Uninteresting	4	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A2Q4Z	Male	Bachelors degree	English	35	Neg_Morph_Interesting_Uninteresting	5	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A2915	Male	Bachelors degree	American	28	Neg_Morph_Interesting_Uninteresting	6	Neg	Morph	Interesting	Uninteresting	a	Interesting_Uninteresting	uninteresting
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Neg_Morph_Lucky_Unlucky	7	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A2EI0	Male	High School Graduate	English	42	Neg_Morph_Lucky_Unlucky	4	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A3DHA	Male	High School Graduate	English	23	Neg_Morph_Lucky_Unlucky	7	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A1XKL	Male	Some college, no degree	English	31	Neg_Morph_Lucky_Unlucky	7	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A2C73	Male	High School Graduate	english	28	Neg_Morph_Lucky_Unlucky	4	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+AHYTT	Female	Bachelors degree	english	37	Neg_Morph_Lucky_Unlucky	6	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A53WV	Male	Some High School	english	26	Neg_Morph_Lucky_Unlucky	4	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A27VF	Female	High School Graduate	English	48	Neg_Morph_Lucky_Unlucky	6	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A1PMJ	Male	Bachelors degree	english	28	Neg_Morph_Lucky_Unlucky	5	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+AV5FC	Male	Some college, no degree	English	45	Neg_Morph_Lucky_Unlucky	4	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A2WHC	Female	Bachelors degree	English	53	Neg_Morph_Lucky_Unlucky	6	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A2ZDX	Male	Bachelors degree	English	30	Neg_Morph_Lucky_Unlucky	5	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A3MFK	Male	Bachelors degree	English	36	Neg_Morph_Lucky_Unlucky	4	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A3QSJ	Female	Some college, no degree	English	37	Neg_Morph_Lucky_Unlucky	6	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A2YGO	Male	Some college, no degree	english	38	Neg_Morph_Lucky_Unlucky	4	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A25FH	Female	Associates degree	english	53	Neg_Morph_Lucky_Unlucky	4	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Morph_Lucky_Unlucky	7	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A190P	Female	Some college, no degree	English	28	Neg_Morph_Lucky_Unlucky	7	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A1GF9	Female	Bachelors degree	english	26	Neg_Morph_Lucky_Unlucky	7	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A3OZ8	Male	Some college, no degree	English	54	Neg_Morph_Lucky_Unlucky	6	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A1OIH	Male	Bachelors degree	English	27	Neg_Morph_Lucky_Unlucky	5	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A3ARC	Male	Bachelors degree	E	40	Neg_Morph_Lucky_Unlucky	NA	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+AWVL6	Female	Bachelors degree	English	29	Neg_Morph_Lucky_Unlucky	5	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A2O7L	Male	High School Graduate	English	49	Neg_Morph_Lucky_Unlucky	5	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A2BZY	Male	High School Graduate	English	31	Neg_Morph_Lucky_Unlucky	7	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A30UE	Female	Associates degree	english	31	Neg_Morph_Lucky_Unlucky	5	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A2Q4Z	Male	Bachelors degree	English	35	Neg_Morph_Lucky_Unlucky	6	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A2915	Male	Bachelors degree	American	28	Neg_Morph_Lucky_Unlucky	6	Neg	Morph	Lucky	Unlucky	a	Lucky_Unlucky	unlucky
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Neg_Morph_Useful_Useless	7	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A2EI0	Male	High School Graduate	English	42	Neg_Morph_Useful_Useless	7	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A3DHA	Male	High School Graduate	English	23	Neg_Morph_Useful_Useless	6	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A1XKL	Male	Some college, no degree	English	31	Neg_Morph_Useful_Useless	7	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A2C73	Male	High School Graduate	english	28	Neg_Morph_Useful_Useless	4	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+AHYTT	Female	Bachelors degree	english	37	Neg_Morph_Useful_Useless	7	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A53WV	Male	Some High School	english	26	Neg_Morph_Useful_Useless	4	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A27VF	Female	High School Graduate	English	48	Neg_Morph_Useful_Useless	5	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A1PMJ	Male	Bachelors degree	english	28	Neg_Morph_Useful_Useless	5	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+AV5FC	Male	Some college, no degree	English	45	Neg_Morph_Useful_Useless	5	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A2WHC	Female	Bachelors degree	English	53	Neg_Morph_Useful_Useless	6	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A2ZDX	Male	Bachelors degree	English	30	Neg_Morph_Useful_Useless	1	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A3MFK	Male	Bachelors degree	English	36	Neg_Morph_Useful_Useless	4	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A3QSJ	Female	Some college, no degree	English	37	Neg_Morph_Useful_Useless	6	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A2YGO	Male	Some college, no degree	english	38	Neg_Morph_Useful_Useless	4	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A25FH	Female	Associates degree	english	53	Neg_Morph_Useful_Useless	1	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Morph_Useful_Useless	7	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A190P	Female	Some college, no degree	English	28	Neg_Morph_Useful_Useless	7	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A1GF9	Female	Bachelors degree	english	26	Neg_Morph_Useful_Useless	5	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A3OZ8	Male	Some college, no degree	English	54	Neg_Morph_Useful_Useless	5	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A1OIH	Male	Bachelors degree	English	27	Neg_Morph_Useful_Useless	3	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A3ARC	Male	Bachelors degree	E	40	Neg_Morph_Useful_Useless	NA	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+AWVL6	Female	Bachelors degree	English	29	Neg_Morph_Useful_Useless	7	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A2O7L	Male	High School Graduate	English	49	Neg_Morph_Useful_Useless	5	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A2BZY	Male	High School Graduate	English	31	Neg_Morph_Useful_Useless	7	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A30UE	Female	Associates degree	english	31	Neg_Morph_Useful_Useless	5	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A2Q4Z	Male	Bachelors degree	English	35	Neg_Morph_Useful_Useless	6	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A2915	Male	Bachelors degree	American	28	Neg_Morph_Useful_Useless	6	Neg	Morph	Useful	Useless	a	Useful_Useless	useless
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Neg_Nonmorph_Good_Bad	7	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A2EI0	Male	High School Graduate	English	42	Neg_Nonmorph_Good_Bad	4	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A3DHA	Male	High School Graduate	English	23	Neg_Nonmorph_Good_Bad	5	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A1XKL	Male	Some college, no degree	English	31	Neg_Nonmorph_Good_Bad	7	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A2C73	Male	High School Graduate	english	28	Neg_Nonmorph_Good_Bad	4	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+AHYTT	Female	Bachelors degree	english	37	Neg_Nonmorph_Good_Bad	6	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A53WV	Male	Some High School	english	26	Neg_Nonmorph_Good_Bad	3	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A27VF	Female	High School Graduate	English	48	Neg_Nonmorph_Good_Bad	5	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A1PMJ	Male	Bachelors degree	english	28	Neg_Nonmorph_Good_Bad	6	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+AV5FC	Male	Some college, no degree	English	45	Neg_Nonmorph_Good_Bad	5	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A2WHC	Female	Bachelors degree	English	53	Neg_Nonmorph_Good_Bad	4	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A2ZDX	Male	Bachelors degree	English	30	Neg_Nonmorph_Good_Bad	4	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A3MFK	Male	Bachelors degree	English	36	Neg_Nonmorph_Good_Bad	4	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A3QSJ	Female	Some college, no degree	English	37	Neg_Nonmorph_Good_Bad	6	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A2YGO	Male	Some college, no degree	english	38	Neg_Nonmorph_Good_Bad	5	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A25FH	Female	Associates degree	english	53	Neg_Nonmorph_Good_Bad	4	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Nonmorph_Good_Bad	7	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A190P	Female	Some college, no degree	English	28	Neg_Nonmorph_Good_Bad	7	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A1GF9	Female	Bachelors degree	english	26	Neg_Nonmorph_Good_Bad	7	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A3OZ8	Male	Some college, no degree	English	54	Neg_Nonmorph_Good_Bad	6	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A1OIH	Male	Bachelors degree	English	27	Neg_Nonmorph_Good_Bad	4	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A3ARC	Male	Bachelors degree	E	40	Neg_Nonmorph_Good_Bad	NA	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+AWVL6	Female	Bachelors degree	English	29	Neg_Nonmorph_Good_Bad	6	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A2O7L	Male	High School Graduate	English	49	Neg_Nonmorph_Good_Bad	6	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A2BZY	Male	High School Graduate	English	31	Neg_Nonmorph_Good_Bad	7	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A30UE	Female	Associates degree	english	31	Neg_Nonmorph_Good_Bad	4	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A2Q4Z	Male	Bachelors degree	English	35	Neg_Nonmorph_Good_Bad	5	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A2915	Male	Bachelors degree	American	28	Neg_Nonmorph_Good_Bad	7	Neg	Nonmorph	Good	Bad	a	Good_Bad	bad
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Neg_Nonmorph_Kind_Mean	7	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A2EI0	Male	High School Graduate	English	42	Neg_Nonmorph_Kind_Mean	4	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A3DHA	Male	High School Graduate	English	23	Neg_Nonmorph_Kind_Mean	5	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A1XKL	Male	Some college, no degree	English	31	Neg_Nonmorph_Kind_Mean	7	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A2C73	Male	High School Graduate	english	28	Neg_Nonmorph_Kind_Mean	4	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+AHYTT	Female	Bachelors degree	english	37	Neg_Nonmorph_Kind_Mean	6	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A53WV	Male	Some High School	english	26	Neg_Nonmorph_Kind_Mean	4	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A27VF	Female	High School Graduate	English	48	Neg_Nonmorph_Kind_Mean	5	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A1PMJ	Male	Bachelors degree	english	28	Neg_Nonmorph_Kind_Mean	6	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+AV5FC	Male	Some college, no degree	English	45	Neg_Nonmorph_Kind_Mean	7	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A2WHC	Female	Bachelors degree	English	53	Neg_Nonmorph_Kind_Mean	5	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A2ZDX	Male	Bachelors degree	English	30	Neg_Nonmorph_Kind_Mean	5	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A3MFK	Male	Bachelors degree	English	36	Neg_Nonmorph_Kind_Mean	4	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A3QSJ	Female	Some college, no degree	English	37	Neg_Nonmorph_Kind_Mean	6	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A2YGO	Male	Some college, no degree	english	38	Neg_Nonmorph_Kind_Mean	4	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A25FH	Female	Associates degree	english	53	Neg_Nonmorph_Kind_Mean	4	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Nonmorph_Kind_Mean	7	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A190P	Female	Some college, no degree	English	28	Neg_Nonmorph_Kind_Mean	7	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A1GF9	Female	Bachelors degree	english	26	Neg_Nonmorph_Kind_Mean	4	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A3OZ8	Male	Some college, no degree	English	54	Neg_Nonmorph_Kind_Mean	5	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A1OIH	Male	Bachelors degree	English	27	Neg_Nonmorph_Kind_Mean	5	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A3ARC	Male	Bachelors degree	E	40	Neg_Nonmorph_Kind_Mean	NA	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+AWVL6	Female	Bachelors degree	English	29	Neg_Nonmorph_Kind_Mean	6	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A2O7L	Male	High School Graduate	English	49	Neg_Nonmorph_Kind_Mean	6	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A2BZY	Male	High School Graduate	English	31	Neg_Nonmorph_Kind_Mean	7	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A30UE	Female	Associates degree	english	31	Neg_Nonmorph_Kind_Mean	5	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A2Q4Z	Male	Bachelors degree	English	35	Neg_Nonmorph_Kind_Mean	5	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A2915	Male	Bachelors degree	American	28	Neg_Nonmorph_Kind_Mean	7	Neg	Nonmorph	Kind	Mean	a	Kind_Mean	mean
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Neg_Nonmorph_Strong_Weak	7	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A2EI0	Male	High School Graduate	English	42	Neg_Nonmorph_Strong_Weak	4	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A3DHA	Male	High School Graduate	English	23	Neg_Nonmorph_Strong_Weak	5	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A1XKL	Male	Some college, no degree	English	31	Neg_Nonmorph_Strong_Weak	7	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A2C73	Male	High School Graduate	english	28	Neg_Nonmorph_Strong_Weak	4	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+AHYTT	Female	Bachelors degree	english	37	Neg_Nonmorph_Strong_Weak	7	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A53WV	Male	Some High School	english	26	Neg_Nonmorph_Strong_Weak	4	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A27VF	Female	High School Graduate	English	48	Neg_Nonmorph_Strong_Weak	5	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A1PMJ	Male	Bachelors degree	english	28	Neg_Nonmorph_Strong_Weak	5	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+AV5FC	Male	Some college, no degree	English	45	Neg_Nonmorph_Strong_Weak	7	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A2WHC	Female	Bachelors degree	English	53	Neg_Nonmorph_Strong_Weak	6	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A2ZDX	Male	Bachelors degree	English	30	Neg_Nonmorph_Strong_Weak	5	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A3MFK	Male	Bachelors degree	English	36	Neg_Nonmorph_Strong_Weak	4	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A3QSJ	Female	Some college, no degree	English	37	Neg_Nonmorph_Strong_Weak	6	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A2YGO	Male	Some college, no degree	english	38	Neg_Nonmorph_Strong_Weak	4	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A25FH	Female	Associates degree	english	53	Neg_Nonmorph_Strong_Weak	4	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Nonmorph_Strong_Weak	7	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A190P	Female	Some college, no degree	English	28	Neg_Nonmorph_Strong_Weak	7	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A1GF9	Female	Bachelors degree	english	26	Neg_Nonmorph_Strong_Weak	1	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A3OZ8	Male	Some college, no degree	English	54	Neg_Nonmorph_Strong_Weak	6	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A1OIH	Male	Bachelors degree	English	27	Neg_Nonmorph_Strong_Weak	5	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A3ARC	Male	Bachelors degree	E	40	Neg_Nonmorph_Strong_Weak	NA	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+AWVL6	Female	Bachelors degree	English	29	Neg_Nonmorph_Strong_Weak	7	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A2O7L	Male	High School Graduate	English	49	Neg_Nonmorph_Strong_Weak	6	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A2BZY	Male	High School Graduate	English	31	Neg_Nonmorph_Strong_Weak	7	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A30UE	Female	Associates degree	english	31	Neg_Nonmorph_Strong_Weak	5	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A2Q4Z	Male	Bachelors degree	English	35	Neg_Nonmorph_Strong_Weak	6	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A2915	Male	Bachelors degree	American	28	Neg_Nonmorph_Strong_Weak	7	Neg	Nonmorph	Strong	Weak	a	Strong_Weak	weak
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Neg_Nonmorph_Tall_Short	7	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A2EI0	Male	High School Graduate	English	42	Neg_Nonmorph_Tall_Short	4	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A3DHA	Male	High School Graduate	English	23	Neg_Nonmorph_Tall_Short	6	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A1XKL	Male	Some college, no degree	English	31	Neg_Nonmorph_Tall_Short	7	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A2C73	Male	High School Graduate	english	28	Neg_Nonmorph_Tall_Short	4	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+AHYTT	Female	Bachelors degree	english	37	Neg_Nonmorph_Tall_Short	6	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A53WV	Male	Some High School	english	26	Neg_Nonmorph_Tall_Short	4	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A27VF	Female	High School Graduate	English	48	Neg_Nonmorph_Tall_Short	5	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A1PMJ	Male	Bachelors degree	english	28	Neg_Nonmorph_Tall_Short	6	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+AV5FC	Male	Some college, no degree	English	45	Neg_Nonmorph_Tall_Short	5	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A2WHC	Female	Bachelors degree	English	53	Neg_Nonmorph_Tall_Short	6	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A2ZDX	Male	Bachelors degree	English	30	Neg_Nonmorph_Tall_Short	4	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A3MFK	Male	Bachelors degree	English	36	Neg_Nonmorph_Tall_Short	7	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A3QSJ	Female	Some college, no degree	English	37	Neg_Nonmorph_Tall_Short	6	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A2YGO	Male	Some college, no degree	english	38	Neg_Nonmorph_Tall_Short	4	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A25FH	Female	Associates degree	english	53	Neg_Nonmorph_Tall_Short	4	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Nonmorph_Tall_Short	7	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A190P	Female	Some college, no degree	English	28	Neg_Nonmorph_Tall_Short	7	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A1GF9	Female	Bachelors degree	english	26	Neg_Nonmorph_Tall_Short	4	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A3OZ8	Male	Some college, no degree	English	54	Neg_Nonmorph_Tall_Short	5	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A1OIH	Male	Bachelors degree	English	27	Neg_Nonmorph_Tall_Short	5	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A3ARC	Male	Bachelors degree	E	40	Neg_Nonmorph_Tall_Short	NA	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+AWVL6	Female	Bachelors degree	English	29	Neg_Nonmorph_Tall_Short	7	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A2O7L	Male	High School Graduate	English	49	Neg_Nonmorph_Tall_Short	7	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A2BZY	Male	High School Graduate	English	31	Neg_Nonmorph_Tall_Short	7	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A30UE	Female	Associates degree	english	31	Neg_Nonmorph_Tall_Short	4	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A2Q4Z	Male	Bachelors degree	English	35	Neg_Nonmorph_Tall_Short	6	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A2915	Male	Bachelors degree	American	28	Neg_Nonmorph_Tall_Short	6	Neg	Nonmorph	Tall	Short	a	Tall_Short	short
+A1CVZ	Male	Bachelors degree	english	28	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A1PFG	Male	Bachelors degree	ENGLISH	31	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+AYWVS	Male	Associates degree	English	31	Neg_Morph_Fair_Unfair	6	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A20VN	Female	Some college, no degree	english	57	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A3PIU	Male	Bachelors degree	English	40	Neg_Morph_Fair_Unfair	6	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A1SHL	Female	Bachelors degree	english	55	Neg_Morph_Fair_Unfair	5	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+AX3N0	Male	Bachelors degree	English	29	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A2FOB	Female	Some High School	english	27	Neg_Morph_Fair_Unfair	4	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A12IH	Male	High School Graduate	English	36	Neg_Morph_Fair_Unfair	6	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A10M9	Female	Bachelors degree	English	32	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+ANO5I	Male	Bachelors degree	English	31	Neg_Morph_Fair_Unfair	1	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A23FE	Male	Associates degree	english	48	Neg_Morph_Fair_Unfair	6	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A1PTY	Female	Bachelors degree	english	31	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A3KEU	Male	Associates degree	english	48	Neg_Morph_Fair_Unfair	6	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A39DP	Female	Bachelors degree	English	28	Neg_Morph_Fair_Unfair	5	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Morph_Fair_Unfair	1	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+ADOA6	Female	Bachelors degree	English	28	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+AQ3OF	Female	Bachelors degree	english	28	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A2T2R	Male	Some college, no degree	English	33	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+ALCSN	Female	Bachelors degree	english	28	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+AZCGS	Male	Some High School	English	25	Neg_Morph_Fair_Unfair	6	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A2GJY	Female	Some college, no degree	English	24	Neg_Morph_Fair_Unfair	7	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Neg_Morph_Fair_Unfair	3	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A3OT6	Male	Bachelors degree	english	28	Neg_Morph_Fair_Unfair	6	Neg	Morph	Fair	Unfair	b	Fair_Unfair	unfair
+A1CVZ	Male	Bachelors degree	english	28	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A1PFG	Male	Bachelors degree	ENGLISH	31	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+AYWVS	Male	Associates degree	English	31	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A20VN	Female	Some college, no degree	english	57	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A3PIU	Male	Bachelors degree	English	40	Neg_Morph_Friendly_Unfriendly	6	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A1SHL	Female	Bachelors degree	english	55	Neg_Morph_Friendly_Unfriendly	5	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+AX3N0	Male	Bachelors degree	English	29	Neg_Morph_Friendly_Unfriendly	1	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A2FOB	Female	Some High School	english	27	Neg_Morph_Friendly_Unfriendly	5	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Neg_Morph_Friendly_Unfriendly	6	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A12IH	Male	High School Graduate	English	36	Neg_Morph_Friendly_Unfriendly	1	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A10M9	Female	Bachelors degree	English	32	Neg_Morph_Friendly_Unfriendly	2	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+ANO5I	Male	Bachelors degree	English	31	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A23FE	Male	Associates degree	english	48	Neg_Morph_Friendly_Unfriendly	5	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A1PTY	Female	Bachelors degree	english	31	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A3KEU	Male	Associates degree	english	48	Neg_Morph_Friendly_Unfriendly	6	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A39DP	Female	Bachelors degree	English	28	Neg_Morph_Friendly_Unfriendly	4	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Morph_Friendly_Unfriendly	1	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+ADOA6	Female	Bachelors degree	English	28	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+AQ3OF	Female	Bachelors degree	english	28	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A2T2R	Male	Some college, no degree	English	33	Neg_Morph_Friendly_Unfriendly	5	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+ALCSN	Female	Bachelors degree	english	28	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+AZCGS	Male	Some High School	English	25	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A2GJY	Female	Some college, no degree	English	24	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Neg_Morph_Friendly_Unfriendly	5	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A3OT6	Male	Bachelors degree	english	28	Neg_Morph_Friendly_Unfriendly	7	Neg	Morph	Friendly	Unfriendly	b	Friendly_Unfriendly	unfriendly
+A1CVZ	Male	Bachelors degree	english	28	Neg_Morph_Polite_Impolite	7	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A1PFG	Male	Bachelors degree	ENGLISH	31	Neg_Morph_Polite_Impolite	6	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+AYWVS	Male	Associates degree	English	31	Neg_Morph_Polite_Impolite	6	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A20VN	Female	Some college, no degree	english	57	Neg_Morph_Polite_Impolite	7	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A3PIU	Male	Bachelors degree	English	40	Neg_Morph_Polite_Impolite	7	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A1SHL	Female	Bachelors degree	english	55	Neg_Morph_Polite_Impolite	5	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+AX3N0	Male	Bachelors degree	English	29	Neg_Morph_Polite_Impolite	7	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A2FOB	Female	Some High School	english	27	Neg_Morph_Polite_Impolite	5	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Neg_Morph_Polite_Impolite	7	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A12IH	Male	High School Graduate	English	36	Neg_Morph_Polite_Impolite	1	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A10M9	Female	Bachelors degree	English	32	Neg_Morph_Polite_Impolite	5	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+ANO5I	Male	Bachelors degree	English	31	Neg_Morph_Polite_Impolite	1	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A23FE	Male	Associates degree	english	48	Neg_Morph_Polite_Impolite	6	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A1PTY	Female	Bachelors degree	english	31	Neg_Morph_Polite_Impolite	7	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Neg_Morph_Polite_Impolite	7	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A3KEU	Male	Associates degree	english	48	Neg_Morph_Polite_Impolite	6	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A39DP	Female	Bachelors degree	English	28	Neg_Morph_Polite_Impolite	6	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Morph_Polite_Impolite	1	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Neg_Morph_Polite_Impolite	7	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+ADOA6	Female	Bachelors degree	English	28	Neg_Morph_Polite_Impolite	7	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+AQ3OF	Female	Bachelors degree	english	28	Neg_Morph_Polite_Impolite	7	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A2T2R	Male	Some college, no degree	English	33	Neg_Morph_Polite_Impolite	6	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+ALCSN	Female	Bachelors degree	english	28	Neg_Morph_Polite_Impolite	6	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+AZCGS	Male	Some High School	English	25	Neg_Morph_Polite_Impolite	5	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A2GJY	Female	Some college, no degree	English	24	Neg_Morph_Polite_Impolite	1	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Neg_Morph_Polite_Impolite	5	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A3OT6	Male	Bachelors degree	english	28	Neg_Morph_Polite_Impolite	6	Neg	Morph	Polite	Impolite	b	Polite_Impolite	impolite
+A1CVZ	Male	Bachelors degree	english	28	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A1PFG	Male	Bachelors degree	ENGLISH	31	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+AYWVS	Male	Associates degree	English	31	Neg_Morph_Possible_Impossible	5	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A20VN	Female	Some college, no degree	english	57	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A3PIU	Male	Bachelors degree	English	40	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A1SHL	Female	Bachelors degree	english	55	Neg_Morph_Possible_Impossible	5	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+AX3N0	Male	Bachelors degree	English	29	Neg_Morph_Possible_Impossible	1	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A2FOB	Female	Some High School	english	27	Neg_Morph_Possible_Impossible	5	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A12IH	Male	High School Graduate	English	36	Neg_Morph_Possible_Impossible	5	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A10M9	Female	Bachelors degree	English	32	Neg_Morph_Possible_Impossible	6	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+ANO5I	Male	Bachelors degree	English	31	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A23FE	Male	Associates degree	english	48	Neg_Morph_Possible_Impossible	5	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A1PTY	Female	Bachelors degree	english	31	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A3KEU	Male	Associates degree	english	48	Neg_Morph_Possible_Impossible	5	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A39DP	Female	Bachelors degree	English	28	Neg_Morph_Possible_Impossible	4	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+ADOA6	Female	Bachelors degree	English	28	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+AQ3OF	Female	Bachelors degree	english	28	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A2T2R	Male	Some college, no degree	English	33	Neg_Morph_Possible_Impossible	6	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+ALCSN	Female	Bachelors degree	english	28	Neg_Morph_Possible_Impossible	6	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+AZCGS	Male	Some High School	English	25	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A2GJY	Female	Some college, no degree	English	24	Neg_Morph_Possible_Impossible	7	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Neg_Morph_Possible_Impossible	3	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A3OT6	Male	Bachelors degree	english	28	Neg_Morph_Possible_Impossible	4	Neg	Morph	Possible	Impossible	b	Possible_Impossible	impossible
+A1CVZ	Male	Bachelors degree	english	28	Neg_Morph_Satisfactory_Unsatisfactory	7	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A1PFG	Male	Bachelors degree	ENGLISH	31	Neg_Morph_Satisfactory_Unsatisfactory	7	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+AYWVS	Male	Associates degree	English	31	Neg_Morph_Satisfactory_Unsatisfactory	7	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A20VN	Female	Some college, no degree	english	57	Neg_Morph_Satisfactory_Unsatisfactory	7	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A3PIU	Male	Bachelors degree	English	40	Neg_Morph_Satisfactory_Unsatisfactory	7	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A1SHL	Female	Bachelors degree	english	55	Neg_Morph_Satisfactory_Unsatisfactory	5	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+AX3N0	Male	Bachelors degree	English	29	Neg_Morph_Satisfactory_Unsatisfactory	7	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A2FOB	Female	Some High School	english	27	Neg_Morph_Satisfactory_Unsatisfactory	4	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Neg_Morph_Satisfactory_Unsatisfactory	7	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A12IH	Male	High School Graduate	English	36	Neg_Morph_Satisfactory_Unsatisfactory	6	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A10M9	Female	Bachelors degree	English	32	Neg_Morph_Satisfactory_Unsatisfactory	6	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+ANO5I	Male	Bachelors degree	English	31	Neg_Morph_Satisfactory_Unsatisfactory	6	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A23FE	Male	Associates degree	english	48	Neg_Morph_Satisfactory_Unsatisfactory	5	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A1PTY	Female	Bachelors degree	english	31	Neg_Morph_Satisfactory_Unsatisfactory	5	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Neg_Morph_Satisfactory_Unsatisfactory	7	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A3KEU	Male	Associates degree	english	48	Neg_Morph_Satisfactory_Unsatisfactory	6	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A39DP	Female	Bachelors degree	English	28	Neg_Morph_Satisfactory_Unsatisfactory	6	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Morph_Satisfactory_Unsatisfactory	1	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Neg_Morph_Satisfactory_Unsatisfactory	1	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+ADOA6	Female	Bachelors degree	English	28	Neg_Morph_Satisfactory_Unsatisfactory	7	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+AQ3OF	Female	Bachelors degree	english	28	Neg_Morph_Satisfactory_Unsatisfactory	7	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A2T2R	Male	Some college, no degree	English	33	Neg_Morph_Satisfactory_Unsatisfactory	5	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+ALCSN	Female	Bachelors degree	english	28	Neg_Morph_Satisfactory_Unsatisfactory	6	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+AZCGS	Male	Some High School	English	25	Neg_Morph_Satisfactory_Unsatisfactory	6	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A2GJY	Female	Some college, no degree	English	24	Neg_Morph_Satisfactory_Unsatisfactory	7	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Neg_Morph_Satisfactory_Unsatisfactory	3	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A3OT6	Male	Bachelors degree	english	28	Neg_Morph_Satisfactory_Unsatisfactory	3	Neg	Morph	Satisfactory	Unsatisfactory	b	Satisfactory_Unsatisfactory	unsatisfactory
+A1CVZ	Male	Bachelors degree	english	28	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A1PFG	Male	Bachelors degree	ENGLISH	31	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+AYWVS	Male	Associates degree	English	31	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A20VN	Female	Some college, no degree	english	57	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A3PIU	Male	Bachelors degree	English	40	Neg_Nonmorph_Happy_Sad	5	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A1SHL	Female	Bachelors degree	english	55	Neg_Nonmorph_Happy_Sad	5	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+AX3N0	Male	Bachelors degree	English	29	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A2FOB	Female	Some High School	english	27	Neg_Nonmorph_Happy_Sad	6	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A12IH	Male	High School Graduate	English	36	Neg_Nonmorph_Happy_Sad	6	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A10M9	Female	Bachelors degree	English	32	Neg_Nonmorph_Happy_Sad	5	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+ANO5I	Male	Bachelors degree	English	31	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A23FE	Male	Associates degree	english	48	Neg_Nonmorph_Happy_Sad	6	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A1PTY	Female	Bachelors degree	english	31	Neg_Nonmorph_Happy_Sad	6	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A3KEU	Male	Associates degree	english	48	Neg_Nonmorph_Happy_Sad	5	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A39DP	Female	Bachelors degree	English	28	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Nonmorph_Happy_Sad	6	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+ADOA6	Female	Bachelors degree	English	28	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+AQ3OF	Female	Bachelors degree	english	28	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A2T2R	Male	Some college, no degree	English	33	Neg_Nonmorph_Happy_Sad	6	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+ALCSN	Female	Bachelors degree	english	28	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+AZCGS	Male	Some High School	English	25	Neg_Nonmorph_Happy_Sad	5	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A2GJY	Female	Some college, no degree	English	24	Neg_Nonmorph_Happy_Sad	7	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Neg_Nonmorph_Happy_Sad	6	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A3OT6	Male	Bachelors degree	english	28	Neg_Nonmorph_Happy_Sad	3	Neg	Nonmorph	Happy	Sad	b	Happy_Sad	sad
+A1CVZ	Male	Bachelors degree	english	28	Neg_Nonmorph_Long_Short	7	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A1PFG	Male	Bachelors degree	ENGLISH	31	Neg_Nonmorph_Long_Short	7	Neg	Nonmorph	Long	Short	b	Long_Short	short
+AYWVS	Male	Associates degree	English	31	Neg_Nonmorph_Long_Short	7	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A20VN	Female	Some college, no degree	english	57	Neg_Nonmorph_Long_Short	7	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A3PIU	Male	Bachelors degree	English	40	Neg_Nonmorph_Long_Short	6	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A1SHL	Female	Bachelors degree	english	55	Neg_Nonmorph_Long_Short	5	Neg	Nonmorph	Long	Short	b	Long_Short	short
+AX3N0	Male	Bachelors degree	English	29	Neg_Nonmorph_Long_Short	7	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A2FOB	Female	Some High School	english	27	Neg_Nonmorph_Long_Short	4	Neg	Nonmorph	Long	Short	b	Long_Short	short
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Neg_Nonmorph_Long_Short	5	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A12IH	Male	High School Graduate	English	36	Neg_Nonmorph_Long_Short	7	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A10M9	Female	Bachelors degree	English	32	Neg_Nonmorph_Long_Short	3	Neg	Nonmorph	Long	Short	b	Long_Short	short
+ANO5I	Male	Bachelors degree	English	31	Neg_Nonmorph_Long_Short	7	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A23FE	Male	Associates degree	english	48	Neg_Nonmorph_Long_Short	6	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A1PTY	Female	Bachelors degree	english	31	Neg_Nonmorph_Long_Short	5	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Neg_Nonmorph_Long_Short	6	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A3KEU	Male	Associates degree	english	48	Neg_Nonmorph_Long_Short	NA	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A39DP	Female	Bachelors degree	English	28	Neg_Nonmorph_Long_Short	5	Neg	Nonmorph	Long	Short	b	Long_Short	short
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Nonmorph_Long_Short	6	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Neg_Nonmorph_Long_Short	7	Neg	Nonmorph	Long	Short	b	Long_Short	short
+ADOA6	Female	Bachelors degree	English	28	Neg_Nonmorph_Long_Short	7	Neg	Nonmorph	Long	Short	b	Long_Short	short
+AQ3OF	Female	Bachelors degree	english	28	Neg_Nonmorph_Long_Short	7	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A2T2R	Male	Some college, no degree	English	33	Neg_Nonmorph_Long_Short	7	Neg	Nonmorph	Long	Short	b	Long_Short	short
+ALCSN	Female	Bachelors degree	english	28	Neg_Nonmorph_Long_Short	6	Neg	Nonmorph	Long	Short	b	Long_Short	short
+AZCGS	Male	Some High School	English	25	Neg_Nonmorph_Long_Short	4	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A2GJY	Female	Some college, no degree	English	24	Neg_Nonmorph_Long_Short	7	Neg	Nonmorph	Long	Short	b	Long_Short	short
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Neg_Nonmorph_Long_Short	4	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A3OT6	Male	Bachelors degree	english	28	Neg_Nonmorph_Long_Short	6	Neg	Nonmorph	Long	Short	b	Long_Short	short
+A1CVZ	Male	Bachelors degree	english	28	Neg_Nonmorph_Polite_Rude	7	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A1PFG	Male	Bachelors degree	ENGLISH	31	Neg_Nonmorph_Polite_Rude	7	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+AYWVS	Male	Associates degree	English	31	Neg_Nonmorph_Polite_Rude	3	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A20VN	Female	Some college, no degree	english	57	Neg_Nonmorph_Polite_Rude	7	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A3PIU	Male	Bachelors degree	English	40	Neg_Nonmorph_Polite_Rude	7	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A1SHL	Female	Bachelors degree	english	55	Neg_Nonmorph_Polite_Rude	5	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+AX3N0	Male	Bachelors degree	English	29	Neg_Nonmorph_Polite_Rude	7	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A2FOB	Female	Some High School	english	27	Neg_Nonmorph_Polite_Rude	4	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Neg_Nonmorph_Polite_Rude	7	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A12IH	Male	High School Graduate	English	36	Neg_Nonmorph_Polite_Rude	3	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A10M9	Female	Bachelors degree	English	32	Neg_Nonmorph_Polite_Rude	3	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+ANO5I	Male	Bachelors degree	English	31	Neg_Nonmorph_Polite_Rude	7	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A23FE	Male	Associates degree	english	48	Neg_Nonmorph_Polite_Rude	5	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A1PTY	Female	Bachelors degree	english	31	Neg_Nonmorph_Polite_Rude	5	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Neg_Nonmorph_Polite_Rude	1	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A3KEU	Male	Associates degree	english	48	Neg_Nonmorph_Polite_Rude	5	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A39DP	Female	Bachelors degree	English	28	Neg_Nonmorph_Polite_Rude	6	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Nonmorph_Polite_Rude	6	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Neg_Nonmorph_Polite_Rude	7	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+ADOA6	Female	Bachelors degree	English	28	Neg_Nonmorph_Polite_Rude	7	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+AQ3OF	Female	Bachelors degree	english	28	Neg_Nonmorph_Polite_Rude	7	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A2T2R	Male	Some college, no degree	English	33	Neg_Nonmorph_Polite_Rude	7	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+ALCSN	Female	Bachelors degree	english	28	Neg_Nonmorph_Polite_Rude	7	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+AZCGS	Male	Some High School	English	25	Neg_Nonmorph_Polite_Rude	6	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A2GJY	Female	Some college, no degree	English	24	Neg_Nonmorph_Polite_Rude	7	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Neg_Nonmorph_Polite_Rude	3	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A3OT6	Male	Bachelors degree	english	28	Neg_Nonmorph_Polite_Rude	2	Neg	Nonmorph	Polite	Rude	b	Polite_Rude	rude
+A1CVZ	Male	Bachelors degree	english	28	Neg_Nonmorph_Rich_Poor	7	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A1PFG	Male	Bachelors degree	ENGLISH	31	Neg_Nonmorph_Rich_Poor	7	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+AYWVS	Male	Associates degree	English	31	Neg_Nonmorph_Rich_Poor	4	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A20VN	Female	Some college, no degree	english	57	Neg_Nonmorph_Rich_Poor	5	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A3PIU	Male	Bachelors degree	English	40	Neg_Nonmorph_Rich_Poor	5	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A1SHL	Female	Bachelors degree	english	55	Neg_Nonmorph_Rich_Poor	5	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+AX3N0	Male	Bachelors degree	English	29	Neg_Nonmorph_Rich_Poor	7	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A2FOB	Female	Some High School	english	27	Neg_Nonmorph_Rich_Poor	5	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Neg_Nonmorph_Rich_Poor	7	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A12IH	Male	High School Graduate	English	36	Neg_Nonmorph_Rich_Poor	7	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A10M9	Female	Bachelors degree	English	32	Neg_Nonmorph_Rich_Poor	6	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+ANO5I	Male	Bachelors degree	English	31	Neg_Nonmorph_Rich_Poor	7	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A23FE	Male	Associates degree	english	48	Neg_Nonmorph_Rich_Poor	6	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A1PTY	Female	Bachelors degree	english	31	Neg_Nonmorph_Rich_Poor	5	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Neg_Nonmorph_Rich_Poor	7	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A3KEU	Male	Associates degree	english	48	Neg_Nonmorph_Rich_Poor	6	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A39DP	Female	Bachelors degree	English	28	Neg_Nonmorph_Rich_Poor	NA	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Nonmorph_Rich_Poor	7	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Neg_Nonmorph_Rich_Poor	7	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+ADOA6	Female	Bachelors degree	English	28	Neg_Nonmorph_Rich_Poor	6	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+AQ3OF	Female	Bachelors degree	english	28	Neg_Nonmorph_Rich_Poor	7	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A2T2R	Male	Some college, no degree	English	33	Neg_Nonmorph_Rich_Poor	6	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+ALCSN	Female	Bachelors degree	english	28	Neg_Nonmorph_Rich_Poor	6	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+AZCGS	Male	Some High School	English	25	Neg_Nonmorph_Rich_Poor	4	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A2GJY	Female	Some college, no degree	English	24	Neg_Nonmorph_Rich_Poor	7	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Neg_Nonmorph_Rich_Poor	4	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A3OT6	Male	Bachelors degree	english	28	Neg_Nonmorph_Rich_Poor	3	Neg	Nonmorph	Rich	Poor	b	Rich_Poor	poor
+A1CVZ	Male	Bachelors degree	english	28	Neg_Nonmorph_Satisfactory_Frustrating	7	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A1PFG	Male	Bachelors degree	ENGLISH	31	Neg_Nonmorph_Satisfactory_Frustrating	6	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+AYWVS	Male	Associates degree	English	31	Neg_Nonmorph_Satisfactory_Frustrating	6	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A20VN	Female	Some college, no degree	english	57	Neg_Nonmorph_Satisfactory_Frustrating	7	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A3PIU	Male	Bachelors degree	English	40	Neg_Nonmorph_Satisfactory_Frustrating	5	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A1SHL	Female	Bachelors degree	english	55	Neg_Nonmorph_Satisfactory_Frustrating	5	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+AX3N0	Male	Bachelors degree	English	29	Neg_Nonmorph_Satisfactory_Frustrating	7	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A2FOB	Female	Some High School	english	27	Neg_Nonmorph_Satisfactory_Frustrating	5	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Neg_Nonmorph_Satisfactory_Frustrating	7	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A12IH	Male	High School Graduate	English	36	Neg_Nonmorph_Satisfactory_Frustrating	5	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A10M9	Female	Bachelors degree	English	32	Neg_Nonmorph_Satisfactory_Frustrating	6	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+ANO5I	Male	Bachelors degree	English	31	Neg_Nonmorph_Satisfactory_Frustrating	7	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A23FE	Male	Associates degree	english	48	Neg_Nonmorph_Satisfactory_Frustrating	6	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A1PTY	Female	Bachelors degree	english	31	Neg_Nonmorph_Satisfactory_Frustrating	7	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Neg_Nonmorph_Satisfactory_Frustrating	7	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A3KEU	Male	Associates degree	english	48	Neg_Nonmorph_Satisfactory_Frustrating	5	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A39DP	Female	Bachelors degree	English	28	Neg_Nonmorph_Satisfactory_Frustrating	5	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Neg_Nonmorph_Satisfactory_Frustrating	2	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Neg_Nonmorph_Satisfactory_Frustrating	7	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+ADOA6	Female	Bachelors degree	English	28	Neg_Nonmorph_Satisfactory_Frustrating	7	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+AQ3OF	Female	Bachelors degree	english	28	Neg_Nonmorph_Satisfactory_Frustrating	7	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A2T2R	Male	Some college, no degree	English	33	Neg_Nonmorph_Satisfactory_Frustrating	7	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+ALCSN	Female	Bachelors degree	english	28	Neg_Nonmorph_Satisfactory_Frustrating	7	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+AZCGS	Male	Some High School	English	25	Neg_Nonmorph_Satisfactory_Frustrating	6	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A2GJY	Female	Some college, no degree	English	24	Neg_Nonmorph_Satisfactory_Frustrating	7	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Neg_Nonmorph_Satisfactory_Frustrating	3	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A3OT6	Male	Bachelors degree	english	28	Neg_Nonmorph_Satisfactory_Frustrating	2	Neg	Nonmorph	Satisfactory	Frustrating	b	Satisfactory_Frustrating	frustrating
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A2EI0	Male	High School Graduate	English	42	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A3DHA	Male	High School Graduate	English	23	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A1XKL	Male	Some college, no degree	English	31	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A2C73	Male	High School Graduate	english	28	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+AHYTT	Female	Bachelors degree	english	37	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A53WV	Male	Some High School	english	26	Pos_Morph_Fair_Unfair	4	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A27VF	Female	High School Graduate	English	48	Pos_Morph_Fair_Unfair	6	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A1PMJ	Male	Bachelors degree	english	28	Pos_Morph_Fair_Unfair	6	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+AV5FC	Male	Some college, no degree	English	45	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A2WHC	Female	Bachelors degree	English	53	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A2ZDX	Male	Bachelors degree	English	30	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A3MFK	Male	Bachelors degree	English	36	Pos_Morph_Fair_Unfair	6	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A3QSJ	Female	Some college, no degree	English	37	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A2YGO	Male	Some college, no degree	english	38	Pos_Morph_Fair_Unfair	6	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A25FH	Female	Associates degree	english	53	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A190P	Female	Some college, no degree	English	28	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A1GF9	Female	Bachelors degree	english	26	Pos_Morph_Fair_Unfair	4	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A3OZ8	Male	Some college, no degree	English	54	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A1OIH	Male	Bachelors degree	English	27	Pos_Morph_Fair_Unfair	5	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A3ARC	Male	Bachelors degree	E	40	Pos_Morph_Fair_Unfair	NA	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+AWVL6	Female	Bachelors degree	English	29	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A2O7L	Male	High School Graduate	English	49	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A2BZY	Male	High School Graduate	English	31	Pos_Morph_Fair_Unfair	7	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A30UE	Female	Associates degree	english	31	Pos_Morph_Fair_Unfair	1	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A2Q4Z	Male	Bachelors degree	English	35	Pos_Morph_Fair_Unfair	6	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A2915	Male	Bachelors degree	American	28	Pos_Morph_Fair_Unfair	6	Pos	Morph	Fair	Unfair	a	Fair_Unfair	fair
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A2EI0	Male	High School Graduate	English	42	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A3DHA	Male	High School Graduate	English	23	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A1XKL	Male	Some college, no degree	English	31	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A2C73	Male	High School Graduate	english	28	Pos_Morph_Friendly_Unfriendly	4	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+AHYTT	Female	Bachelors degree	english	37	Pos_Morph_Friendly_Unfriendly	6	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A53WV	Male	Some High School	english	26	Pos_Morph_Friendly_Unfriendly	4	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A27VF	Female	High School Graduate	English	48	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A1PMJ	Male	Bachelors degree	english	28	Pos_Morph_Friendly_Unfriendly	3	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+AV5FC	Male	Some college, no degree	English	45	Pos_Morph_Friendly_Unfriendly	5	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A2WHC	Female	Bachelors degree	English	53	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A2ZDX	Male	Bachelors degree	English	30	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A3MFK	Male	Bachelors degree	English	36	Pos_Morph_Friendly_Unfriendly	4	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A3QSJ	Female	Some college, no degree	English	37	Pos_Morph_Friendly_Unfriendly	6	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A2YGO	Male	Some college, no degree	english	38	Pos_Morph_Friendly_Unfriendly	5	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A25FH	Female	Associates degree	english	53	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A190P	Female	Some college, no degree	English	28	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A1GF9	Female	Bachelors degree	english	26	Pos_Morph_Friendly_Unfriendly	4	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A3OZ8	Male	Some college, no degree	English	54	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A1OIH	Male	Bachelors degree	English	27	Pos_Morph_Friendly_Unfriendly	4	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A3ARC	Male	Bachelors degree	E	40	Pos_Morph_Friendly_Unfriendly	NA	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+AWVL6	Female	Bachelors degree	English	29	Pos_Morph_Friendly_Unfriendly	6	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A2O7L	Male	High School Graduate	English	49	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A2BZY	Male	High School Graduate	English	31	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A30UE	Female	Associates degree	english	31	Pos_Morph_Friendly_Unfriendly	1	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A2Q4Z	Male	Bachelors degree	English	35	Pos_Morph_Friendly_Unfriendly	5	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A2915	Male	Bachelors degree	American	28	Pos_Morph_Friendly_Unfriendly	7	Pos	Morph	Friendly	Unfriendly	a	Friendly_Unfriendly	friendly
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Pos_Morph_Polite_Impolite	7	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A2EI0	Male	High School Graduate	English	42	Pos_Morph_Polite_Impolite	7	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A3DHA	Male	High School Graduate	English	23	Pos_Morph_Polite_Impolite	6	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A1XKL	Male	Some college, no degree	English	31	Pos_Morph_Polite_Impolite	7	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A2C73	Male	High School Graduate	english	28	Pos_Morph_Polite_Impolite	4	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+AHYTT	Female	Bachelors degree	english	37	Pos_Morph_Polite_Impolite	6	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A53WV	Male	Some High School	english	26	Pos_Morph_Polite_Impolite	5	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A27VF	Female	High School Graduate	English	48	Pos_Morph_Polite_Impolite	6	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A1PMJ	Male	Bachelors degree	english	28	Pos_Morph_Polite_Impolite	6	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+AV5FC	Male	Some college, no degree	English	45	Pos_Morph_Polite_Impolite	5	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A2WHC	Female	Bachelors degree	English	53	Pos_Morph_Polite_Impolite	6	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A2ZDX	Male	Bachelors degree	English	30	Pos_Morph_Polite_Impolite	5	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A3MFK	Male	Bachelors degree	English	36	Pos_Morph_Polite_Impolite	5	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A3QSJ	Female	Some college, no degree	English	37	Pos_Morph_Polite_Impolite	6	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A2YGO	Male	Some college, no degree	english	38	Pos_Morph_Polite_Impolite	5	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A25FH	Female	Associates degree	english	53	Pos_Morph_Polite_Impolite	7	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Morph_Polite_Impolite	7	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A190P	Female	Some college, no degree	English	28	Pos_Morph_Polite_Impolite	7	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A1GF9	Female	Bachelors degree	english	26	Pos_Morph_Polite_Impolite	7	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A3OZ8	Male	Some college, no degree	English	54	Pos_Morph_Polite_Impolite	6	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A1OIH	Male	Bachelors degree	English	27	Pos_Morph_Polite_Impolite	3	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A3ARC	Male	Bachelors degree	E	40	Pos_Morph_Polite_Impolite	NA	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+AWVL6	Female	Bachelors degree	English	29	Pos_Morph_Polite_Impolite	7	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A2O7L	Male	High School Graduate	English	49	Pos_Morph_Polite_Impolite	7	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A2BZY	Male	High School Graduate	English	31	Pos_Morph_Polite_Impolite	7	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A30UE	Female	Associates degree	english	31	Pos_Morph_Polite_Impolite	7	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A2Q4Z	Male	Bachelors degree	English	35	Pos_Morph_Polite_Impolite	7	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A2915	Male	Bachelors degree	American	28	Pos_Morph_Polite_Impolite	6	Pos	Morph	Polite	Impolite	a	Polite_Impolite	polite
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Pos_Morph_Possible_Impossible	7	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A2EI0	Male	High School Graduate	English	42	Pos_Morph_Possible_Impossible	7	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A3DHA	Male	High School Graduate	English	23	Pos_Morph_Possible_Impossible	7	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A1XKL	Male	Some college, no degree	English	31	Pos_Morph_Possible_Impossible	7	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A2C73	Male	High School Graduate	english	28	Pos_Morph_Possible_Impossible	4	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+AHYTT	Female	Bachelors degree	english	37	Pos_Morph_Possible_Impossible	6	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A53WV	Male	Some High School	english	26	Pos_Morph_Possible_Impossible	4	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A27VF	Female	High School Graduate	English	48	Pos_Morph_Possible_Impossible	6	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A1PMJ	Male	Bachelors degree	english	28	Pos_Morph_Possible_Impossible	3	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+AV5FC	Male	Some college, no degree	English	45	Pos_Morph_Possible_Impossible	5	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A2WHC	Female	Bachelors degree	English	53	Pos_Morph_Possible_Impossible	7	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A2ZDX	Male	Bachelors degree	English	30	Pos_Morph_Possible_Impossible	7	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A3MFK	Male	Bachelors degree	English	36	Pos_Morph_Possible_Impossible	4	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A3QSJ	Female	Some college, no degree	English	37	Pos_Morph_Possible_Impossible	7	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A2YGO	Male	Some college, no degree	english	38	Pos_Morph_Possible_Impossible	6	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A25FH	Female	Associates degree	english	53	Pos_Morph_Possible_Impossible	4	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Morph_Possible_Impossible	7	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A190P	Female	Some college, no degree	English	28	Pos_Morph_Possible_Impossible	7	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A1GF9	Female	Bachelors degree	english	26	Pos_Morph_Possible_Impossible	1	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A3OZ8	Male	Some college, no degree	English	54	Pos_Morph_Possible_Impossible	6	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A1OIH	Male	Bachelors degree	English	27	Pos_Morph_Possible_Impossible	3	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A3ARC	Male	Bachelors degree	E	40	Pos_Morph_Possible_Impossible	NA	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+AWVL6	Female	Bachelors degree	English	29	Pos_Morph_Possible_Impossible	7	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A2O7L	Male	High School Graduate	English	49	Pos_Morph_Possible_Impossible	7	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A2BZY	Male	High School Graduate	English	31	Pos_Morph_Possible_Impossible	6	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A30UE	Female	Associates degree	english	31	Pos_Morph_Possible_Impossible	3	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A2Q4Z	Male	Bachelors degree	English	35	Pos_Morph_Possible_Impossible	6	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A2915	Male	Bachelors degree	American	28	Pos_Morph_Possible_Impossible	7	Pos	Morph	Possible	Impossible	a	Possible_Impossible	possible
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A2EI0	Male	High School Graduate	English	42	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A3DHA	Male	High School Graduate	English	23	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A1XKL	Male	Some college, no degree	English	31	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A2C73	Male	High School Graduate	english	28	Pos_Morph_Satisfactory_Unsatisfactory	3	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+AHYTT	Female	Bachelors degree	english	37	Pos_Morph_Satisfactory_Unsatisfactory	6	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A53WV	Male	Some High School	english	26	Pos_Morph_Satisfactory_Unsatisfactory	5	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A27VF	Female	High School Graduate	English	48	Pos_Morph_Satisfactory_Unsatisfactory	6	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A1PMJ	Male	Bachelors degree	english	28	Pos_Morph_Satisfactory_Unsatisfactory	4	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+AV5FC	Male	Some college, no degree	English	45	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A2WHC	Female	Bachelors degree	English	53	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A2ZDX	Male	Bachelors degree	English	30	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A3MFK	Male	Bachelors degree	English	36	Pos_Morph_Satisfactory_Unsatisfactory	4	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A3QSJ	Female	Some college, no degree	English	37	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A2YGO	Male	Some college, no degree	english	38	Pos_Morph_Satisfactory_Unsatisfactory	6	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A25FH	Female	Associates degree	english	53	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A190P	Female	Some college, no degree	English	28	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A1GF9	Female	Bachelors degree	english	26	Pos_Morph_Satisfactory_Unsatisfactory	4	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A3OZ8	Male	Some college, no degree	English	54	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A1OIH	Male	Bachelors degree	English	27	Pos_Morph_Satisfactory_Unsatisfactory	6	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A3ARC	Male	Bachelors degree	E	40	Pos_Morph_Satisfactory_Unsatisfactory	NA	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+AWVL6	Female	Bachelors degree	English	29	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A2O7L	Male	High School Graduate	English	49	Pos_Morph_Satisfactory_Unsatisfactory	6	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A2BZY	Male	High School Graduate	English	31	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A30UE	Female	Associates degree	english	31	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A2Q4Z	Male	Bachelors degree	English	35	Pos_Morph_Satisfactory_Unsatisfactory	6	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A2915	Male	Bachelors degree	American	28	Pos_Morph_Satisfactory_Unsatisfactory	7	Pos	Morph	Satisfactory	Unsatisfactory	a	Satisfactory_Unsatisfactory	satisfactory
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Pos_Nonmorph_Happy_Sad	7	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A2EI0	Male	High School Graduate	English	42	Pos_Nonmorph_Happy_Sad	7	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A3DHA	Male	High School Graduate	English	23	Pos_Nonmorph_Happy_Sad	5	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A1XKL	Male	Some college, no degree	English	31	Pos_Nonmorph_Happy_Sad	7	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A2C73	Male	High School Graduate	english	28	Pos_Nonmorph_Happy_Sad	4	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+AHYTT	Female	Bachelors degree	english	37	Pos_Nonmorph_Happy_Sad	6	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A53WV	Male	Some High School	english	26	Pos_Nonmorph_Happy_Sad	NA	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A27VF	Female	High School Graduate	English	48	Pos_Nonmorph_Happy_Sad	5	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A1PMJ	Male	Bachelors degree	english	28	Pos_Nonmorph_Happy_Sad	6	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+AV5FC	Male	Some college, no degree	English	45	Pos_Nonmorph_Happy_Sad	7	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A2WHC	Female	Bachelors degree	English	53	Pos_Nonmorph_Happy_Sad	4	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A2ZDX	Male	Bachelors degree	English	30	Pos_Nonmorph_Happy_Sad	6	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A3MFK	Male	Bachelors degree	English	36	Pos_Nonmorph_Happy_Sad	7	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A3QSJ	Female	Some college, no degree	English	37	Pos_Nonmorph_Happy_Sad	6	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A2YGO	Male	Some college, no degree	english	38	Pos_Nonmorph_Happy_Sad	4	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A25FH	Female	Associates degree	english	53	Pos_Nonmorph_Happy_Sad	7	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Nonmorph_Happy_Sad	NA	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A190P	Female	Some college, no degree	English	28	Pos_Nonmorph_Happy_Sad	7	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A1GF9	Female	Bachelors degree	english	26	Pos_Nonmorph_Happy_Sad	1	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A3OZ8	Male	Some college, no degree	English	54	Pos_Nonmorph_Happy_Sad	6	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A1OIH	Male	Bachelors degree	English	27	Pos_Nonmorph_Happy_Sad	4	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A3ARC	Male	Bachelors degree	E	40	Pos_Nonmorph_Happy_Sad	NA	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+AWVL6	Female	Bachelors degree	English	29	Pos_Nonmorph_Happy_Sad	6	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A2O7L	Male	High School Graduate	English	49	Pos_Nonmorph_Happy_Sad	6	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A2BZY	Male	High School Graduate	English	31	Pos_Nonmorph_Happy_Sad	7	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A30UE	Female	Associates degree	english	31	Pos_Nonmorph_Happy_Sad	5	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A2Q4Z	Male	Bachelors degree	English	35	Pos_Nonmorph_Happy_Sad	5	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A2915	Male	Bachelors degree	American	28	Pos_Nonmorph_Happy_Sad	6	Pos	Nonmorph	Happy	Sad	a	Happy_Sad	happy
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Pos_Nonmorph_Long_Short	7	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A2EI0	Male	High School Graduate	English	42	Pos_Nonmorph_Long_Short	4	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A3DHA	Male	High School Graduate	English	23	Pos_Nonmorph_Long_Short	5	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A1XKL	Male	Some college, no degree	English	31	Pos_Nonmorph_Long_Short	7	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A2C73	Male	High School Graduate	english	28	Pos_Nonmorph_Long_Short	4	Pos	Nonmorph	Long	Short	a	Long_Short	long
+AHYTT	Female	Bachelors degree	english	37	Pos_Nonmorph_Long_Short	7	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A53WV	Male	Some High School	english	26	Pos_Nonmorph_Long_Short	4	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A27VF	Female	High School Graduate	English	48	Pos_Nonmorph_Long_Short	5	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A1PMJ	Male	Bachelors degree	english	28	Pos_Nonmorph_Long_Short	5	Pos	Nonmorph	Long	Short	a	Long_Short	long
+AV5FC	Male	Some college, no degree	English	45	Pos_Nonmorph_Long_Short	6	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A2WHC	Female	Bachelors degree	English	53	Pos_Nonmorph_Long_Short	7	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A2ZDX	Male	Bachelors degree	English	30	Pos_Nonmorph_Long_Short	7	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A3MFK	Male	Bachelors degree	English	36	Pos_Nonmorph_Long_Short	4	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A3QSJ	Female	Some college, no degree	English	37	Pos_Nonmorph_Long_Short	6	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A2YGO	Male	Some college, no degree	english	38	Pos_Nonmorph_Long_Short	4	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A25FH	Female	Associates degree	english	53	Pos_Nonmorph_Long_Short	4	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Nonmorph_Long_Short	7	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A190P	Female	Some college, no degree	English	28	Pos_Nonmorph_Long_Short	7	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A1GF9	Female	Bachelors degree	english	26	Pos_Nonmorph_Long_Short	6	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A3OZ8	Male	Some college, no degree	English	54	Pos_Nonmorph_Long_Short	6	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A1OIH	Male	Bachelors degree	English	27	Pos_Nonmorph_Long_Short	5	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A3ARC	Male	Bachelors degree	E	40	Pos_Nonmorph_Long_Short	NA	Pos	Nonmorph	Long	Short	a	Long_Short	long
+AWVL6	Female	Bachelors degree	English	29	Pos_Nonmorph_Long_Short	7	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A2O7L	Male	High School Graduate	English	49	Pos_Nonmorph_Long_Short	6	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A2BZY	Male	High School Graduate	English	31	Pos_Nonmorph_Long_Short	7	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A30UE	Female	Associates degree	english	31	Pos_Nonmorph_Long_Short	5	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A2Q4Z	Male	Bachelors degree	English	35	Pos_Nonmorph_Long_Short	5	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A2915	Male	Bachelors degree	American	28	Pos_Nonmorph_Long_Short	7	Pos	Nonmorph	Long	Short	a	Long_Short	long
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Pos_Nonmorph_Polite_Rude	7	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A2EI0	Male	High School Graduate	English	42	Pos_Nonmorph_Polite_Rude	7	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A3DHA	Male	High School Graduate	English	23	Pos_Nonmorph_Polite_Rude	6	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A1XKL	Male	Some college, no degree	English	31	Pos_Nonmorph_Polite_Rude	7	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A2C73	Male	High School Graduate	english	28	Pos_Nonmorph_Polite_Rude	4	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+AHYTT	Female	Bachelors degree	english	37	Pos_Nonmorph_Polite_Rude	6	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A53WV	Male	Some High School	english	26	Pos_Nonmorph_Polite_Rude	4	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A27VF	Female	High School Graduate	English	48	Pos_Nonmorph_Polite_Rude	6	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A1PMJ	Male	Bachelors degree	english	28	Pos_Nonmorph_Polite_Rude	6	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+AV5FC	Male	Some college, no degree	English	45	Pos_Nonmorph_Polite_Rude	6	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A2WHC	Female	Bachelors degree	English	53	Pos_Nonmorph_Polite_Rude	5	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A2ZDX	Male	Bachelors degree	English	30	Pos_Nonmorph_Polite_Rude	5	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A3MFK	Male	Bachelors degree	English	36	Pos_Nonmorph_Polite_Rude	7	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A3QSJ	Female	Some college, no degree	English	37	Pos_Nonmorph_Polite_Rude	6	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A2YGO	Male	Some college, no degree	english	38	Pos_Nonmorph_Polite_Rude	5	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A25FH	Female	Associates degree	english	53	Pos_Nonmorph_Polite_Rude	4	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Nonmorph_Polite_Rude	7	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A190P	Female	Some college, no degree	English	28	Pos_Nonmorph_Polite_Rude	7	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A1GF9	Female	Bachelors degree	english	26	Pos_Nonmorph_Polite_Rude	7	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A3OZ8	Male	Some college, no degree	English	54	Pos_Nonmorph_Polite_Rude	7	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A1OIH	Male	Bachelors degree	English	27	Pos_Nonmorph_Polite_Rude	4	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A3ARC	Male	Bachelors degree	E	40	Pos_Nonmorph_Polite_Rude	NA	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+AWVL6	Female	Bachelors degree	English	29	Pos_Nonmorph_Polite_Rude	7	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A2O7L	Male	High School Graduate	English	49	Pos_Nonmorph_Polite_Rude	7	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A2BZY	Male	High School Graduate	English	31	Pos_Nonmorph_Polite_Rude	7	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A30UE	Female	Associates degree	english	31	Pos_Nonmorph_Polite_Rude	6	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A2Q4Z	Male	Bachelors degree	English	35	Pos_Nonmorph_Polite_Rude	6	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A2915	Male	Bachelors degree	American	28	Pos_Nonmorph_Polite_Rude	6	Pos	Nonmorph	Polite	Rude	a	Polite_Rude	polite
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Pos_Nonmorph_Rich_Poor	7	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A2EI0	Male	High School Graduate	English	42	Pos_Nonmorph_Rich_Poor	4	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A3DHA	Male	High School Graduate	English	23	Pos_Nonmorph_Rich_Poor	5	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A1XKL	Male	Some college, no degree	English	31	Pos_Nonmorph_Rich_Poor	7	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A2C73	Male	High School Graduate	english	28	Pos_Nonmorph_Rich_Poor	4	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+AHYTT	Female	Bachelors degree	english	37	Pos_Nonmorph_Rich_Poor	6	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A53WV	Male	Some High School	english	26	Pos_Nonmorph_Rich_Poor	5	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A27VF	Female	High School Graduate	English	48	Pos_Nonmorph_Rich_Poor	6	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A1PMJ	Male	Bachelors degree	english	28	Pos_Nonmorph_Rich_Poor	5	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+AV5FC	Male	Some college, no degree	English	45	Pos_Nonmorph_Rich_Poor	5	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A2WHC	Female	Bachelors degree	English	53	Pos_Nonmorph_Rich_Poor	4	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A2ZDX	Male	Bachelors degree	English	30	Pos_Nonmorph_Rich_Poor	4	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A3MFK	Male	Bachelors degree	English	36	Pos_Nonmorph_Rich_Poor	4	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A3QSJ	Female	Some college, no degree	English	37	Pos_Nonmorph_Rich_Poor	5	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A2YGO	Male	Some college, no degree	english	38	Pos_Nonmorph_Rich_Poor	4	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A25FH	Female	Associates degree	english	53	Pos_Nonmorph_Rich_Poor	4	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Nonmorph_Rich_Poor	7	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A190P	Female	Some college, no degree	English	28	Pos_Nonmorph_Rich_Poor	7	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A1GF9	Female	Bachelors degree	english	26	Pos_Nonmorph_Rich_Poor	5	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A3OZ8	Male	Some college, no degree	English	54	Pos_Nonmorph_Rich_Poor	5	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A1OIH	Male	Bachelors degree	English	27	Pos_Nonmorph_Rich_Poor	4	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A3ARC	Male	Bachelors degree	E	40	Pos_Nonmorph_Rich_Poor	NA	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+AWVL6	Female	Bachelors degree	English	29	Pos_Nonmorph_Rich_Poor	7	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A2O7L	Male	High School Graduate	English	49	Pos_Nonmorph_Rich_Poor	7	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A2BZY	Male	High School Graduate	English	31	Pos_Nonmorph_Rich_Poor	7	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A30UE	Female	Associates degree	english	31	Pos_Nonmorph_Rich_Poor	6	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A2Q4Z	Male	Bachelors degree	English	35	Pos_Nonmorph_Rich_Poor	6	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A2915	Male	Bachelors degree	American	28	Pos_Nonmorph_Rich_Poor	7	Pos	Nonmorph	Rich	Poor	a	Rich_Poor	rich
+A38RH	Female	Graduate degree (Masters, Doctorate, etc.)	english	30	Pos_Nonmorph_Satisfactory_Frustrating	7	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A2EI0	Male	High School Graduate	English	42	Pos_Nonmorph_Satisfactory_Frustrating	4	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A3DHA	Male	High School Graduate	English	23	Pos_Nonmorph_Satisfactory_Frustrating	5	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A1XKL	Male	Some college, no degree	English	31	Pos_Nonmorph_Satisfactory_Frustrating	7	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A2C73	Male	High School Graduate	english	28	Pos_Nonmorph_Satisfactory_Frustrating	4	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+AHYTT	Female	Bachelors degree	english	37	Pos_Nonmorph_Satisfactory_Frustrating	6	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A53WV	Male	Some High School	english	26	Pos_Nonmorph_Satisfactory_Frustrating	4	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A27VF	Female	High School Graduate	English	48	Pos_Nonmorph_Satisfactory_Frustrating	5	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A1PMJ	Male	Bachelors degree	english	28	Pos_Nonmorph_Satisfactory_Frustrating	2	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+AV5FC	Male	Some college, no degree	English	45	Pos_Nonmorph_Satisfactory_Frustrating	7	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A2WHC	Female	Bachelors degree	English	53	Pos_Nonmorph_Satisfactory_Frustrating	4	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A2ZDX	Male	Bachelors degree	English	30	Pos_Nonmorph_Satisfactory_Frustrating	6	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A3MFK	Male	Bachelors degree	English	36	Pos_Nonmorph_Satisfactory_Frustrating	4	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A3QSJ	Female	Some college, no degree	English	37	Pos_Nonmorph_Satisfactory_Frustrating	6	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A2YGO	Male	Some college, no degree	english	38	Pos_Nonmorph_Satisfactory_Frustrating	5	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A25FH	Female	Associates degree	english	53	Pos_Nonmorph_Satisfactory_Frustrating	4	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A32LH	Female	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Nonmorph_Satisfactory_Frustrating	7	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A190P	Female	Some college, no degree	English	28	Pos_Nonmorph_Satisfactory_Frustrating	7	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A1GF9	Female	Bachelors degree	english	26	Pos_Nonmorph_Satisfactory_Frustrating	7	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A3OZ8	Male	Some college, no degree	English	54	Pos_Nonmorph_Satisfactory_Frustrating	6	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A1OIH	Male	Bachelors degree	English	27	Pos_Nonmorph_Satisfactory_Frustrating	3	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A3ARC	Male	Bachelors degree	E	40	Pos_Nonmorph_Satisfactory_Frustrating	NA	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+AWVL6	Female	Bachelors degree	English	29	Pos_Nonmorph_Satisfactory_Frustrating	7	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A2O7L	Male	High School Graduate	English	49	Pos_Nonmorph_Satisfactory_Frustrating	6	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A2BZY	Male	High School Graduate	English	31	Pos_Nonmorph_Satisfactory_Frustrating	6	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A30UE	Female	Associates degree	english	31	Pos_Nonmorph_Satisfactory_Frustrating	5	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A2Q4Z	Male	Bachelors degree	English	35	Pos_Nonmorph_Satisfactory_Frustrating	5	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A2915	Male	Bachelors degree	American	28	Pos_Nonmorph_Satisfactory_Frustrating	7	Pos	Nonmorph	Satisfactory	Frustrating	a	Satisfactory_Frustrating	satisfactory
+A1CVZ	Male	Bachelors degree	english	28	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A1PFG	Male	Bachelors degree	ENGLISH	31	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+AYWVS	Male	Associates degree	English	31	Pos_Morph_Accurate_Inaccurate	5	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A20VN	Female	Some college, no degree	english	57	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A3PIU	Male	Bachelors degree	English	40	Pos_Morph_Accurate_Inaccurate	6	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A1SHL	Female	Bachelors degree	english	55	Pos_Morph_Accurate_Inaccurate	5	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+AX3N0	Male	Bachelors degree	English	29	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A2FOB	Female	Some High School	english	27	Pos_Morph_Accurate_Inaccurate	4	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A12IH	Male	High School Graduate	English	36	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A10M9	Female	Bachelors degree	English	32	Pos_Morph_Accurate_Inaccurate	4	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+ANO5I	Male	Bachelors degree	English	31	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A23FE	Male	Associates degree	english	48	Pos_Morph_Accurate_Inaccurate	5	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A1PTY	Female	Bachelors degree	english	31	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A3KEU	Male	Associates degree	english	48	Pos_Morph_Accurate_Inaccurate	4	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A39DP	Female	Bachelors degree	English	28	Pos_Morph_Accurate_Inaccurate	5	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+ADOA6	Female	Bachelors degree	English	28	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+AQ3OF	Female	Bachelors degree	english	28	Pos_Morph_Accurate_Inaccurate	1	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A2T2R	Male	Some college, no degree	English	33	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+ALCSN	Female	Bachelors degree	english	28	Pos_Morph_Accurate_Inaccurate	6	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+AZCGS	Male	Some High School	English	25	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A2GJY	Female	Some college, no degree	English	24	Pos_Morph_Accurate_Inaccurate	7	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Pos_Morph_Accurate_Inaccurate	3	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A3OT6	Male	Bachelors degree	english	28	Pos_Morph_Accurate_Inaccurate	3	Pos	Morph	Accurate	Inaccurate	b	Accurate_Inaccurate	accurate
+A1CVZ	Male	Bachelors degree	english	28	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A1PFG	Male	Bachelors degree	ENGLISH	31	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+AYWVS	Male	Associates degree	English	31	Pos_Morph_Certain_Uncertain	6	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A20VN	Female	Some college, no degree	english	57	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A3PIU	Male	Bachelors degree	English	40	Pos_Morph_Certain_Uncertain	5	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A1SHL	Female	Bachelors degree	english	55	Pos_Morph_Certain_Uncertain	6	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+AX3N0	Male	Bachelors degree	English	29	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A2FOB	Female	Some High School	english	27	Pos_Morph_Certain_Uncertain	6	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A12IH	Male	High School Graduate	English	36	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A10M9	Female	Bachelors degree	English	32	Pos_Morph_Certain_Uncertain	1	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+ANO5I	Male	Bachelors degree	English	31	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A23FE	Male	Associates degree	english	48	Pos_Morph_Certain_Uncertain	6	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A1PTY	Female	Bachelors degree	english	31	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A3KEU	Male	Associates degree	english	48	Pos_Morph_Certain_Uncertain	6	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A39DP	Female	Bachelors degree	English	28	Pos_Morph_Certain_Uncertain	6	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+ADOA6	Female	Bachelors degree	English	28	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+AQ3OF	Female	Bachelors degree	english	28	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A2T2R	Male	Some college, no degree	English	33	Pos_Morph_Certain_Uncertain	6	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+ALCSN	Female	Bachelors degree	english	28	Pos_Morph_Certain_Uncertain	6	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+AZCGS	Male	Some High School	English	25	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A2GJY	Female	Some college, no degree	English	24	Pos_Morph_Certain_Uncertain	7	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Pos_Morph_Certain_Uncertain	3	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A3OT6	Male	Bachelors degree	english	28	Pos_Morph_Certain_Uncertain	2	Pos	Morph	Certain	Uncertain	b	Certain_Uncertain	certain
+A1CVZ	Male	Bachelors degree	english	28	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A1PFG	Male	Bachelors degree	ENGLISH	31	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+AYWVS	Male	Associates degree	English	31	Pos_Morph_Happy_Unhappy	6	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A20VN	Female	Some college, no degree	english	57	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A3PIU	Male	Bachelors degree	English	40	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A1SHL	Female	Bachelors degree	english	55	Pos_Morph_Happy_Unhappy	6	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+AX3N0	Male	Bachelors degree	English	29	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A2FOB	Female	Some High School	english	27	Pos_Morph_Happy_Unhappy	6	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A12IH	Male	High School Graduate	English	36	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A10M9	Female	Bachelors degree	English	32	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+ANO5I	Male	Bachelors degree	English	31	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A23FE	Male	Associates degree	english	48	Pos_Morph_Happy_Unhappy	6	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A1PTY	Female	Bachelors degree	english	31	Pos_Morph_Happy_Unhappy	6	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A3KEU	Male	Associates degree	english	48	Pos_Morph_Happy_Unhappy	5	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A39DP	Female	Bachelors degree	English	28	Pos_Morph_Happy_Unhappy	4	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+ADOA6	Female	Bachelors degree	English	28	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+AQ3OF	Female	Bachelors degree	english	28	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A2T2R	Male	Some college, no degree	English	33	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+ALCSN	Female	Bachelors degree	english	28	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+AZCGS	Male	Some High School	English	25	Pos_Morph_Happy_Unhappy	6	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A2GJY	Female	Some college, no degree	English	24	Pos_Morph_Happy_Unhappy	7	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Pos_Morph_Happy_Unhappy	4	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A3OT6	Male	Bachelors degree	english	28	Pos_Morph_Happy_Unhappy	3	Pos	Morph	Happy	Unhappy	b	Happy_Unhappy	happy
+A1CVZ	Male	Bachelors degree	english	28	Pos_Morph_Interesting_Uninteresting	7	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A1PFG	Male	Bachelors degree	ENGLISH	31	Pos_Morph_Interesting_Uninteresting	6	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+AYWVS	Male	Associates degree	English	31	Pos_Morph_Interesting_Uninteresting	7	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A20VN	Female	Some college, no degree	english	57	Pos_Morph_Interesting_Uninteresting	7	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A3PIU	Male	Bachelors degree	English	40	Pos_Morph_Interesting_Uninteresting	6	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A1SHL	Female	Bachelors degree	english	55	Pos_Morph_Interesting_Uninteresting	5	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+AX3N0	Male	Bachelors degree	English	29	Pos_Morph_Interesting_Uninteresting	7	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A2FOB	Female	Some High School	english	27	Pos_Morph_Interesting_Uninteresting	5	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Pos_Morph_Interesting_Uninteresting	7	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A12IH	Male	High School Graduate	English	36	Pos_Morph_Interesting_Uninteresting	6	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A10M9	Female	Bachelors degree	English	32	Pos_Morph_Interesting_Uninteresting	5	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+ANO5I	Male	Bachelors degree	English	31	Pos_Morph_Interesting_Uninteresting	7	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A23FE	Male	Associates degree	english	48	Pos_Morph_Interesting_Uninteresting	5	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A1PTY	Female	Bachelors degree	english	31	Pos_Morph_Interesting_Uninteresting	7	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Pos_Morph_Interesting_Uninteresting	2	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A3KEU	Male	Associates degree	english	48	Pos_Morph_Interesting_Uninteresting	6	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A39DP	Female	Bachelors degree	English	28	Pos_Morph_Interesting_Uninteresting	6	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Morph_Interesting_Uninteresting	6	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Pos_Morph_Interesting_Uninteresting	7	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+ADOA6	Female	Bachelors degree	English	28	Pos_Morph_Interesting_Uninteresting	7	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+AQ3OF	Female	Bachelors degree	english	28	Pos_Morph_Interesting_Uninteresting	7	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A2T2R	Male	Some college, no degree	English	33	Pos_Morph_Interesting_Uninteresting	6	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+ALCSN	Female	Bachelors degree	english	28	Pos_Morph_Interesting_Uninteresting	6	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+AZCGS	Male	Some High School	English	25	Pos_Morph_Interesting_Uninteresting	7	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A2GJY	Female	Some college, no degree	English	24	Pos_Morph_Interesting_Uninteresting	7	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Pos_Morph_Interesting_Uninteresting	3	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A3OT6	Male	Bachelors degree	english	28	Pos_Morph_Interesting_Uninteresting	6	Pos	Morph	Interesting	Uninteresting	b	Interesting_Uninteresting	interesting
+A1CVZ	Male	Bachelors degree	english	28	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A1PFG	Male	Bachelors degree	ENGLISH	31	Pos_Morph_Lucky_Unlucky	1	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+AYWVS	Male	Associates degree	English	31	Pos_Morph_Lucky_Unlucky	6	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A20VN	Female	Some college, no degree	english	57	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A3PIU	Male	Bachelors degree	English	40	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A1SHL	Female	Bachelors degree	english	55	Pos_Morph_Lucky_Unlucky	5	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+AX3N0	Male	Bachelors degree	English	29	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A2FOB	Female	Some High School	english	27	Pos_Morph_Lucky_Unlucky	4	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A12IH	Male	High School Graduate	English	36	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A10M9	Female	Bachelors degree	English	32	Pos_Morph_Lucky_Unlucky	4	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+ANO5I	Male	Bachelors degree	English	31	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A23FE	Male	Associates degree	english	48	Pos_Morph_Lucky_Unlucky	6	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A1PTY	Female	Bachelors degree	english	31	Pos_Morph_Lucky_Unlucky	5	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A3KEU	Male	Associates degree	english	48	Pos_Morph_Lucky_Unlucky	5	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A39DP	Female	Bachelors degree	English	28	Pos_Morph_Lucky_Unlucky	4	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+ADOA6	Female	Bachelors degree	English	28	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+AQ3OF	Female	Bachelors degree	english	28	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A2T2R	Male	Some college, no degree	English	33	Pos_Morph_Lucky_Unlucky	6	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+ALCSN	Female	Bachelors degree	english	28	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+AZCGS	Male	Some High School	English	25	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A2GJY	Female	Some college, no degree	English	24	Pos_Morph_Lucky_Unlucky	7	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Pos_Morph_Lucky_Unlucky	4	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A3OT6	Male	Bachelors degree	english	28	Pos_Morph_Lucky_Unlucky	2	Pos	Morph	Lucky	Unlucky	b	Lucky_Unlucky	lucky
+A1CVZ	Male	Bachelors degree	english	28	Pos_Morph_Useful_Useless	7	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A1PFG	Male	Bachelors degree	ENGLISH	31	Pos_Morph_Useful_Useless	6	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+AYWVS	Male	Associates degree	English	31	Pos_Morph_Useful_Useless	7	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A20VN	Female	Some college, no degree	english	57	Pos_Morph_Useful_Useless	7	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A3PIU	Male	Bachelors degree	English	40	Pos_Morph_Useful_Useless	6	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A1SHL	Female	Bachelors degree	english	55	Pos_Morph_Useful_Useless	5	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+AX3N0	Male	Bachelors degree	English	29	Pos_Morph_Useful_Useless	1	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A2FOB	Female	Some High School	english	27	Pos_Morph_Useful_Useless	NA	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Pos_Morph_Useful_Useless	7	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A12IH	Male	High School Graduate	English	36	Pos_Morph_Useful_Useless	7	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A10M9	Female	Bachelors degree	English	32	Pos_Morph_Useful_Useless	6	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+ANO5I	Male	Bachelors degree	English	31	Pos_Morph_Useful_Useless	7	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A23FE	Male	Associates degree	english	48	Pos_Morph_Useful_Useless	6	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A1PTY	Female	Bachelors degree	english	31	Pos_Morph_Useful_Useless	6	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Pos_Morph_Useful_Useless	7	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A3KEU	Male	Associates degree	english	48	Pos_Morph_Useful_Useless	6	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A39DP	Female	Bachelors degree	English	28	Pos_Morph_Useful_Useless	5	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Morph_Useful_Useless	6	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Pos_Morph_Useful_Useless	7	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+ADOA6	Female	Bachelors degree	English	28	Pos_Morph_Useful_Useless	7	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+AQ3OF	Female	Bachelors degree	english	28	Pos_Morph_Useful_Useless	7	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A2T2R	Male	Some college, no degree	English	33	Pos_Morph_Useful_Useless	5	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+ALCSN	Female	Bachelors degree	english	28	Pos_Morph_Useful_Useless	7	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+AZCGS	Male	Some High School	English	25	Pos_Morph_Useful_Useless	7	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A2GJY	Female	Some college, no degree	English	24	Pos_Morph_Useful_Useless	7	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Pos_Morph_Useful_Useless	4	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A3OT6	Male	Bachelors degree	english	28	Pos_Morph_Useful_Useless	6	Pos	Morph	Useful	Useless	b	Useful_Useless	useful
+A1CVZ	Male	Bachelors degree	english	28	Pos_Nonmorph_Good_Bad	7	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A1PFG	Male	Bachelors degree	ENGLISH	31	Pos_Nonmorph_Good_Bad	NA	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+AYWVS	Male	Associates degree	English	31	Pos_Nonmorph_Good_Bad	7	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A20VN	Female	Some college, no degree	english	57	Pos_Nonmorph_Good_Bad	7	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A3PIU	Male	Bachelors degree	English	40	Pos_Nonmorph_Good_Bad	5	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A1SHL	Female	Bachelors degree	english	55	Pos_Nonmorph_Good_Bad	5	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+AX3N0	Male	Bachelors degree	English	29	Pos_Nonmorph_Good_Bad	7	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A2FOB	Female	Some High School	english	27	Pos_Nonmorph_Good_Bad	3	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Pos_Nonmorph_Good_Bad	7	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A12IH	Male	High School Graduate	English	36	Pos_Nonmorph_Good_Bad	6	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A10M9	Female	Bachelors degree	English	32	Pos_Nonmorph_Good_Bad	6	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+ANO5I	Male	Bachelors degree	English	31	Pos_Nonmorph_Good_Bad	7	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A23FE	Male	Associates degree	english	48	Pos_Nonmorph_Good_Bad	6	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A1PTY	Female	Bachelors degree	english	31	Pos_Nonmorph_Good_Bad	6	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Pos_Nonmorph_Good_Bad	1	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A3KEU	Male	Associates degree	english	48	Pos_Nonmorph_Good_Bad	2	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A39DP	Female	Bachelors degree	English	28	Pos_Nonmorph_Good_Bad	5	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Nonmorph_Good_Bad	7	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Pos_Nonmorph_Good_Bad	7	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+ADOA6	Female	Bachelors degree	English	28	Pos_Nonmorph_Good_Bad	7	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+AQ3OF	Female	Bachelors degree	english	28	Pos_Nonmorph_Good_Bad	7	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A2T2R	Male	Some college, no degree	English	33	Pos_Nonmorph_Good_Bad	7	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+ALCSN	Female	Bachelors degree	english	28	Pos_Nonmorph_Good_Bad	7	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+AZCGS	Male	Some High School	English	25	Pos_Nonmorph_Good_Bad	6	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A2GJY	Female	Some college, no degree	English	24	Pos_Nonmorph_Good_Bad	7	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Pos_Nonmorph_Good_Bad	3	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A3OT6	Male	Bachelors degree	english	28	Pos_Nonmorph_Good_Bad	5	Pos	Nonmorph	Good	Bad	b	Good_Bad	good
+A1CVZ	Male	Bachelors degree	english	28	Pos_Nonmorph_Kind_Mean	7	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A1PFG	Male	Bachelors degree	ENGLISH	31	Pos_Nonmorph_Kind_Mean	7	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+AYWVS	Male	Associates degree	English	31	Pos_Nonmorph_Kind_Mean	6	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A20VN	Female	Some college, no degree	english	57	Pos_Nonmorph_Kind_Mean	7	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A3PIU	Male	Bachelors degree	English	40	Pos_Nonmorph_Kind_Mean	6	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A1SHL	Female	Bachelors degree	english	55	Pos_Nonmorph_Kind_Mean	5	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+AX3N0	Male	Bachelors degree	English	29	Pos_Nonmorph_Kind_Mean	7	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A2FOB	Female	Some High School	english	27	Pos_Nonmorph_Kind_Mean	5	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Pos_Nonmorph_Kind_Mean	7	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A12IH	Male	High School Graduate	English	36	Pos_Nonmorph_Kind_Mean	7	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A10M9	Female	Bachelors degree	English	32	Pos_Nonmorph_Kind_Mean	6	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+ANO5I	Male	Bachelors degree	English	31	Pos_Nonmorph_Kind_Mean	7	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A23FE	Male	Associates degree	english	48	Pos_Nonmorph_Kind_Mean	6	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A1PTY	Female	Bachelors degree	english	31	Pos_Nonmorph_Kind_Mean	5	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Pos_Nonmorph_Kind_Mean	7	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A3KEU	Male	Associates degree	english	48	Pos_Nonmorph_Kind_Mean	6	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A39DP	Female	Bachelors degree	English	28	Pos_Nonmorph_Kind_Mean	5	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Nonmorph_Kind_Mean	6	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Pos_Nonmorph_Kind_Mean	1	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+ADOA6	Female	Bachelors degree	English	28	Pos_Nonmorph_Kind_Mean	7	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+AQ3OF	Female	Bachelors degree	english	28	Pos_Nonmorph_Kind_Mean	7	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A2T2R	Male	Some college, no degree	English	33	Pos_Nonmorph_Kind_Mean	5	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+ALCSN	Female	Bachelors degree	english	28	Pos_Nonmorph_Kind_Mean	1	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+AZCGS	Male	Some High School	English	25	Pos_Nonmorph_Kind_Mean	6	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A2GJY	Female	Some college, no degree	English	24	Pos_Nonmorph_Kind_Mean	7	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Pos_Nonmorph_Kind_Mean	3	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A3OT6	Male	Bachelors degree	english	28	Pos_Nonmorph_Kind_Mean	6	Pos	Nonmorph	Kind	Mean	b	Kind_Mean	kind
+A1CVZ	Male	Bachelors degree	english	28	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A1PFG	Male	Bachelors degree	ENGLISH	31	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+AYWVS	Male	Associates degree	English	31	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A20VN	Female	Some college, no degree	english	57	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A3PIU	Male	Bachelors degree	English	40	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A1SHL	Female	Bachelors degree	english	55	Pos_Nonmorph_Strong_Weak	5	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+AX3N0	Male	Bachelors degree	English	29	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A2FOB	Female	Some High School	english	27	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Pos_Nonmorph_Strong_Weak	5	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A12IH	Male	High School Graduate	English	36	Pos_Nonmorph_Strong_Weak	4	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A10M9	Female	Bachelors degree	English	32	Pos_Nonmorph_Strong_Weak	6	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+ANO5I	Male	Bachelors degree	English	31	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A23FE	Male	Associates degree	english	48	Pos_Nonmorph_Strong_Weak	NA	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A1PTY	Female	Bachelors degree	english	31	Pos_Nonmorph_Strong_Weak	6	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Pos_Nonmorph_Strong_Weak	1	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A3KEU	Male	Associates degree	english	48	Pos_Nonmorph_Strong_Weak	3	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A39DP	Female	Bachelors degree	English	28	Pos_Nonmorph_Strong_Weak	6	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+ADOA6	Female	Bachelors degree	English	28	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+AQ3OF	Female	Bachelors degree	english	28	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A2T2R	Male	Some college, no degree	English	33	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+ALCSN	Female	Bachelors degree	english	28	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+AZCGS	Male	Some High School	English	25	Pos_Nonmorph_Strong_Weak	5	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A2GJY	Female	Some college, no degree	English	24	Pos_Nonmorph_Strong_Weak	7	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Pos_Nonmorph_Strong_Weak	4	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A3OT6	Male	Bachelors degree	english	28	Pos_Nonmorph_Strong_Weak	4	Pos	Nonmorph	Strong	Weak	b	Strong_Weak	strong
+A1CVZ	Male	Bachelors degree	english	28	Pos_Nonmorph_Tall_Short	7	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A1PFG	Male	Bachelors degree	ENGLISH	31	Pos_Nonmorph_Tall_Short	7	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+AYWVS	Male	Associates degree	English	31	Pos_Nonmorph_Tall_Short	4	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A20VN	Female	Some college, no degree	english	57	Pos_Nonmorph_Tall_Short	7	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A3PIU	Male	Bachelors degree	English	40	Pos_Nonmorph_Tall_Short	5	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A1SHL	Female	Bachelors degree	english	55	Pos_Nonmorph_Tall_Short	5	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+AX3N0	Male	Bachelors degree	English	29	Pos_Nonmorph_Tall_Short	7	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A2FOB	Female	Some High School	english	27	Pos_Nonmorph_Tall_Short	4	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+ALTMS	Male	Graduate degree (Masters, Doctorate, etc.)	English	72	Pos_Nonmorph_Tall_Short	5	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A12IH	Male	High School Graduate	English	36	Pos_Nonmorph_Tall_Short	5	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A10M9	Female	Bachelors degree	English	32	Pos_Nonmorph_Tall_Short	6	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+ANO5I	Male	Bachelors degree	English	31	Pos_Nonmorph_Tall_Short	7	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A23FE	Male	Associates degree	english	48	Pos_Nonmorph_Tall_Short	6	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A1PTY	Female	Bachelors degree	english	31	Pos_Nonmorph_Tall_Short	6	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A8O6G	Male	Graduate degree (Masters, Doctorate, etc.)	English	58	Pos_Nonmorph_Tall_Short	1	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A3KEU	Male	Associates degree	english	48	Pos_Nonmorph_Tall_Short	6	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A39DP	Female	Bachelors degree	English	28	Pos_Nonmorph_Tall_Short	5	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+AFA88	Male	Graduate degree (Masters, Doctorate, etc.)	English	30	Pos_Nonmorph_Tall_Short	6	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A3DWK	Male	Graduate degree (Masters, Doctorate, etc.)	ENGLISH	25	Pos_Nonmorph_Tall_Short	7	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+ADOA6	Female	Bachelors degree	English	28	Pos_Nonmorph_Tall_Short	7	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+AQ3OF	Female	Bachelors degree	english	28	Pos_Nonmorph_Tall_Short	7	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A2T2R	Male	Some college, no degree	English	33	Pos_Nonmorph_Tall_Short	6	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+ALCSN	Female	Bachelors degree	english	28	Pos_Nonmorph_Tall_Short	7	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+AZCGS	Male	Some High School	English	25	Pos_Nonmorph_Tall_Short	7	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A2GJY	Female	Some college, no degree	English	24	Pos_Nonmorph_Tall_Short	7	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+AF5TV	Female	Graduate degree (Masters, Doctorate, etc.)	english	45	Pos_Nonmorph_Tall_Short	4	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
+A3OT6	Male	Bachelors degree	english	28	Pos_Nonmorph_Tall_Short	6	Pos	Nonmorph	Tall	Short	b	Tall_Short	tall
