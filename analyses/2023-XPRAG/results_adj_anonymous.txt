@@ -1,0 +1,1242 @@
+	condition	predicate	response	slide_number	language	enjoyment	age	gender	education	participant_id	negated	valence	adjective
+0	nNegative	not rude	0.27	3	tomato	-1		Other	-1	1			rude
+1	nPositive	not tall	0.66	4	tomato	-1		Other	-1	1			tall
+2	nNegative	not unfair	0.34	5	tomato	-1		Other	-1	1			unfair
+3	nNegative	not short	0.63	6	tomato	-1		Other	-1	1			short
+4	nPositive	not possible	0.08	7	tomato	-1		Other	-1	1			possible
+0	negative	short	0.48	3	blue	-1			-1	2			short
+1	nPositive	not kind	0.79	4	blue	-1			-1	2			kind
+2	nPositive	not polite	0.27	5	blue	-1			-1	2			polite
+3	nNegative	not unsatisfactory	0.5	6	blue	-1			-1	2			unsatisfactory
+0	nPositive	not accurate	0.83	3		-1			-1	3			accurate
+1	nPositive	not useful	0.28	4		-1			-1	3			useful
+2	positive	good	0.55	5		-1			-1	3			good
+3	positive	long	0.14	6		-1			-1	3			long
+4	nPositive	not polite	0.62	7		-1			-1	3			polite
+5	negative	uncertain	0.33	8		-1			-1	3			uncertain
+6	nNegative	not rude	0.68	9		-1			-1	3			rude
+0	negative	bad	0.54	3		-1			-1	4	false	negative	bad
+1	NPositive	not satisfactory	0.28	4		-1			-1	4	true	positive	satisfactory
+2	NPositive	not possible	0.7	5		-1			-1	4	true	positive	possible
+0	NNegative	not impolite	0.74	3		-1			-1	5	true	negative	impolite
+1	positive	strong	0.33	4		-1			-1	5	false	positive	strong
+0	negative	weak	0.59	3		-1			-1	6	false	negative	weak
+1	NPositive	not tall	0.15	4		-1			-1	6	true	positive	tall
+2	negative	short	0.82	5		-1			-1	6	false	negative	short
+3	negative	impolite	0.29	6		-1			-1	6	false	negative	impolite
+4	NNegative	not poor	0.3	7		-1			-1	6	true	negative	poor
+5	NNegative	not useless	0.59	8		-1			-1	6	true	negative	useless
+6	negative	unlucky	0.34	9		-1			-1	6	false	negative	unlucky
+7	negative	rude	0.74	10		-1			-1	6	false	negative	rude
+8	negative	bad	0.34	11		-1			-1	6	false	negative	bad
+9	NNegative	not unfriendly	0.57	12		-1			-1	6	true	negative	unfriendly
+10	NPositive	not satisfactory	0.45	13		-1			-1	6	true	positive	satisfactory
+11	NNegative	not uncertain	0.73	14		-1			-1	6	true	negative	uncertain
+12	NNegative	not sad	0.19	15		-1			-1	6	true	negative	sad
+13	NPositive	not possible	0.82	16		-1			-1	6	true	positive	possible
+14	NPositive	not kind	0.56	17		-1			-1	6	true	positive	kind
+15	NPositive	not happy	0.33	18		-1			-1	6	true	positive	happy
+16	negative	uninteresting	0.62	19		-1			-1	6	false	negative	uninteresting
+17	NNegative	not unfair	0.3	20		-1			-1	6	true	negative	unfair
+18	negative	unsatisfactory	0.69	21		-1			-1	6	false	negative	unsatisfactory
+19	NPositive	not accurate	0.4	22		-1			-1	6	true	positive	accurate
+0	NPositive	not polite	0.4	3	ENGLISH	2	31	Male	4	7	true	positive	polite
+1	NNegative	not unfair	0.36	4	ENGLISH	2	31	Male	4	7	true	negative	unfair
+2	negative	uninteresting	0.19	5	ENGLISH	2	31	Male	4	7	false	negative	uninteresting
+3	NPositive	not lucky	0.21	6	ENGLISH	2	31	Male	4	7	true	positive	lucky
+4	positive	certain	0.76	7	ENGLISH	2	31	Male	4	7	false	positive	certain
+5	NPositive	not friendly	0.45	8	ENGLISH	2	31	Male	4	7	true	positive	friendly
+6	positive	kind	0.63	9	ENGLISH	2	31	Male	4	7	false	positive	kind
+7	negative	useless	0.58	10	ENGLISH	2	31	Male	4	7	false	negative	useless
+8	negative	short	0.59	11	ENGLISH	2	31	Male	4	7	false	negative	short
+9	positive	rich	0.53	12	ENGLISH	2	31	Male	4	7	false	positive	rich
+10	NNegative	not inaccurate	0.26	13	ENGLISH	2	31	Male	4	7	true	negative	inaccurate
+11	NNegative	not short	0.28	14	ENGLISH	2	31	Male	4	7	true	negative	short
+12	NNegative	not unsatisfactory	0.25	15	ENGLISH	2	31	Male	4	7	true	negative	unsatisfactory
+13	positive	strong	0.5	16	ENGLISH	2	31	Male	4	7	false	positive	strong
+14	NPositive	not polite	0.25	17	ENGLISH	2	31	Male	4	7	true	positive	polite
+15	NNegative	not impossible	0.33	18	ENGLISH	2	31	Male	4	7	true	negative	impossible
+16	NNegative	not unhappy	0.28	19	ENGLISH	2	31	Male	4	7	true	negative	unhappy
+17	NNegative	not frustrating	0.3	20	ENGLISH	2	31	Male	4	7	true	negative	frustrating
+18	positive	good	0.45	21	ENGLISH	2	31	Male	4	7	false	positive	good
+19	positive	happy	0.5	22	ENGLISH	2	31	Male	4	7	false	positive	happy
+0	NPositive	not happy	0.94	3	English 	2	25	Male	2	8	true	positive	happy
+1	positive	rich	0.52	4	English 	2	25	Male	2	8	false	positive	rich
+2	positive	possible	0.3	5	English 	2	25	Male	2	8	false	positive	possible
+3	positive	fair	0.49	6	English 	2	25	Male	2	8	false	positive	fair
+4	NPositive	not certain	0.68	7	English 	2	25	Male	2	8	true	positive	certain
+5	NPositive	not useful	0.11	8	English 	2	25	Male	2	8	true	positive	useful
+6	NNegative	not unfriendly	0.48	9	English 	2	25	Male	2	8	true	negative	unfriendly
+7	NNegative	not mean	0.47	10	English 	2	25	Male	2	8	true	negative	mean
+8	positive	long	0.61	11	English 	2	25	Male	2	8	false	positive	long
+9	NNegative	not rude	0.56	12	English 	2	25	Male	2	8	true	negative	rude
+10	positive	good	0.7	13	English 	2	25	Male	2	8	false	positive	good
+11	NPositive	not polite	0.91	14	English 	2	25	Male	2	8	true	positive	polite
+12	NNegative	not inaccurate	0.15	15	English 	2	25	Male	2	8	true	negative	inaccurate
+13	positive	satisfactory	0.45	16	English 	2	25	Male	2	8	false	positive	satisfactory
+14	negative	unlucky	0.55	17	English 	2	25	Male	2	8	false	negative	unlucky
+15	NNegative	not uninteresting	0.6	18	English 	2	25	Male	2	8	true	negative	uninteresting
+16	NNegative	not unhappy	0.51	19	English 	2	25	Male	2	8	true	negative	unhappy
+17	NPositive	not tall	0.93	20	English 	2	25	Male	2	8	true	positive	tall
+18	positive	strong	0.61	21	English 	2	25	Male	2	8	false	positive	strong
+19	NPositive	not satisfactory	0.5	22	English 	2	25	Male	2	8	true	positive	satisfactory
+0	negative	uninteresting	0.7	3	English	2	33	Male	4	9	false	negative	uninteresting
+1	NPositive	not friendly	0.82	4	English	2	33	Male	4	9	true	positive	friendly
+2	negative	bad	0.56	5	English	2	33	Male	4	9	false	negative	bad
+3	NPositive	not polite	0.69	6	English	2	33	Male	4	9	true	positive	polite
+4	negative	unlucky	0.69	7	English	2	33	Male	4	9	false	negative	unlucky
+5	positive	useful	0.63	8	English	2	33	Male	4	9	false	positive	useful
+6	negative	unfair	0.66	9	English	2	33	Male	4	9	false	negative	unfair
+7	negative	uncertain	0.27	10	English	2	33	Male	4	9	false	negative	uncertain
+8	negative	sad	0.71	11	English	2	33	Male	4	9	false	negative	sad
+9	NPositive	not satisfactory	0.82	12	English	2	33	Male	4	9	true	positive	satisfactory
+10	negative	weak	0.43	13	English	2	33	Male	4	9	false	negative	weak
+11	positive	accurate	0.16	14	English	2	33	Male	4	9	false	positive	accurate
+12	NNegative	not impossible	0.56	15	English	2	33	Male	4	9	true	negative	impossible
+13	positive	tall	0.12	16	English	2	33	Male	4	9	false	positive	tall
+14	NPositive	not polite	0.82	17	English	2	33	Male	4	9	true	positive	polite
+15	positive	long	0.17	18	English	2	33	Male	4	9	false	positive	long
+16	negative	mean	0.7	19	English	2	33	Male	4	9	false	negative	mean
+17	positive	happy	0.74	20	English	2	33	Male	4	9	false	positive	happy
+18	NPositive	not satisfactory	0.6	21	English	2	33	Male	4	9	true	positive	satisfactory
+19	positive	rich	0.35	22	English	2	33	Male	4	9	false	positive	rich
+0	negative	unhappy	0.01	3	English	2	31	Male	4	10	false	negative	unhappy
+1	negative	inaccurate	0.03	4	English	2	31	Male	4	10	false	negative	inaccurate
+2	NPositive	not strong	0.98	5	English	2	31	Male	4	10	true	positive	strong
+3	positive	certain	0.02	6	English	2	31	Male	4	10	false	positive	certain
+4	NPositive	not fair	0.96	7	English	2	31	Male	4	10	true	positive	fair
+5	positive	satisfactory	0.98	8	English	2	31	Male	4	10	false	positive	satisfactory
+6	negative	short	0.95	9	English	2	31	Male	4	10	false	negative	short
+7	NPositive	not possible	0.01	10	English	2	31	Male	4	10	true	positive	possible
+8	negative	unlucky	0.0	11	English	2	31	Male	4	10	false	negative	unlucky
+9	NNegative	not mean	0.02	12	English	2	31	Male	4	10	true	negative	mean
+10	NPositive	not interesting	0.03	13	English	2	31	Male	4	10	true	positive	interesting
+11	positive	friendly	0.99	14	English	2	31	Male	4	10	false	positive	friendly
+12	negative	sad	0.98	15	English	2	31	Male	4	10	false	negative	sad
+13	negative	short	0.97	16	English	2	31	Male	4	10	false	negative	short
+14	NPositive	not polite	0.01	17	English	2	31	Male	4	10	true	positive	polite
+15	NPositive	not satisfactory	0.03	18	English	2	31	Male	4	10	true	positive	satisfactory
+16	positive	useful	0.97	19	English	2	31	Male	4	10	false	positive	useful
+17	negative	bad	0.95	20	English	2	31	Male	4	10	false	negative	bad
+18	NNegative	not impolite	0.01	21	English	2	31	Male	4	10	true	negative	impolite
+19	negative	poor	0.96	22	English	2	31	Male	4	10	false	negative	poor
+0	NPositive	not happy	0.0	3	English	2	41	Female	4	11	true	positive	happy
+1	positive	friendly	1.0	4	English	2	41	Female	4	11	false	positive	friendly
+2	negative	unlucky	0.0	5	English	2	41	Female	4	11	false	negative	unlucky
+3	negative	bad	0.0	6	English	2	41	Female	4	11	false	negative	bad
+4	NPositive	not polite	0.0	7	English	2	41	Female	4	11	true	positive	polite
+5	NNegative	not short	1.0	8	English	2	41	Female	4	11	true	negative	short
+6	NPositive	not fair	0.56	9	English	2	41	Female	4	11	true	positive	fair
+7	NNegative	not weak	0.49	10	English	2	41	Female	4	11	true	negative	weak
+8	NPositive	not rich	0.5	11	English	2	41	Female	4	11	true	positive	rich
+9	positive	useful	1.0	12	English	2	41	Female	4	11	false	positive	useful
+10	positive	satisfactory	1.0	13	English	2	41	Female	4	11	false	positive	satisfactory
+11	NPositive	not certain	0.48	14	English	2	41	Female	4	11	true	positive	certain
+12	NNegative	not unsatisfactory	0.51	15	English	2	41	Female	4	11	true	negative	unsatisfactory
+13	NNegative	not impossible	0.53	16	English	2	41	Female	4	11	true	negative	impossible
+14	NPositive	not interesting	0.49	17	English	2	41	Female	4	11	true	positive	interesting
+15	NNegative	not short	0.49	18	English	2	41	Female	4	11	true	negative	short
+16	NNegative	not mean	0.5	19	English	2	41	Female	4	11	true	negative	mean
+17	negative	inaccurate	0.48	20	English	2	41	Female	4	11	false	negative	inaccurate
+18	negative	unhappy	0.49	21	English	2	41	Female	4	11	false	negative	unhappy
+19	NPositive	not polite	0.49	22	English	2	41	Female	4	11	true	positive	polite
+0	negative	sad	0.98	3	English	1	48	Female	4	12	false	negative	sad
+1	NNegative	not impolite	0.35	4	English	1	48	Female	4	12	true	negative	impolite
+2	negative	unsatisfactory	0.41	5	English	1	48	Female	4	12	false	negative	unsatisfactory
+3	negative	uninteresting	0.95	6	English	1	48	Female	4	12	false	negative	uninteresting
+4	negative	unlucky	0.86	7	English	1	48	Female	4	12	false	negative	unlucky
+5	NPositive	not certain	0.41	8	English	1	48	Female	4	12	true	positive	certain
+6	NPositive	not fair	0.35	9	English	1	48	Female	4	12	true	positive	fair
+7	NNegative	not unhappy	0.95	10	English	1	48	Female	4	12	true	negative	unhappy
+8	positive	polite	0.4	11	English	1	48	Female	4	12	false	positive	polite
+9	positive	long	0.52	12	English	1	48	Female	4	12	false	positive	long
+10	positive	strong	0.51	13	English	1	48	Female	4	12	false	positive	strong
+11	NPositive	not possible	0.35	14	English	1	48	Female	4	12	true	positive	possible
+12	positive	accurate	0.58	15	English	1	48	Female	4	12	false	positive	accurate
+13	NNegative	not short	0.5	16	English	1	48	Female	4	12	true	negative	short
+14	NNegative	not unfriendly	0.5	17	English	1	48	Female	4	12	true	negative	unfriendly
+15	NNegative	not frustrating	0.49	18	English	1	48	Female	4	12	true	negative	frustrating
+16	positive	good	0.68	19	English	1	48	Female	4	12	false	positive	good
+17	NNegative	not mean	0.71	20	English	1	48	Female	4	12	true	negative	mean
+18	NNegative	not poor	0.25	21	English	1	48	Female	4	12	true	negative	poor
+19	NNegative	not useless	0.33	22	English	1	48	Female	4	12	true	negative	useless
+0	NPositive	not interesting	0.79	3	ENGLISH	1		Male	3	13	true	positive	interesting
+1	NPositive	not happy	1.0	4	ENGLISH	1		Male	3	13	true	positive	happy
+2	NPositive	not satisfactory	0.23	5	ENGLISH	1		Male	3	13	true	positive	satisfactory
+3	NNegative	not mean	0.2	6	ENGLISH	1		Male	3	13	true	negative	mean
+4	positive	good	1.0	7	ENGLISH	1		Male	3	13	false	positive	good
+5	negative	unfair	0.94	8	ENGLISH	1		Male	3	13	false	negative	unfair
+6	negative	unlucky	0.91	9	ENGLISH	1		Male	3	13	false	negative	unlucky
+7	negative	poor	1.0	10	ENGLISH	1		Male	3	13	false	negative	poor
+8	positive	tall	0.31	11	ENGLISH	1		Male	3	13	false	positive	tall
+9	NPositive	not long	0.1	12	ENGLISH	1		Male	3	13	true	positive	long
+10	positive	strong	0.55	13	ENGLISH	1		Male	3	13	false	positive	strong
+11	negative	inaccurate	0.62	14	ENGLISH	1		Male	3	13	false	negative	inaccurate
+12	negative	useless	0.78	15	ENGLISH	1		Male	3	13	false	negative	useless
+13	negative	uncertain	0.25	16	ENGLISH	1		Male	3	13	false	negative	uncertain
+14	NNegative	not rude	0.52	17	ENGLISH	1		Male	3	13	true	negative	rude
+15	NPositive	not possible	0.53	18	ENGLISH	1		Male	3	13	true	positive	possible
+16	negative	sad	0.92	19	ENGLISH	1		Male	3	13	false	negative	sad
+17	NNegative	not unfriendly	0.86	20	ENGLISH	1		Male	3	13	true	negative	unfriendly
+18	NNegative	not unsatisfactory	0.17	21	ENGLISH	1		Male	3	13	true	negative	unsatisfactory
+19	positive	polite	0.99	22	ENGLISH	1		Male	3	13	false	positive	polite
+0	negative	impossible	0.02	3	English	1	39	Female	2	14	false	negative	impossible
+1	NNegative	not mean	0.09	4	English	1	39	Female	2	14	true	negative	mean
+2	NPositive	not long	0.12	5	English	1	39	Female	2	14	true	positive	long
+3	negative	bad	0.14	6	English	1	39	Female	2	14	false	negative	bad
+4	negative	short	0.17	7	English	1	39	Female	2	14	false	negative	short
+5	NPositive	not friendly	0.1	8	English	1	39	Female	2	14	true	positive	friendly
+6	NPositive	not happy	0.06	9	English	1	39	Female	2	14	true	positive	happy
+7	positive	accurate	0.74	10	English	1	39	Female	2	14	false	positive	accurate
+8	NPositive	not useful	0.34	11	English	1	39	Female	2	14	true	positive	useful
+9	positive	satisfactory	0.1	12	English	1	39	Female	2	14	false	positive	satisfactory
+10	NPositive	not satisfactory	0.08	13	English	1	39	Female	2	14	true	positive	satisfactory
+11	NNegative	not uninteresting	0.06	14	English	1	39	Female	2	14	true	negative	uninteresting
+12	NPositive	not strong	0.11	15	English	1	39	Female	2	14	true	positive	strong
+13	NNegative	not rude	0.07	16	English	1	39	Female	2	14	true	negative	rude
+14	NNegative	not unfair	0.12	17	English	1	39	Female	2	14	true	negative	unfair
+15	NNegative	not poor	0.11	18	English	1	39	Female	2	14	true	negative	poor
+16	NPositive	not certain	0.47	19	English	1	39	Female	2	14	true	positive	certain
+17	positive	happy	0.07	20	English	1	39	Female	2	14	false	positive	happy
+18	NPositive	not lucky	0.11	21	English	1	39	Female	2	14	true	positive	lucky
+19	positive	polite	0.12	22	English	1	39	Female	2	14	false	positive	polite
+0	positive	polite	0.66	3	English 	2	68	Male	4	15	false	positive	polite
+1	NPositive	not happy	0.03	4	English 	2	68	Male	4	15	true	positive	happy
+2	NNegative	not uninteresting	0.98	5	English 	2	68	Male	4	15	true	negative	uninteresting
+3	negative	unfriendly	0.68	6	English 	2	68	Male	4	15	false	negative	unfriendly
+4	NNegative	not frustrating	0.98	7	English 	2	68	Male	4	15	true	negative	frustrating
+5	positive	lucky	0.55	8	English 	2	68	Male	4	15	false	positive	lucky
+6	NPositive	not tall	0.22	9	English 	2	68	Male	4	15	true	positive	tall
+7	positive	kind	0.76	10	English 	2	68	Male	4	15	false	positive	kind
+8	negative	unfair	0.91	11	English 	2	68	Male	4	15	false	negative	unfair
+9	NPositive	not possible	0.33	12	English 	2	68	Male	4	15	true	positive	possible
+10	NNegative	not impolite	0.68	13	English 	2	68	Male	4	15	true	negative	impolite
+11	NPositive	not satisfactory	0.98	14	English 	2	68	Male	4	15	true	positive	satisfactory
+12	NNegative	not useless	0.17	15	English 	2	68	Male	4	15	true	negative	useless
+13	positive	long	0.07	16	English 	2	68	Male	4	15	false	positive	long
+14	NPositive	not strong	0.11	17	English 	2	68	Male	4	15	true	positive	strong
+15	positive	happy	0.91	18	English 	2	68	Male	4	15	false	positive	happy
+16	NPositive	not rich	0.2	19	English 	2	68	Male	4	15	true	positive	rich
+17	positive	good	0.92	20	English 	2	68	Male	4	15	false	positive	good
+18	NNegative	not inaccurate	0.04	21	English 	2	68	Male	4	15	true	negative	inaccurate
+19	negative	uncertain	0.48	22	English 	2	68	Male	4	15	false	negative	uncertain
+0	NPositive	not tall	0.94	3	English 	2	33	Female	3	16	true	positive	tall
+1	NNegative	not impolite	0.59	4	English 	2	33	Female	3	16	true	negative	impolite
+2	negative	weak	0.97	5	English 	2	33	Female	3	16	false	negative	weak
+3	negative	useless	0.1	6	English 	2	33	Female	3	16	false	negative	useless
+4	positive	satisfactory	0.91	7	English 	2	33	Female	3	16	false	positive	satisfactory
+5	negative	unlucky	0.24	8	English 	2	33	Female	3	16	false	negative	unlucky
+6	NPositive	not possible	0.26	9	English 	2	33	Female	3	16	true	positive	possible
+7	positive	certain	0.38	10	English 	2	33	Female	3	16	false	positive	certain
+8	NPositive	not long	0.61	11	English 	2	33	Female	3	16	true	positive	long
+9	positive	happy	0.84	12	English 	2	33	Female	3	16	false	positive	happy
+10	negative	uninteresting	0.8	13	English 	2	33	Female	3	16	false	negative	uninteresting
+11	NPositive	not good	0.82	14	English 	2	33	Female	3	16	true	positive	good
+12	NPositive	not happy	0.88	15	English 	2	33	Female	3	16	true	positive	happy
+13	NNegative	not inaccurate	0.18	16	English 	2	33	Female	3	16	true	negative	inaccurate
+14	positive	satisfactory	0.92	17	English 	2	33	Female	3	16	false	positive	satisfactory
+15	negative	mean	0.77	18	English 	2	33	Female	3	16	false	negative	mean
+16	NPositive	not polite	0.86	19	English 	2	33	Female	3	16	true	positive	polite
+17	NNegative	not unfriendly	0.75	20	English 	2	33	Female	3	16	true	negative	unfriendly
+18	NPositive	not fair	0.36	21	English 	2	33	Female	3	16	true	positive	fair
+19	positive	rich	0.21	22	English 	2	33	Female	3	16	false	positive	rich
+0	negative	unfair	0.46	3	english	2	28	Male	3	17	false	negative	unfair
+1	negative	useless	0.67	4	english	2	28	Male	3	17	false	negative	useless
+2	NNegative	not inaccurate	0.71	5	english	2	28	Male	3	17	true	negative	inaccurate
+3	positive	interesting	0.69	6	english	2	28	Male	3	17	false	positive	interesting
+4	negative	unsatisfactory	0.63	7	english	2	28	Male	3	17	false	negative	unsatisfactory
+5	positive	kind	0.86	8	english	2	28	Male	3	17	false	positive	kind
+6	positive	polite	1.0	9	english	2	28	Male	3	17	false	positive	polite
+7	NPositive	not lucky	0.95	10	english	2	28	Male	3	17	true	positive	lucky
+8	NPositive	not good	0.88	11	english	2	28	Male	3	17	true	positive	good
+9	NPositive	not rich	0.21	12	english	2	28	Male	3	17	true	positive	rich
+10	NPositive	not polite	0.24	13	english	2	28	Male	3	17	true	positive	polite
+11	NNegative	not short	0.1	14	english	2	28	Male	3	17	true	negative	short
+12	negative	weak	0.81	15	english	2	28	Male	3	17	false	negative	weak
+13	NNegative	not uncertain	0.89	16	english	2	28	Male	3	17	true	negative	uncertain
+14	NPositive	not possible	0.86	17	english	2	28	Male	3	17	true	positive	possible
+15	NNegative	not short	0.87	18	english	2	28	Male	3	17	true	negative	short
+16	NNegative	not sad	0.93	19	english	2	28	Male	3	17	true	negative	sad
+17	positive	satisfactory	0.07	20	english	2	28	Male	3	17	false	positive	satisfactory
+18	NPositive	not friendly	0.92	21	english	2	28	Male	3	17	true	positive	friendly
+19	NPositive	not happy	0.9	22	english	2	28	Male	3	17	true	positive	happy
+0	NPositive	not long	0.64	3	English	1	28	Male	4	18	true	positive	long
+1	positive	polite	1.0	4	English	1	28	Male	4	18	false	positive	polite
+2	positive	lucky	0.09	5	English	1	28	Male	4	18	false	positive	lucky
+3	positive	accurate	0.09	6	English	1	28	Male	4	18	false	positive	accurate
+4	negative	useless	0.48	7	English	1	28	Male	4	18	false	negative	useless
+5	NPositive	not happy	0.95	8	English	1	28	Male	4	18	true	positive	happy
+6	NNegative	not mean	0.89	9	English	1	28	Male	4	18	true	negative	mean
+7	negative	sad	0.95	10	English	1	28	Male	4	18	false	negative	sad
+8	negative	weak	0.71	11	English	1	28	Male	4	18	false	negative	weak
+9	positive	fair	0.11	12	English	1	28	Male	4	18	false	positive	fair
+10	positive	good	0.32	13	English	1	28	Male	4	18	false	positive	good
+11	NNegative	not frustrating	0.87	14	English	1	28	Male	4	18	true	negative	frustrating
+12	negative	impolite	0.85	15	English	1	28	Male	4	18	false	negative	impolite
+13	negative	impossible	0.18	16	English	1	28	Male	4	18	false	negative	impossible
+14	NNegative	not uncertain	0.27	17	English	1	28	Male	4	18	true	negative	uncertain
+15	positive	rich	0.83	18	English	1	28	Male	4	18	false	positive	rich
+16	NPositive	not friendly	0.87	19	English	1	28	Male	4	18	true	positive	friendly
+17	NNegative	not short	0.17	20	English	1	28	Male	4	18	true	negative	short
+18	NPositive	not interesting	0.16	21	English	1	28	Male	4	18	true	positive	interesting
+19	positive	satisfactory	0.82	22	English	1	28	Male	4	18	false	positive	satisfactory
+0	NPositive	not happy	1.0	3	English	2	39	Female	2	19	true	positive	happy
+1	NPositive	not interesting	1.0	4	English	2	39	Female	2	19	true	positive	interesting
+2	positive	lucky	1.0	5	English	2	39	Female	2	19	false	positive	lucky
+3	NNegative	not unfair	0.4	6	English	2	39	Female	2	19	true	negative	unfair
+4	NPositive	not tall	0.22	7	English	2	39	Female	2	19	true	positive	tall
+5	NNegative	not bad	0.6	8	English	2	39	Female	2	19	true	negative	bad
+6	NNegative	not poor	0.61	9	English	2	39	Female	2	19	true	negative	poor
+7	negative	frustrating	1.0	10	English	2	39	Female	2	19	false	negative	frustrating
+8	NNegative	not unsatisfactory	0.31	11	English	2	39	Female	2	19	true	negative	unsatisfactory
+9	NNegative	not impossible	0.41	12	English	2	39	Female	2	19	true	negative	impossible
+10	NPositive	not long	0.17	13	English	2	39	Female	2	19	true	positive	long
+11	NNegative	not inaccurate	0.06	14	English	2	39	Female	2	19	true	negative	inaccurate
+12	NNegative	not weak	0.26	15	English	2	39	Female	2	19	true	negative	weak
+13	positive	happy	0.98	16	English	2	39	Female	2	19	false	positive	happy
+14	negative	mean	1.0	17	English	2	39	Female	2	19	false	negative	mean
+15	NNegative	not unfriendly	0.85	18	English	2	39	Female	2	19	true	negative	unfriendly
+16	NNegative	not rude	0.77	19	English	2	39	Female	2	19	true	negative	rude
+17	negative	impolite	0.62	20	English	2	39	Female	2	19	false	negative	impolite
+18	negative	uncertain	0.29	21	English	2	39	Female	2	19	false	negative	uncertain
+19	NPositive	not useful	0.18	22	English	2	39	Female	2	19	true	positive	useful
+0	positive	interesting	0.84	3	English	1	44	Male	3	20	false	positive	interesting
+1	NPositive	not happy	0.17	4	English	1	44	Male	3	20	true	positive	happy
+2	positive	possible	0.75	5	English	1	44	Male	3	20	false	positive	possible
+3	NPositive	not rich	0.66	6	English	1	44	Male	3	20	true	positive	rich
+4	negative	unlucky	0.29	7	English	1	44	Male	3	20	false	negative	unlucky
+5	positive	happy	0.81	8	English	1	44	Male	3	20	false	positive	happy
+6	negative	useless	0.93	9	English	1	44	Male	3	20	false	negative	useless
+7	NPositive	not fair	0.19	10	English	1	44	Male	3	20	true	positive	fair
+8	NNegative	not uncertain	0.97	11	English	1	44	Male	3	20	true	negative	uncertain
+9	negative	unfriendly	0.89	12	English	1	44	Male	3	20	false	negative	unfriendly
+10	positive	polite	0.82	13	English	1	44	Male	3	20	false	positive	polite
+11	negative	inaccurate	0.61	14	English	1	44	Male	3	20	false	negative	inaccurate
+12	positive	strong	0.89	15	English	1	44	Male	3	20	false	positive	strong
+13	NPositive	not satisfactory	0.21	16	English	1	44	Male	3	20	true	positive	satisfactory
+14	NPositive	not good	0.88	17	English	1	44	Male	3	20	true	positive	good
+15	NPositive	not long	0.71	18	English	1	44	Male	3	20	true	positive	long
+16	NPositive	not tall	0.64	19	English	1	44	Male	3	20	true	positive	tall
+17	positive	kind	0.62	20	English	1	44	Male	3	20	false	positive	kind
+18	NPositive	not satisfactory	0.51	21	English	1	44	Male	3	20	true	positive	satisfactory
+19	NNegative	not impolite	0.6	22	English	1	44	Male	3	20	true	negative	impolite
+0	negative	uncertain	0.85	3	english	1	28	Female	4	21	false	negative	uncertain
+1	NPositive	not polite	0.59	4	english	1	28	Female	4	21	true	positive	polite
+2	negative	frustrating	0.13	5	english	1	28	Female	4	21	false	negative	frustrating
+3	NPositive	not happy	0.72	6	english	1	28	Female	4	21	true	positive	happy
+4	NPositive	not interesting	1.0	7	english	1	28	Female	4	21	true	positive	interesting
+5	NPositive	not tall	0.65	8	english	1	28	Female	4	21	true	positive	tall
+6	NNegative	not unfriendly	0.09	9	english	1	28	Female	4	21	true	negative	unfriendly
+7	NPositive	not satisfactory	1.0	10	english	1	28	Female	4	21	true	positive	satisfactory
+8	negative	unfair	0.24	11	english	1	28	Female	4	21	false	negative	unfair
+9	NNegative	not inaccurate	0.86	12	english	1	28	Female	4	21	true	negative	inaccurate
+10	NNegative	not bad	1.0	13	english	1	28	Female	4	21	true	negative	bad
+11	negative	weak	1.0	14	english	1	28	Female	4	21	false	negative	weak
+12	NNegative	not poor	0.0	15	english	1	28	Female	4	21	true	negative	poor
+13	negative	rude	0.93	16	english	1	28	Female	4	21	false	negative	rude
+14	negative	unlucky	0.75	17	english	1	28	Female	4	21	false	negative	unlucky
+15	NNegative	not mean	0.94	18	english	1	28	Female	4	21	true	negative	mean
+16	positive	possible	1.0	19	english	1	28	Female	4	21	false	positive	possible
+17	NPositive	not useful	0.69	20	english	1	28	Female	4	21	true	positive	useful
+18	negative	unhappy	0.4	21	english	1	28	Female	4	21	false	negative	unhappy
+19	NPositive	not long	1.0	22	english	1	28	Female	4	21	true	positive	long
+0	NPositive	not possible	0.47	3	English Language	2	31	Male	3	22	true	positive	possible
+1	NPositive	not good	0.57	4	English Language	2	31	Male	3	22	true	positive	good
+2	negative	poor	0.94	5	English Language	2	31	Male	3	22	false	negative	poor
+3	negative	mean	0.9	6	English Language	2	31	Male	3	22	false	negative	mean
+4	NNegative	not unsatisfactory	0.48	7	English Language	2	31	Male	3	22	true	negative	unsatisfactory
+5	negative	sad	0.96	8	English Language	2	31	Male	3	22	false	negative	sad
+6	NPositive	not polite	0.46	9	English Language	2	31	Male	3	22	true	positive	polite
+7	positive	strong	0.93	10	English Language	2	31	Male	3	22	false	positive	strong
+8	positive	happy	0.97	11	English Language	2	31	Male	3	22	false	positive	happy
+9	NNegative	not uninteresting	0.55	12	English Language	2	31	Male	3	22	true	negative	uninteresting
+10	NPositive	not accurate	0.41	13	English Language	2	31	Male	3	22	true	positive	accurate
+11	NNegative	not uncertain	0.44	14	English Language	2	31	Male	3	22	true	negative	uncertain
+12	positive	tall	0.96	15	English Language	2	31	Male	3	22	false	positive	tall
+13	negative	unfair	0.38	16	English Language	2	31	Male	3	22	false	negative	unfair
+14	NPositive	not polite	0.56	17	English Language	2	31	Male	3	22	true	positive	polite
+15	NPositive	not lucky	0.65	18	English Language	2	31	Male	3	22	true	positive	lucky
+16	negative	unfriendly	0.8	19	English Language	2	31	Male	3	22	false	negative	unfriendly
+17	negative	frustrating	0.39	20	English Language	2	31	Male	3	22	false	negative	frustrating
+18	NNegative	not short	0.51	21	English Language	2	31	Male	3	22	true	negative	short
+19	NPositive	not useful	0.55	22	English Language	2	31	Male	3	22	true	positive	useful
+0	NNegative	not short	0.25	3	english	1	25	Male	3	23	true	negative	short
+1	positive	useful	0.81	4	english	1	25	Male	3	23	false	positive	useful
+2	negative	poor	0.19	5	english	1	25	Male	3	23	false	negative	poor
+3	negative	unlucky	0.22	6	english	1	25	Male	3	23	false	negative	unlucky
+4	NNegative	not unsatisfactory	0.51	7	english	1	25	Male	3	23	true	negative	unsatisfactory
+5	negative	uninteresting	0.4	8	english	1	25	Male	3	23	false	negative	uninteresting
+6	NPositive	not friendly	0.73	9	english	1	25	Male	3	23	true	positive	friendly
+7	NPositive	not polite	0.7	10	english	1	25	Male	3	23	true	positive	polite
+8	negative	mean	0.28	11	english	1	25	Male	3	23	false	negative	mean
+9	NNegative	not bad	0.61	12	english	1	25	Male	3	23	true	negative	bad
+10	NPositive	not happy	0.69	13	english	1	25	Male	3	23	true	positive	happy
+11	NNegative	not rude	0.68	14	english	1	25	Male	3	23	true	negative	rude
+12	NPositive	not strong	0.67	15	english	1	25	Male	3	23	true	positive	strong
+13	negative	frustrating	0.64	16	english	1	25	Male	3	23	false	negative	frustrating
+14	negative	short	0.4	17	english	1	25	Male	3	23	false	negative	short
+15	positive	accurate	0.35	18	english	1	25	Male	3	23	false	positive	accurate
+16	NPositive	not happy	0.64	19	english	1	25	Male	3	23	true	positive	happy
+17	NPositive	not possible	0.65	20	english	1	25	Male	3	23	true	positive	possible
+18	NPositive	not fair	0.65	21	english	1	25	Male	3	23	true	positive	fair
+19	negative	uncertain	0.59	22	english	1	25	Male	3	23	false	negative	uncertain
+0	positive	happy	0.76	3	english	1	40	Male	3	24	false	positive	happy
+1	NNegative	not mean	0.68	4	english	1	40	Male	3	24	true	negative	mean
+2	negative	uncertain	0.16	5	english	1	40	Male	3	24	false	negative	uncertain
+3	negative	unhappy	0.72	6	english	1	40	Male	3	24	false	negative	unhappy
+4	NNegative	not impolite	0.47	7	english	1	40	Male	3	24	true	negative	impolite
+5	NPositive	not interesting	0.91	8	english	1	40	Male	3	24	true	positive	interesting
+6	negative	short	0.29	9	english	1	40	Male	3	24	false	negative	short
+7	NNegative	not unlucky	0.64	10	english	1	40	Male	3	24	true	negative	unlucky
+8	positive	strong	0.29	11	english	1	40	Male	3	24	false	positive	strong
+9	negative	useless	0.61	12	english	1	40	Male	3	24	false	negative	useless
+10	negative	frustrating	0.83	13	english	1	40	Male	3	24	false	negative	frustrating
+11	positive	fair	0.62	14	english	1	40	Male	3	24	false	positive	fair
+12	NNegative	not unfriendly	0.42	15	english	1	40	Male	3	24	true	negative	unfriendly
+13	positive	rich	0.28	16	english	1	40	Male	3	24	false	positive	rich
+14	NPositive	not possible	0.25	17	english	1	40	Male	3	24	true	positive	possible
+15	positive	good	0.85	18	english	1	40	Male	3	24	false	positive	good
+16	positive	accurate	0.18	19	english	1	40	Male	3	24	false	positive	accurate
+17	NPositive	not satisfactory	0.72	20	english	1	40	Male	3	24	true	positive	satisfactory
+18	negative	rude	0.37	21	english	1	40	Male	3	24	false	negative	rude
+19	NPositive	not long	0.25	22	english	1	40	Male	3	24	true	positive	long
+0	NNegative	not unlucky	0.65	3	english	1	66	Female	4	25	true	negative	unlucky
+1	negative	bad	0.98	4	english	1	66	Female	4	25	false	negative	bad
+2	negative	mean	0.46	5	english	1	66	Female	4	25	false	negative	mean
+3	NPositive	not tall	0.49	6	english	1	66	Female	4	25	true	positive	tall
+4	negative	impossible	0.86	7	english	1	66	Female	4	25	false	negative	impossible
+5	negative	unfair	0.78	8	english	1	66	Female	4	25	false	negative	unfair
+6	negative	sad	0.75	9	english	1	66	Female	4	25	false	negative	sad
+7	NNegative	not frustrating	0.41	10	english	1	66	Female	4	25	true	negative	frustrating
+8	NPositive	not strong	0.49	11	english	1	66	Female	4	25	true	positive	strong
+9	positive	certain	0.9	12	english	1	66	Female	4	25	false	positive	certain
+10	negative	impolite	0.49	13	english	1	66	Female	4	25	false	negative	impolite
+11	NPositive	not happy	0.46	14	english	1	66	Female	4	25	true	positive	happy
+12	negative	unsatisfactory	0.9	15	english	1	66	Female	4	25	false	negative	unsatisfactory
+13	positive	polite	0.87	16	english	1	66	Female	4	25	false	positive	polite
+14	positive	friendly	0.85	17	english	1	66	Female	4	25	false	positive	friendly
+15	negative	poor	0.86	18	english	1	66	Female	4	25	false	negative	poor
+16	positive	useful	0.56	19	english	1	66	Female	4	25	false	positive	useful
+17	NNegative	not uninteresting	0.38	20	english	1	66	Female	4	25	true	negative	uninteresting
+18	negative	inaccurate	0.27	21	english	1	66	Female	4	25	false	negative	inaccurate
+19	negative	short	0.37	22	english	1	66	Female	4	25	false	negative	short
+0	negative	unlucky	0.63	3	English	2	38	Male	4	26	false	negative	unlucky
+1	NPositive	not rich	0.49	4	English	2	38	Male	4	26	true	positive	rich
+2	negative	rude	0.87	5	English	2	38	Male	4	26	false	negative	rude
+3	NPositive	not tall	0.05	6	English	2	38	Male	4	26	true	positive	tall
+4	NPositive	not fair	0.29	7	English	2	38	Male	4	26	true	positive	fair
+5	NNegative	not mean	0.54	8	English	2	38	Male	4	26	true	negative	mean
+6	NNegative	not unhappy	0.89	9	English	2	38	Male	4	26	true	negative	unhappy
+7	positive	friendly	0.86	10	English	2	38	Male	4	26	false	positive	friendly
+8	positive	accurate	0.84	11	English	2	38	Male	4	26	false	positive	accurate
+9	negative	uninteresting	0.78	12	English	2	38	Male	4	26	false	negative	uninteresting
+10	NNegative	not unsatisfactory	0.72	13	English	2	38	Male	4	26	true	negative	unsatisfactory
+11	negative	weak	0.61	14	English	2	38	Male	4	26	false	negative	weak
+12	NNegative	not short	0.65	15	English	2	38	Male	4	26	true	negative	short
+13	negative	useless	0.81	16	English	2	38	Male	4	26	false	negative	useless
+14	negative	sad	0.9	17	English	2	38	Male	4	26	false	negative	sad
+15	NNegative	not impolite	0.89	18	English	2	38	Male	4	26	true	negative	impolite
+16	positive	satisfactory	0.77	19	English	2	38	Male	4	26	false	positive	satisfactory
+17	negative	uncertain	0.94	20	English	2	38	Male	4	26	false	negative	uncertain
+18	NNegative	not bad	0.96	21	English	2	38	Male	4	26	true	negative	bad
+19	negative	impossible	0.87	22	English	2	38	Male	4	26	false	negative	impossible
+0	NPositive	not accurate	0.24	3	english	1	25	Male	3	27	true	positive	accurate
+1	NPositive	not lucky	0.48	4	english	1	25	Male	3	27	true	positive	lucky
+2	negative	uninteresting	0.75	5	english	1	25	Male	3	27	false	negative	uninteresting
+3	positive	happy	0.8	6	english	1	25	Male	3	27	false	positive	happy
+4	NNegative	not poor	0.23	7	english	1	25	Male	3	27	true	negative	poor
+5	NPositive	not strong	0.3	8	english	1	25	Male	3	27	true	positive	strong
+6	NNegative	not useless	0.39	9	english	1	25	Male	3	27	true	negative	useless
+7	negative	short	0.11	10	english	1	25	Male	3	27	false	negative	short
+8	NNegative	not impossible	0.14	11	english	1	25	Male	3	27	true	negative	impossible
+9	NNegative	not impolite	0.7	12	english	1	25	Male	3	27	true	negative	impolite
+10	negative	uncertain	0.56	13	english	1	25	Male	3	27	false	negative	uncertain
+11	NPositive	not friendly	0.72	14	english	1	25	Male	3	27	true	positive	friendly
+12	positive	fair	0.49	15	english	1	25	Male	3	27	false	positive	fair
+13	negative	frustrating	0.68	16	english	1	25	Male	3	27	false	negative	frustrating
+14	NNegative	not bad	0.75	17	english	1	25	Male	3	27	true	negative	bad
+15	NNegative	not rude	0.63	18	english	1	25	Male	3	27	true	negative	rude
+16	NPositive	not kind	0.63	19	english	1	25	Male	3	27	true	positive	kind
+17	negative	unsatisfactory	0.26	20	english	1	25	Male	3	27	false	negative	unsatisfactory
+18	positive	happy	0.36	21	english	1	25	Male	3	27	false	positive	happy
+19	negative	short	0.35	22	english	1	25	Male	3	27	false	negative	short
+0	negative	unfriendly	0.63	3	English	2	33	Male	4	28	false	negative	unfriendly
+1	NPositive	not good	0.18	4	English	2	33	Male	4	28	true	positive	good
+2	negative	unhappy	0.64	5	English	2	33	Male	4	28	false	negative	unhappy
+3	NNegative	not uninteresting	0.74	6	English	2	33	Male	4	28	true	negative	uninteresting
+4	NNegative	not short	0.33	7	English	2	33	Male	4	28	true	negative	short
+5	NNegative	not short	0.5	8	English	2	33	Male	4	28	true	negative	short
+6	positive	kind	0.04	9	English	2	33	Male	4	28	false	positive	kind
+7	positive	satisfactory	1.0	10	English	2	33	Male	4	28	false	positive	satisfactory
+8	negative	rude	0.46	11	English	2	33	Male	4	28	false	negative	rude
+9	negative	unfair	0.46	12	English	2	33	Male	4	28	false	negative	unfair
+10	NNegative	not poor	0.57	13	English	2	33	Male	4	28	true	negative	poor
+11	NPositive	not lucky	0.57	14	English	2	33	Male	4	28	true	positive	lucky
+12	positive	polite	0.58	15	English	2	33	Male	4	28	false	positive	polite
+13	NNegative	not useless	0.57	16	English	2	33	Male	4	28	true	negative	useless
+14	NNegative	not sad	0.59	17	English	2	33	Male	4	28	true	negative	sad
+15	negative	uncertain	0.57	18	English	2	33	Male	4	28	false	negative	uncertain
+16	NNegative	not impossible	0.58	19	English	2	33	Male	4	28	true	negative	impossible
+17	NPositive	not satisfactory	0.42	20	English	2	33	Male	4	28	true	positive	satisfactory
+18	positive	strong	0.87	21	English	2	33	Male	4	28	false	positive	strong
+19	NNegative	not inaccurate	0.39	22	English	2	33	Male	4	28	true	negative	inaccurate
+0	NPositive	not polite	0.62	3	english	1	37	Male	2	29	true	positive	polite
+1	NPositive	not happy	0.57	4	english	1	37	Male	2	29	true	positive	happy
+2	negative	mean	0.69	5	english	1	37	Male	2	29	false	negative	mean
+3	NPositive	not interesting	1.0	6	english	1	37	Male	2	29	true	positive	interesting
+4	NNegative	not poor	1.0	7	english	1	37	Male	2	29	true	negative	poor
+5	NPositive	not satisfactory	0.97	8	english	1	37	Male	2	29	true	positive	satisfactory
+6	positive	useful	0.29	9	english	1	37	Male	2	29	false	positive	useful
+7	positive	good	1.0	10	english	1	37	Male	2	29	false	positive	good
+8	NPositive	not tall	0.0	11	english	1	37	Male	2	29	true	positive	tall
+9	positive	fair	0.7	12	english	1	37	Male	2	29	false	positive	fair
+10	NNegative	not inaccurate	0.87	13	english	1	37	Male	2	29	true	negative	inaccurate
+11	NNegative	not unfriendly	0.7	14	english	1	37	Male	2	29	true	negative	unfriendly
+12	NPositive	not possible	1.0	15	english	1	37	Male	2	29	true	positive	possible
+13	positive	long	0.0	16	english	1	37	Male	2	29	false	positive	long
+14	NPositive	not strong	1.0	17	english	1	37	Male	2	29	true	positive	strong
+15	negative	impolite	0.52	18	english	1	37	Male	2	29	false	negative	impolite
+16	negative	unsatisfactory	0.53	19	english	1	37	Male	2	29	false	negative	unsatisfactory
+17	NNegative	not unlucky	0.53	20	english	1	37	Male	2	29	true	negative	unlucky
+18	NNegative	not sad	0.47	21	english	1	37	Male	2	29	true	negative	sad
+19	NPositive	not certain	0.48	22	english	1	37	Male	2	29	true	positive	certain
+0	positive	accurate	0.1	3	English	2	22	Male	3	30	false	positive	accurate
+1	NPositive	not fair	0.88	4	English	2	22	Male	3	30	true	positive	fair
+2	NNegative	not rude	0.85	5	English	2	22	Male	3	30	true	negative	rude
+3	positive	happy	0.81	6	English	2	22	Male	3	30	false	positive	happy
+4	negative	short	0.66	7	English	2	22	Male	3	30	false	negative	short
+5	positive	interesting	0.69	8	English	2	22	Male	3	30	false	positive	interesting
+6	NPositive	not kind	0.73	9	English	2	22	Male	3	30	true	positive	kind
+7	negative	short	0.58	10	English	2	22	Male	3	30	false	negative	short
+8	negative	bad	0.68	11	English	2	22	Male	3	30	false	negative	bad
+9	negative	useless	0.7	12	English	2	22	Male	3	30	false	negative	useless
+10	positive	strong	0.53	13	English	2	22	Male	3	30	false	positive	strong
+11	NNegative	not unlucky	0.71	14	English	2	22	Male	3	30	true	negative	unlucky
+12	negative	sad	0.53	15	English	2	22	Male	3	30	false	negative	sad
+13	negative	impossible	0.4	16	English	2	22	Male	3	30	false	negative	impossible
+14	negative	uncertain	0.5	17	English	2	22	Male	3	30	false	negative	uncertain
+15	negative	poor	0.34	18	English	2	22	Male	3	30	false	negative	poor
+16	positive	friendly	0.65	19	English	2	22	Male	3	30	false	positive	friendly
+17	NNegative	not impolite	0.67	20	English	2	22	Male	3	30	true	negative	impolite
+18	negative	unsatisfactory	0.45	21	English	2	22	Male	3	30	false	negative	unsatisfactory
+19	NPositive	not satisfactory	0.48	22	English	2	22	Male	3	30	true	positive	satisfactory
+0	negative	short	0.19	3	English 	1	38	Male	2	31	false	negative	short
+1	NPositive	not accurate	0.18	4	English 	1	38	Male	2	31	true	positive	accurate
+2	negative	mean	0.97	5	English 	1	38	Male	2	31	false	negative	mean
+3	NPositive	not interesting	0.88	6	English 	1	38	Male	2	31	true	positive	interesting
+4	negative	uncertain	0.54	7	English 	1	38	Male	2	31	false	negative	uncertain
+5	negative	bad	0.9	8	English 	1	38	Male	2	31	false	negative	bad
+6	NPositive	not useful	0.84	9	English 	1	38	Male	2	31	true	positive	useful
+7	negative	unhappy	0.04	10	English 	1	38	Male	2	31	false	negative	unhappy
+8	NNegative	not sad	0.18	11	English 	1	38	Male	2	31	true	negative	sad
+9	negative	unfair	0.96	12	English 	1	38	Male	2	31	false	negative	unfair
+10	NPositive	not satisfactory	0.54	13	English 	1	38	Male	2	31	true	positive	satisfactory
+11	positive	polite	0.93	14	English 	1	38	Male	2	31	false	positive	polite
+12	negative	unfriendly	0.96	15	English 	1	38	Male	2	31	false	negative	unfriendly
+13	positive	rich	0.52	16	English 	1	38	Male	2	31	false	positive	rich
+14	negative	impossible	0.99	17	English 	1	38	Male	2	31	false	negative	impossible
+15	NPositive	not polite	0.94	18	English 	1	38	Male	2	31	true	positive	polite
+16	negative	unsatisfactory	0.96	19	English 	1	38	Male	2	31	false	negative	unsatisfactory
+17	NPositive	not lucky	0.94	20	English 	1	38	Male	2	31	true	positive	lucky
+18	NPositive	not tall	0.95	21	English 	1	38	Male	2	31	true	positive	tall
+19	positive	strong	0.96	22	English 	1	38	Male	2	31	false	positive	strong
+0	NPositive	not interesting	0.7	3	English 	2	68	Male	4	32	true	positive	interesting
+1	NPositive	not possible	0.55	4	English 	2	68	Male	4	32	true	positive	possible
+2	positive	happy	0.84	5	English 	2	68	Male	4	32	false	positive	happy
+3	positive	satisfactory	0.57	6	English 	2	68	Male	4	32	false	positive	satisfactory
+4	positive	good	0.59	7	English 	2	68	Male	4	32	false	positive	good
+5	negative	rude	0.36	8	English 	2	68	Male	4	32	false	negative	rude
+6	NNegative	not unfriendly	0.93	9	English 	2	68	Male	4	32	true	negative	unfriendly
+7	NPositive	not long	0.5	10	English 	2	68	Male	4	32	true	positive	long
+8	positive	fair	0.18	11	English 	2	68	Male	4	32	false	positive	fair
+9	NNegative	not short	0.22	12	English 	2	68	Male	4	32	true	negative	short
+10	positive	useful	0.1	13	English 	2	68	Male	4	32	false	positive	useful
+11	negative	inaccurate	0.19	14	English 	2	68	Male	4	32	false	negative	inaccurate
+12	NPositive	not rich	0.79	15	English 	2	68	Male	4	32	true	positive	rich
+13	positive	kind	0.62	16	English 	2	68	Male	4	32	false	positive	kind
+14	NPositive	not certain	0.12	17	English 	2	68	Male	4	32	true	positive	certain
+15	positive	strong	0.26	18	English 	2	68	Male	4	32	false	positive	strong
+16	negative	impolite	0.2	19	English 	2	68	Male	4	32	false	negative	impolite
+17	positive	satisfactory	0.16	20	English 	2	68	Male	4	32	false	positive	satisfactory
+18	negative	unlucky	0.21	21	English 	2	68	Male	4	32	false	negative	unlucky
+19	NNegative	not unhappy	0.67	22	English 	2	68	Male	4	32	true	negative	unhappy
+0	NPositive	not happy	0.91	3	English	1	34	Male	1	33	true	positive	happy
+1	NPositive	not interesting	0.04	4	English	1	34	Male	1	33	true	positive	interesting
+2	positive	strong	0.96	5	English	1	34	Male	1	33	false	positive	strong
+3	positive	kind	0.96	6	English	1	34	Male	1	33	false	positive	kind
+4	negative	unlucky	0.96	7	English	1	34	Male	1	33	false	negative	unlucky
+5	negative	uncertain	0.91	8	English	1	34	Male	1	33	false	negative	uncertain
+6	negative	impolite	0.04	9	English	1	34	Male	1	33	false	negative	impolite
+7	negative	sad	0.99	10	English	1	34	Male	1	33	false	negative	sad
+8	positive	friendly	0.09	11	English	1	34	Male	1	33	false	positive	friendly
+9	NNegative	not frustrating	0.07	12	English	1	34	Male	1	33	true	negative	frustrating
+10	NNegative	not impossible	0.1	13	English	1	34	Male	1	33	true	negative	impossible
+11	NNegative	not bad	0.14	14	English	1	34	Male	1	33	true	negative	bad
+12	NNegative	not unsatisfactory	0.23	15	English	1	34	Male	1	33	true	negative	unsatisfactory
+13	negative	inaccurate	0.24	16	English	1	34	Male	1	33	false	negative	inaccurate
+14	NPositive	not tall	0.17	17	English	1	34	Male	1	33	true	positive	tall
+15	NPositive	not fair	0.22	18	English	1	34	Male	1	33	true	positive	fair
+16	negative	short	0.68	19	English	1	34	Male	1	33	false	negative	short
+17	negative	poor	0.15	20	English	1	34	Male	1	33	false	negative	poor
+18	NNegative	not rude	0.19	21	English	1	34	Male	1	33	true	negative	rude
+19	positive	useful	0.2	22	English	1	34	Male	1	33	false	positive	useful
+0	NNegative	not poor	0.12	3	english	1	34	Male	3	34	true	negative	poor
+1	positive	certain	0.11	4	english	1	34	Male	3	34	false	positive	certain
+2	negative	unfriendly	0.91	5	english	1	34	Male	3	34	false	negative	unfriendly
+3	NPositive	not lucky	0.02	6	english	1	34	Male	3	34	true	positive	lucky
+4	positive	happy	0.06	7	english	1	34	Male	3	34	false	positive	happy
+5	negative	sad	0.07	8	english	1	34	Male	3	34	false	negative	sad
+6	NNegative	not inaccurate	0.1	9	english	1	34	Male	3	34	true	negative	inaccurate
+7	positive	long	0.07	10	english	1	34	Male	3	34	false	positive	long
+8	negative	weak	0.06	11	english	1	34	Male	3	34	false	negative	weak
+9	negative	unfair	0.08	12	english	1	34	Male	3	34	false	negative	unfair
+10	NPositive	not possible	0.05	13	english	1	34	Male	3	34	true	positive	possible
+11	negative	frustrating	0.08	14	english	1	34	Male	3	34	false	negative	frustrating
+12	negative	bad	0.07	15	english	1	34	Male	3	34	false	negative	bad
+13	NNegative	not uninteresting	0.06	16	english	1	34	Male	3	34	true	negative	uninteresting
+14	NNegative	not short	0.08	17	english	1	34	Male	3	34	true	negative	short
+15	positive	kind	0.07	18	english	1	34	Male	3	34	false	positive	kind
+16	positive	polite	0.07	19	english	1	34	Male	3	34	false	positive	polite
+17	NPositive	not useful	0.06	20	english	1	34	Male	3	34	true	positive	useful
+18	NPositive	not polite	0.09	21	english	1	34	Male	3	34	true	positive	polite
+19	positive	satisfactory	0.06	22	english	1	34	Male	3	34	false	positive	satisfactory
+0	NPositive	not interesting	0.5	3	English	1	20	Female	2	35	true	positive	interesting
+1	NPositive	not happy	0.6	4	English	1	20	Female	2	35	true	positive	happy
+2	NPositive	not long	0.54	5	English	1	20	Female	2	35	true	positive	long
+3	NPositive	not accurate	0.56	6	English	1	20	Female	2	35	true	positive	accurate
+4	NNegative	not uncertain	0.57	7	English	1	20	Female	2	35	true	negative	uncertain
+5	NNegative	not rude	0.62	8	English	1	20	Female	2	35	true	negative	rude
+6	NNegative	not short	0.53	9	English	1	20	Female	2	35	true	negative	short
+7	positive	useful	0.26	10	English	1	20	Female	2	35	false	positive	useful
+8	negative	unsatisfactory	0.21	11	English	1	20	Female	2	35	false	negative	unsatisfactory
+9	NPositive	not lucky	0.59	12	English	1	20	Female	2	35	true	positive	lucky
+10	positive	strong	0.24	13	English	1	20	Female	2	35	false	positive	strong
+11	NNegative	not unfriendly	0.63	14	English	1	20	Female	2	35	true	negative	unfriendly
+12	NPositive	not possible	0.27	15	English	1	20	Female	2	35	true	positive	possible
+13	positive	good	0.28	16	English	1	20	Female	2	35	false	positive	good
+14	NNegative	not poor	0.55	17	English	1	20	Female	2	35	true	negative	poor
+15	positive	satisfactory	0.27	18	English	1	20	Female	2	35	false	positive	satisfactory
+16	NPositive	not polite	0.61	19	English	1	20	Female	2	35	true	positive	polite
+17	NPositive	not fair	0.23	20	English	1	20	Female	2	35	true	positive	fair
+18	NNegative	not mean	0.52	21	English	1	20	Female	2	35	true	negative	mean
+19	negative	unhappy	0.52	22	English	1	20	Female	2	35	false	negative	unhappy
+0	negative	unfriendly	0.72	3	english	2	39	Male	3	36	false	negative	unfriendly
+1	positive	kind	0.4	4	english	2	39	Male	3	36	false	positive	kind
+2	NNegative	not impossible	0.22	5	english	2	39	Male	3	36	true	negative	impossible
+3	NPositive	not happy	0.23	6	english	2	39	Male	3	36	true	positive	happy
+4	NNegative	not sad	0.23	7	english	2	39	Male	3	36	true	negative	sad
+5	NNegative	not rude	0.22	8	english	2	39	Male	3	36	true	negative	rude
+6	negative	inaccurate	0.04	9	english	2	39	Male	3	36	false	negative	inaccurate
+7	positive	satisfactory	0.84	10	english	2	39	Male	3	36	false	positive	satisfactory
+8	negative	short	0.11	11	english	2	39	Male	3	36	false	negative	short
+9	NNegative	not short	0.12	12	english	2	39	Male	3	36	true	negative	short
+10	negative	unlucky	0.86	13	english	2	39	Male	3	36	false	negative	unlucky
+11	positive	satisfactory	0.87	14	english	2	39	Male	3	36	false	positive	satisfactory
+12	negative	uncertain	0.53	15	english	2	39	Male	3	36	false	negative	uncertain
+13	negative	unfair	0.88	16	english	2	39	Male	3	36	false	negative	unfair
+14	NNegative	not useless	0.84	17	english	2	39	Male	3	36	true	negative	useless
+15	positive	good	0.61	18	english	2	39	Male	3	36	false	positive	good
+16	negative	impolite	0.28	19	english	2	39	Male	3	36	false	negative	impolite
+17	NNegative	not uninteresting	0.62	20	english	2	39	Male	3	36	true	negative	uninteresting
+18	NNegative	not poor	0.24	21	english	2	39	Male	3	36	true	negative	poor
+19	NNegative	not weak	0.26	22	english	2	39	Male	3	36	true	negative	weak
+0	negative	uncertain	0.55	3	English	1	36	Female	3	37	false	negative	uncertain
+1	NPositive	not lucky	0.76	4	English	1	36	Female	3	37	true	positive	lucky
+2	NNegative	not unsatisfactory	0.54	5	English	1	36	Female	3	37	true	negative	unsatisfactory
+3	NNegative	not inaccurate	0.55	6	English	1	36	Female	3	37	true	negative	inaccurate
+4	NNegative	not short	0.39	7	English	1	36	Female	3	37	true	negative	short
+5	NNegative	not uninteresting	0.84	8	English	1	36	Female	3	37	true	negative	uninteresting
+6	positive	rich	0.75	9	English	1	36	Female	3	37	false	positive	rich
+7	NPositive	not friendly	0.62	10	English	1	36	Female	3	37	true	positive	friendly
+8	NPositive	not satisfactory	0.49	11	English	1	36	Female	3	37	true	positive	satisfactory
+9	negative	rude	0.31	12	English	1	36	Female	3	37	false	negative	rude
+10	NNegative	not impossible	0.66	13	English	1	36	Female	3	37	true	negative	impossible
+11	NNegative	not unhappy	0.66	14	English	1	36	Female	3	37	true	negative	unhappy
+12	negative	bad	0.7	15	English	1	36	Female	3	37	false	negative	bad
+13	NPositive	not fair	0.52	16	English	1	36	Female	3	37	true	positive	fair
+14	NNegative	not short	0.41	17	English	1	36	Female	3	37	true	negative	short
+15	negative	useless	0.73	18	English	1	36	Female	3	37	false	negative	useless
+16	negative	impolite	0.5	19	English	1	36	Female	3	37	false	negative	impolite
+17	positive	strong	0.52	20	English	1	36	Female	3	37	false	positive	strong
+18	NPositive	not happy	0.68	21	English	1	36	Female	3	37	true	positive	happy
+19	NPositive	not kind	0.59	22	English	1	36	Female	3	37	true	positive	kind
+0	negative	mean	0.22	3	English 	2	29	Female	4	38	false	negative	mean
+1	positive	tall	0.21	4	English 	2	29	Female	4	38	false	positive	tall
+2	positive	strong	0.13	5	English 	2	29	Female	4	38	false	positive	strong
+3	positive	useful	0.59	6	English 	2	29	Female	4	38	false	positive	useful
+4	NPositive	not lucky	0.16	7	English 	2	29	Female	4	38	true	positive	lucky
+5	positive	rich	0.24	8	English 	2	29	Female	4	38	false	positive	rich
+6	NPositive	not good	0.59	9	English 	2	29	Female	4	38	true	positive	good
+7	NPositive	not friendly	0.56	10	English 	2	29	Female	4	38	true	positive	friendly
+8	NNegative	not inaccurate	0.22	11	English 	2	29	Female	4	38	true	negative	inaccurate
+9	NNegative	not impolite	0.6	12	English 	2	29	Female	4	38	true	negative	impolite
+10	negative	frustrating	0.31	13	English 	2	29	Female	4	38	false	negative	frustrating
+11	NPositive	not polite	0.57	14	English 	2	29	Female	4	38	true	positive	polite
+12	NNegative	not uninteresting	0.32	15	English 	2	29	Female	4	38	true	negative	uninteresting
+13	positive	certain	0.35	16	English 	2	29	Female	4	38	false	positive	certain
+14	NPositive	not fair	0.34	17	English 	2	29	Female	4	38	true	positive	fair
+15	positive	possible	0.71	18	English 	2	29	Female	4	38	false	positive	possible
+16	positive	long	0.65	19	English 	2	29	Female	4	38	false	positive	long
+17	NNegative	not unsatisfactory	0.39	20	English 	2	29	Female	4	38	true	negative	unsatisfactory
+18	negative	sad	0.35	21	English 	2	29	Female	4	38	false	negative	sad
+19	positive	happy	0.23	22	English 	2	29	Female	4	38	false	positive	happy
+0	negative	short	1.0	3	English	2	41	Male	4	39	false	negative	short
+1	negative	sad	0.06	4	English	2	41	Male	4	39	false	negative	sad
+2	positive	satisfactory	1.0	5	English	2	41	Male	4	39	false	positive	satisfactory
+3	NPositive	not accurate	0.0	6	English	2	41	Male	4	39	true	positive	accurate
+4	NNegative	not rude	0.01	7	English	2	41	Male	4	39	true	negative	rude
+5	positive	kind	1.0	8	English	2	41	Male	4	39	false	positive	kind
+6	positive	rich	0.0	9	English	2	41	Male	4	39	false	positive	rich
+7	NPositive	not strong	0.0	10	English	2	41	Male	4	39	true	positive	strong
+8	negative	useless	1.0	11	English	2	41	Male	4	39	false	negative	useless
+9	negative	unhappy	0.0	12	English	2	41	Male	4	39	false	negative	unhappy
+10	NPositive	not possible	0.0	13	English	2	41	Male	4	39	true	positive	possible
+11	positive	polite	1.0	14	English	2	41	Male	4	39	false	positive	polite
+12	negative	unlucky	1.0	15	English	2	41	Male	4	39	false	negative	unlucky
+13	NPositive	not friendly	1.0	16	English	2	41	Male	4	39	true	positive	friendly
+14	positive	satisfactory	0.0	17	English	2	41	Male	4	39	false	positive	satisfactory
+15	NNegative	not short	0.84	18	English	2	41	Male	4	39	true	negative	short
+16	NNegative	not uncertain	0.14	19	English	2	41	Male	4	39	true	negative	uncertain
+17	NNegative	not unfair	1.0	20	English	2	41	Male	4	39	true	negative	unfair
+18	NNegative	not bad	1.0	21	English	2	41	Male	4	39	true	negative	bad
+19	NPositive	not interesting	0.99	22	English	2	41	Male	4	39	true	positive	interesting
+0	NPositive	not good	0.96	3	english	1	23	Male	1	40	true	positive	good
+1	NPositive	not polite	1.0	4	english	1	23	Male	1	40	true	positive	polite
+2	positive	tall	0.0	5	english	1	23	Male	1	40	false	positive	tall
+3	negative	sad	0.0	6	english	1	23	Male	1	40	false	negative	sad
+4	NPositive	not fair	1.0	7	english	1	23	Male	1	40	true	positive	fair
+5	positive	kind	0.0	8	english	1	23	Male	1	40	false	positive	kind
+6	NPositive	not certain	1.0	9	english	1	23	Male	1	40	true	positive	certain
+7	NNegative	not impolite	1.0	10	english	1	23	Male	1	40	true	negative	impolite
+8	positive	strong	0.0	11	english	1	23	Male	1	40	false	positive	strong
+9	positive	friendly	0.0	12	english	1	23	Male	1	40	false	positive	friendly
+10	NNegative	not frustrating	1.0	13	english	1	23	Male	1	40	true	negative	frustrating
+11	positive	happy	0.0	14	english	1	23	Male	1	40	false	positive	happy
+12	negative	uninteresting	0.0	15	english	1	23	Male	1	40	false	negative	uninteresting
+13	positive	satisfactory	0.0	16	english	1	23	Male	1	40	false	positive	satisfactory
+14	NNegative	not unlucky	1.0	17	english	1	23	Male	1	40	true	negative	unlucky
+15	NNegative	not short	1.0	18	english	1	23	Male	1	40	true	negative	short
+16	NPositive	not possible	1.0	19	english	1	23	Male	1	40	true	positive	possible
+17	negative	useless	0.0	20	english	1	23	Male	1	40	false	negative	useless
+18	NPositive	not accurate	1.0	21	english	1	23	Male	1	40	true	positive	accurate
+19	NNegative	not poor	1.0	22	english	1	23	Male	1	40	true	negative	poor
+0	NPositive	not satisfactory	0.95	3	English	2	33	Male	3	41	true	positive	satisfactory
+1	NNegative	not unhappy	0.97	4	English	2	33	Male	3	41	true	negative	unhappy
+2	NPositive	not polite	0.99	5	English	2	33	Male	3	41	true	positive	polite
+3	negative	bad	0.94	6	English	2	33	Male	3	41	false	negative	bad
+4	negative	unfriendly	0.94	7	English	2	33	Male	3	41	false	negative	unfriendly
+5	NNegative	not unfair	0.96	8	English	2	33	Male	3	41	true	negative	unfair
+6	NNegative	not unlucky	0.02	9	English	2	33	Male	3	41	true	negative	unlucky
+7	NNegative	not useless	0.06	10	English	2	33	Male	3	41	true	negative	useless
+8	positive	polite	0.03	11	English	2	33	Male	3	41	false	positive	polite
+9	positive	kind	0.04	12	English	2	33	Male	3	41	false	positive	kind
+10	positive	satisfactory	0.01	13	English	2	33	Male	3	41	false	positive	satisfactory
+11	NPositive	not accurate	0.96	14	English	2	33	Male	3	41	true	positive	accurate
+12	positive	long	0.05	15	English	2	33	Male	3	41	false	positive	long
+13	NPositive	not happy	0.94	16	English	2	33	Male	3	41	true	positive	happy
+14	positive	strong	0.0	17	English	2	33	Male	3	41	false	positive	strong
+15	positive	rich	0.04	18	English	2	33	Male	3	41	false	positive	rich
+16	NPositive	not tall	0.94	19	English	2	33	Male	3	41	true	positive	tall
+17	negative	uninteresting	0.95	20	English	2	33	Male	3	41	false	negative	uninteresting
+18	NPositive	not possible	0.93	21	English	2	33	Male	3	41	true	positive	possible
+19	NNegative	not uncertain	1.0	22	English	2	33	Male	3	41	true	negative	uncertain
+0	positive	lucky	0.74	3	English	2	32	Female	4	42	false	positive	lucky
+1	positive	certain	0.31	4	English	2	32	Female	4	42	false	positive	certain
+2	NPositive	not satisfactory	0.26	5	English	2	32	Female	4	42	true	positive	satisfactory
+3	negative	uninteresting	0.09	6	English	2	32	Female	4	42	false	negative	uninteresting
+4	NPositive	not happy	0.86	7	English	2	32	Female	4	42	true	positive	happy
+5	NNegative	not frustrating	0.88	8	English	2	32	Female	4	42	true	negative	frustrating
+6	positive	happy	0.95	9	English	2	32	Female	4	42	false	positive	happy
+7	positive	accurate	0.11	10	English	2	32	Female	4	42	false	positive	accurate
+8	negative	weak	0.1	11	English	2	32	Female	4	42	false	negative	weak
+9	negative	bad	0.08	12	English	2	32	Female	4	42	false	negative	bad
+10	NNegative	not impolite	0.13	13	English	2	32	Female	4	42	true	negative	impolite
+11	NPositive	not long	0.05	14	English	2	32	Female	4	42	true	positive	long
+12	positive	rich	0.97	15	English	2	32	Female	4	42	false	positive	rich
+13	positive	useful	0.16	16	English	2	32	Female	4	42	false	positive	useful
+14	NPositive	not polite	0.07	17	English	2	32	Female	4	42	true	positive	polite
+15	NNegative	not mean	0.06	18	English	2	32	Female	4	42	true	negative	mean
+16	negative	impossible	0.13	19	English	2	32	Female	4	42	false	negative	impossible
+17	negative	short	0.96	20	English	2	32	Female	4	42	false	negative	short
+18	negative	unfair	0.11	21	English	2	32	Female	4	42	false	negative	unfair
+19	negative	unfriendly	0.98	22	English	2	32	Female	4	42	false	negative	unfriendly
+0	NPositive	not certain	0.98	3	english	0	33	Male	3	43	true	positive	certain
+1	NPositive	not good	0.95	4	english	0	33	Male	3	43	true	positive	good
+2	positive	useful	0.0	5	english	0	33	Male	3	43	false	positive	useful
+3	positive	long	0.01	6	english	0	33	Male	3	43	false	positive	long
+4	NNegative	not poor	0.03	7	english	0	33	Male	3	43	true	negative	poor
+5	NPositive	not friendly	0.14	8	english	0	33	Male	3	43	true	positive	friendly
+6	negative	unsatisfactory	0.94	9	english	0	33	Male	3	43	false	negative	unsatisfactory
+7	NNegative	not unlucky	0.96	10	english	0	33	Male	3	43	true	negative	unlucky
+8	NNegative	not frustrating	0.51	11	english	0	33	Male	3	43	true	negative	frustrating
+9	negative	impolite	0.52	12	english	0	33	Male	3	43	false	negative	impolite
+10	NPositive	not interesting	0.03	13	english	0	33	Male	3	43	true	positive	interesting
+11	NPositive	not accurate	0.02	14	english	0	33	Male	3	43	true	positive	accurate
+12	NPositive	not happy	0.03	15	english	0	33	Male	3	43	true	positive	happy
+13	NPositive	not polite	0.03	16	english	0	33	Male	3	43	true	positive	polite
+14	positive	kind	0.02	17	english	0	33	Male	3	43	false	positive	kind
+15	negative	weak	0.02	18	english	0	33	Male	3	43	false	negative	weak
+16	negative	sad	0.03	19	english	0	33	Male	3	43	false	negative	sad
+17	NNegative	not unfair	0.04	20	english	0	33	Male	3	43	true	negative	unfair
+18	NPositive	not tall	0.55	21	english	0	33	Male	3	43	true	positive	tall
+19	NPositive	not possible	0.55	22	english	0	33	Male	3	43	true	positive	possible
+0	NNegative	not short	0.86	3	English	2	25	Male	1	44	true	negative	short
+1	positive	accurate	0.94	4	English	2	25	Male	1	44	false	positive	accurate
+2	positive	strong	0.53	5	English	2	25	Male	1	44	false	positive	strong
+3	NNegative	not unhappy	0.98	6	English	2	25	Male	1	44	true	negative	unhappy
+4	NNegative	not unlucky	0.13	7	English	2	25	Male	1	44	true	negative	unlucky
+5	positive	polite	0.89	8	English	2	25	Male	1	44	false	positive	polite
+6	NNegative	not useless	0.2	9	English	2	25	Male	1	44	true	negative	useless
+7	NPositive	not satisfactory	0.83	10	English	2	25	Male	1	44	true	positive	satisfactory
+8	positive	tall	0.94	11	English	2	25	Male	1	44	false	positive	tall
+9	positive	polite	0.08	12	English	2	25	Male	1	44	false	positive	polite
+10	positive	kind	0.12	13	English	2	25	Male	1	44	false	positive	kind
+11	positive	possible	0.11	14	English	2	25	Male	1	44	false	positive	possible
+12	NNegative	not poor	0.02	15	English	2	25	Male	1	44	true	negative	poor
+13	NNegative	not bad	0.09	16	English	2	25	Male	1	44	true	negative	bad
+14	negative	uninteresting	0.91	17	English	2	25	Male	1	44	false	negative	uninteresting
+15	positive	happy	0.88	18	English	2	25	Male	1	44	false	positive	happy
+16	NNegative	not uncertain	0.88	19	English	2	25	Male	1	44	true	negative	uncertain
+17	NPositive	not satisfactory	0.92	20	English	2	25	Male	1	44	true	positive	satisfactory
+18	NNegative	not unfair	0.88	21	English	2	25	Male	1	44	true	negative	unfair
+19	NNegative	not unfriendly	0.62	22	English	2	25	Male	1	44	true	negative	unfriendly
+0	NNegative	not uncertain	0.41	3	English	1	19	Female	1	45	true	negative	uncertain
+1	negative	unsatisfactory	0.71	4	English	1	19	Female	1	45	false	negative	unsatisfactory
+2	positive	friendly	0.78	5	English	1	19	Female	1	45	false	positive	friendly
+3	positive	interesting	0.74	6	English	1	19	Female	1	45	false	positive	interesting
+4	positive	accurate	0.19	7	English	1	19	Female	1	45	false	positive	accurate
+5	NPositive	not polite	0.76	8	English	1	19	Female	1	45	true	positive	polite
+6	negative	weak	0.52	9	English	1	19	Female	1	45	false	negative	weak
+7	NNegative	not impossible	0.36	10	English	1	19	Female	1	45	true	negative	impossible
+8	positive	good	0.25	11	English	1	19	Female	1	45	false	positive	good
+9	positive	kind	0.7	12	English	1	19	Female	1	45	false	positive	kind
+10	negative	rude	0.76	13	English	1	19	Female	1	45	false	negative	rude
+11	negative	unlucky	0.77	14	English	1	19	Female	1	45	false	negative	unlucky
+12	NNegative	not unfair	0.3	15	English	1	19	Female	1	45	true	negative	unfair
+13	NNegative	not short	0.14	16	English	1	19	Female	1	45	true	negative	short
+14	NPositive	not useful	0.5	17	English	1	19	Female	1	45	true	positive	useful
+15	negative	unhappy	0.74	18	English	1	19	Female	1	45	false	negative	unhappy
+16	negative	sad	0.72	19	English	1	19	Female	1	45	false	negative	sad
+17	NPositive	not satisfactory	0.33	20	English	1	19	Female	1	45	true	positive	satisfactory
+18	positive	long	0.23	21	English	1	19	Female	1	45	false	positive	long
+19	positive	rich	0.28	22	English	1	19	Female	1	45	false	positive	rich
+0	NPositive	not long	0.93	3	English	0	55	Female	2	46	true	positive	long
+1	NNegative	not uncertain	0.03	4	English	0	55	Female	2	46	true	negative	uncertain
+2	negative	rude	0.55	5	English	0	55	Female	2	46	false	negative	rude
+3	positive	friendly	0.63	6	English	0	55	Female	2	46	false	positive	friendly
+4	NPositive	not rich	1.0	7	English	0	55	Female	2	46	true	positive	rich
+5	negative	unfair	0.75	8	English	0	55	Female	2	46	false	negative	unfair
+6	positive	good	0.97	9	English	0	55	Female	2	46	false	positive	good
+7	NPositive	not tall	0.69	10	English	0	55	Female	2	46	true	positive	tall
+8	NPositive	not accurate	0.05	11	English	0	55	Female	2	46	true	positive	accurate
+9	positive	interesting	0.93	12	English	0	55	Female	2	46	false	positive	interesting
+10	positive	strong	0.78	13	English	0	55	Female	2	46	false	positive	strong
+11	NNegative	not impossible	0.98	14	English	0	55	Female	2	46	true	negative	impossible
+12	NPositive	not polite	0.48	15	English	0	55	Female	2	46	true	positive	polite
+13	negative	useless	0.46	16	English	0	55	Female	2	46	false	negative	useless
+14	NNegative	not unsatisfactory	0.49	17	English	0	55	Female	2	46	true	negative	unsatisfactory
+15	positive	lucky	0.98	18	English	0	55	Female	2	46	false	positive	lucky
+16	NPositive	not satisfactory	0.58	19	English	0	55	Female	2	46	true	positive	satisfactory
+17	negative	mean	0.7	20	English	0	55	Female	2	46	false	negative	mean
+18	NPositive	not happy	0.34	21	English	0	55	Female	2	46	true	positive	happy
+19	NPositive	not happy	0.31	22	English	0	55	Female	2	46	true	positive	happy
+0	NPositive	not satisfactory	0.7	3	English	1	28	Male	2	47	true	positive	satisfactory
+1	negative	poor	0.51	4	English	1	28	Male	2	47	false	negative	poor
+2	NPositive	not interesting	0.84	5	English	1	28	Male	2	47	true	positive	interesting
+3	NNegative	not unlucky	0.85	6	English	1	28	Male	2	47	true	negative	unlucky
+4	negative	unhappy	0.88	7	English	1	28	Male	2	47	false	negative	unhappy
+5	negative	rude	0.81	8	English	1	28	Male	2	47	false	negative	rude
+6	negative	short	0.88	9	English	1	28	Male	2	47	false	negative	short
+7	negative	unsatisfactory	0.85	10	English	1	28	Male	2	47	false	negative	unsatisfactory
+8	negative	inaccurate	0.07	11	English	1	28	Male	2	47	false	negative	inaccurate
+9	negative	sad	0.83	12	English	1	28	Male	2	47	false	negative	sad
+10	NPositive	not long	0.86	13	English	1	28	Male	2	47	true	positive	long
+11	positive	kind	0.88	14	English	1	28	Male	2	47	false	positive	kind
+12	NPositive	not friendly	0.87	15	English	1	28	Male	2	47	true	positive	friendly
+13	NPositive	not strong	0.92	16	English	1	28	Male	2	47	true	positive	strong
+14	negative	uncertain	0.05	17	English	1	28	Male	2	47	false	negative	uncertain
+15	positive	good	0.89	18	English	1	28	Male	2	47	false	positive	good
+16	NNegative	not unfair	0.93	19	English	1	28	Male	2	47	true	negative	unfair
+17	positive	useful	0.86	20	English	1	28	Male	2	47	false	positive	useful
+18	negative	impolite	0.91	21	English	1	28	Male	2	47	false	negative	impolite
+19	NPositive	not possible	0.05	22	English	1	28	Male	2	47	true	positive	possible
+0	NNegative	not impolite	0.69	3	English	1	20	Male	1	48	true	negative	impolite
+1	NPositive	not strong	0.45	4	English	1	20	Male	1	48	true	positive	strong
+2	positive	friendly	0.63	5	English	1	20	Male	1	48	false	positive	friendly
+3	positive	lucky	0.51	6	English	1	20	Male	1	48	false	positive	lucky
+4	NPositive	not kind	0.85	7	English	1	20	Male	1	48	true	positive	kind
+5	NPositive	not polite	0.83	8	English	1	20	Male	1	48	true	positive	polite
+6	NPositive	not fair	0.62	9	English	1	20	Male	1	48	true	positive	fair
+7	NPositive	not useful	0.73	10	English	1	20	Male	1	48	true	positive	useful
+8	positive	accurate	0.33	11	English	1	20	Male	1	48	false	positive	accurate
+9	negative	short	0.47	12	English	1	20	Male	1	48	false	negative	short
+10	NPositive	not tall	0.74	13	English	1	20	Male	1	48	true	positive	tall
+11	positive	good	0.4	14	English	1	20	Male	1	48	false	positive	good
+12	NNegative	not unsatisfactory	0.8	15	English	1	20	Male	1	48	true	negative	unsatisfactory
+13	positive	satisfactory	0.74	16	English	1	20	Male	1	48	false	positive	satisfactory
+14	NPositive	not rich	0.84	17	English	1	20	Male	1	48	true	positive	rich
+15	negative	uncertain	0.56	18	English	1	20	Male	1	48	false	negative	uncertain
+16	NPositive	not possible	0.79	19	English	1	20	Male	1	48	true	positive	possible
+17	NNegative	not sad	0.77	20	English	1	20	Male	1	48	true	negative	sad
+18	positive	interesting	0.52	21	English	1	20	Male	1	48	false	positive	interesting
+19	negative	unhappy	0.84	22	English	1	20	Male	1	48	false	negative	unhappy
+0	NPositive	not useful	0.63	3	English 	2	21	Female	2	49	true	positive	useful
+1	NPositive	not possible	0.36	4	English 	2	21	Female	2	49	true	positive	possible
+2	NPositive	not satisfactory	0.64	5	English 	2	21	Female	2	49	true	positive	satisfactory
+3	positive	lucky	0.19	6	English 	2	21	Female	2	49	false	positive	lucky
+4	NNegative	not mean	0.17	7	English 	2	21	Female	2	49	true	negative	mean
+5	negative	weak	0.2	8	English 	2	21	Female	2	49	false	negative	weak
+6	negative	unfair	0.6	9	English 	2	21	Female	2	49	false	negative	unfair
+7	NPositive	not satisfactory	0.57	10	English 	2	21	Female	2	49	true	positive	satisfactory
+8	positive	interesting	0.28	11	English 	2	21	Female	2	49	false	positive	interesting
+9	NPositive	not tall	0.23	12	English 	2	21	Female	2	49	true	positive	tall
+10	negative	sad	0.25	13	English 	2	21	Female	2	49	false	negative	sad
+11	negative	unfriendly	0.52	14	English 	2	21	Female	2	49	false	negative	unfriendly
+12	NPositive	not polite	0.65	15	English 	2	21	Female	2	49	true	positive	polite
+13	NPositive	not certain	0.31	16	English 	2	21	Female	2	49	true	positive	certain
+14	positive	accurate	0.24	17	English 	2	21	Female	2	49	false	positive	accurate
+15	positive	long	0.27	18	English 	2	21	Female	2	49	false	positive	long
+16	NPositive	not polite	0.74	19	English 	2	21	Female	2	49	true	positive	polite
+17	positive	good	0.72	20	English 	2	21	Female	2	49	false	positive	good
+18	positive	rich	0.3	21	English 	2	21	Female	2	49	false	positive	rich
+19	negative	unhappy	0.4	22	English 	2	21	Female	2	49	false	negative	unhappy
+0	negative	unsatisfactory	0.87	3	English 	1	31	Female	1	50	false	negative	unsatisfactory
+1	NPositive	not long	0.02	4	English 	1	31	Female	1	50	true	positive	long
+2	NPositive	not kind	0.89	5	English 	1	31	Female	1	50	true	positive	kind
+3	negative	short	0.13	6	English 	1	31	Female	1	50	false	negative	short
+4	NPositive	not possible	0.88	7	English 	1	31	Female	1	50	true	positive	possible
+5	NPositive	not strong	0.08	8	English 	1	31	Female	1	50	true	positive	strong
+6	NNegative	not unhappy	0.04	9	English 	1	31	Female	1	50	true	negative	unhappy
+7	negative	sad	0.83	10	English 	1	31	Female	1	50	false	negative	sad
+8	NNegative	not uncertain	0.15	11	English 	1	31	Female	1	50	true	negative	uncertain
+9	NPositive	not polite	0.83	12	English 	1	31	Female	1	50	true	positive	polite
+10	NPositive	not fair	0.51	13	English 	1	31	Female	1	50	true	positive	fair
+11	NNegative	not bad	0.91	14	English 	1	31	Female	1	50	true	negative	bad
+12	negative	inaccurate	0.18	15	English 	1	31	Female	1	50	false	negative	inaccurate
+13	NNegative	not uninteresting	0.86	16	English 	1	31	Female	1	50	true	negative	uninteresting
+14	positive	lucky	0.72	17	English 	1	31	Female	1	50	false	positive	lucky
+15	NPositive	not satisfactory	0.87	18	English 	1	31	Female	1	50	true	positive	satisfactory
+16	negative	rude	0.19	19	English 	1	31	Female	1	50	false	negative	rude
+17	NNegative	not useless	0.46	20	English 	1	31	Female	1	50	true	negative	useless
+18	NNegative	not poor	0.91	21	English 	1	31	Female	1	50	true	negative	poor
+19	NPositive	not friendly	0.78	22	English 	1	31	Female	1	50	true	positive	friendly
+0	NNegative	not unlucky	0.68	3	English	1	31	Male	4	51	true	negative	unlucky
+1	positive	satisfactory	0.29	4	English	1	31	Male	4	51	false	positive	satisfactory
+2	NNegative	not inaccurate	0.02	5	English	1	31	Male	4	51	true	negative	inaccurate
+3	negative	unfriendly	0.65	6	English	1	31	Male	4	51	false	negative	unfriendly
+4	positive	strong	0.81	7	English	1	31	Male	4	51	false	positive	strong
+5	NPositive	not good	0.92	8	English	1	31	Male	4	51	true	positive	good
+6	positive	fair	0.36	9	English	1	31	Male	4	51	false	positive	fair
+7	NPositive	not rich	0.59	10	English	1	31	Male	4	51	true	positive	rich
+8	negative	uninteresting	0.82	11	English	1	31	Male	4	51	false	negative	uninteresting
+9	positive	happy	0.84	12	English	1	31	Male	4	51	false	positive	happy
+10	positive	tall	0.62	13	English	1	31	Male	4	51	false	positive	tall
+11	NNegative	not mean	0.63	14	English	1	31	Male	4	51	true	negative	mean
+12	NPositive	not possible	0.32	15	English	1	31	Male	4	51	true	positive	possible
+13	positive	satisfactory	0.31	16	English	1	31	Male	4	51	false	positive	satisfactory
+14	negative	unhappy	0.71	17	English	1	31	Male	4	51	false	negative	unhappy
+15	negative	rude	0.75	18	English	1	31	Male	4	51	false	negative	rude
+16	positive	useful	0.7	19	English	1	31	Male	4	51	false	positive	useful
+17	NNegative	not uncertain	0.35	20	English	1	31	Male	4	51	true	negative	uncertain
+18	NNegative	not short	0.65	21	English	1	31	Male	4	51	true	negative	short
+19	NPositive	not polite	0.82	22	English	1	31	Male	4	51	true	positive	polite
+0	NPositive	not happy	0.94	3	english	1	49	Female	2	52	true	positive	happy
+1	NPositive	not kind	0.96	4	english	1	49	Female	2	52	true	positive	kind
+2	negative	bad	0.45	5	english	1	49	Female	2	52	false	negative	bad
+3	NPositive	not strong	0.99	6	english	1	49	Female	2	52	true	positive	strong
+4	NNegative	not useless	0.95	7	english	1	49	Female	2	52	true	negative	useless
+5	NPositive	not accurate	0.48	8	english	1	49	Female	2	52	true	positive	accurate
+6	NNegative	not rude	0.69	9	english	1	49	Female	2	52	true	negative	rude
+7	NPositive	not satisfactory	0.49	10	english	1	49	Female	2	52	true	positive	satisfactory
+8	NPositive	not fair	0.48	11	english	1	49	Female	2	52	true	positive	fair
+9	positive	tall	0.97	12	english	1	49	Female	2	52	false	positive	tall
+10	NNegative	not unlucky	0.46	13	english	1	49	Female	2	52	true	negative	unlucky
+11	NNegative	not impolite	0.45	14	english	1	49	Female	2	52	true	negative	impolite
+12	NNegative	not poor	0.06	15	english	1	49	Female	2	52	true	negative	poor
+13	NPositive	not friendly	0.15	16	english	1	49	Female	2	52	true	positive	friendly
+14	positive	interesting	0.04	17	english	1	49	Female	2	52	false	positive	interesting
+15	NNegative	not unsatisfactory	0.49	18	english	1	49	Female	2	52	true	negative	unsatisfactory
+16	NPositive	not happy	0.49	19	english	1	49	Female	2	52	true	positive	happy
+17	negative	short	0.46	20	english	1	49	Female	2	52	false	negative	short
+18	negative	impossible	0.6	21	english	1	49	Female	2	52	false	negative	impossible
+19	NNegative	not uncertain	0.05	22	english	1	49	Female	2	52	true	negative	uncertain
+0	NPositive	not lucky	0.66	3	English	1	32	Male	1	53	true	positive	lucky
+1	NPositive	not certain	0.74	4	English	1	32	Male	1	53	true	positive	certain
+2	positive	accurate	0.16	5	English	1	32	Male	1	53	false	positive	accurate
+3	positive	possible	0.07	6	English	1	32	Male	1	53	false	positive	possible
+4	NPositive	not good	0.8	7	English	1	32	Male	1	53	true	positive	good
+5	NNegative	not uninteresting	0.92	8	English	1	32	Male	1	53	true	negative	uninteresting
+6	positive	satisfactory	0.84	9	English	1	32	Male	1	53	false	positive	satisfactory
+7	NPositive	not polite	0.26	10	English	1	32	Male	1	53	true	positive	polite
+8	negative	mean	0.06	11	English	1	32	Male	1	53	false	negative	mean
+9	negative	sad	0.84	12	English	1	32	Male	1	53	false	negative	sad
+10	negative	unfair	0.82	13	English	1	32	Male	1	53	false	negative	unfair
+11	positive	friendly	0.09	14	English	1	32	Male	1	53	false	positive	friendly
+12	NPositive	not happy	0.66	15	English	1	32	Male	1	53	true	positive	happy
+13	NNegative	not short	0.03	16	English	1	32	Male	1	53	true	negative	short
+14	NPositive	not strong	0.19	17	English	1	32	Male	1	53	true	positive	strong
+15	NPositive	not useful	0.69	18	English	1	32	Male	1	53	true	positive	useful
+16	negative	frustrating	0.5	19	English	1	32	Male	1	53	false	negative	frustrating
+17	negative	poor	0.76	20	English	1	32	Male	1	53	false	negative	poor
+18	positive	polite	0.2	21	English	1	32	Male	1	53	false	positive	polite
+19	positive	long	0.03	22	English	1	32	Male	1	53	false	positive	long
+0	NNegative	not uncertain	0.82	3	English	2	31	Female	1	54	true	negative	uncertain
+1	NPositive	not happy	0.71	4	English	2	31	Female	1	54	true	positive	happy
+2	positive	long	0.99	5	English	2	31	Female	1	54	false	positive	long
+3	NPositive	not kind	0.59	6	English	2	31	Female	1	54	true	positive	kind
+4	negative	useless	0.43	7	English	2	31	Female	1	54	false	negative	useless
+5	NNegative	not unlucky	0.98	8	English	2	31	Female	1	54	true	negative	unlucky
+6	NNegative	not unhappy	0.82	9	English	2	31	Female	1	54	true	negative	unhappy
+7	positive	friendly	0.69	10	English	2	31	Female	1	54	false	positive	friendly
+8	positive	possible	0.3	11	English	2	31	Female	1	54	false	positive	possible
+9	positive	strong	0.31	12	English	2	31	Female	1	54	false	positive	strong
+10	NPositive	not interesting	0.55	13	English	2	31	Female	1	54	true	positive	interesting
+11	NPositive	not accurate	0.8	14	English	2	31	Female	1	54	true	positive	accurate
+12	negative	unfair	0.73	15	English	2	31	Female	1	54	false	negative	unfair
+13	NNegative	not rude	0.74	16	English	2	31	Female	1	54	true	negative	rude
+14	NNegative	not bad	0.25	17	English	2	31	Female	1	54	true	negative	bad
+15	positive	rich	0.65	18	English	2	31	Female	1	54	false	positive	rich
+16	NPositive	not satisfactory	0.53	19	English	2	31	Female	1	54	true	positive	satisfactory
+17	NPositive	not polite	0.73	20	English	2	31	Female	1	54	true	positive	polite
+18	negative	short	0.75	21	English	2	31	Female	1	54	false	negative	short
+19	negative	frustrating	0.78	22	English	2	31	Female	1	54	false	negative	frustrating
+0	NNegative	not weak	0.63	3	English	1	57	Female	3	55	true	negative	weak
+1	NNegative	not useless	0.66	4	English	1	57	Female	3	55	true	negative	useless
+2	NNegative	not impolite	0.38	5	English	1	57	Female	3	55	true	negative	impolite
+3	NPositive	not possible	0.79	6	English	1	57	Female	3	55	true	positive	possible
+4	NNegative	not short	0.82	7	English	1	57	Female	3	55	true	negative	short
+5	positive	lucky	0.73	8	English	1	57	Female	3	55	false	positive	lucky
+6	NNegative	not frustrating	0.85	9	English	1	57	Female	3	55	true	negative	frustrating
+7	NNegative	not unfair	0.85	10	English	1	57	Female	3	55	true	negative	unfair
+8	NPositive	not interesting	0.79	11	English	1	57	Female	3	55	true	positive	interesting
+9	positive	happy	0.9	12	English	1	57	Female	3	55	false	positive	happy
+10	NPositive	not kind	0.86	13	English	1	57	Female	3	55	true	positive	kind
+11	negative	unhappy	0.81	14	English	1	57	Female	3	55	false	negative	unhappy
+12	NNegative	not uncertain	0.53	15	English	1	57	Female	3	55	true	negative	uncertain
+13	positive	friendly	0.86	16	English	1	57	Female	3	55	false	positive	friendly
+14	positive	tall	0.87	17	English	1	57	Female	3	55	false	positive	tall
+15	NPositive	not satisfactory	0.82	18	English	1	57	Female	3	55	true	positive	satisfactory
+16	NNegative	not bad	0.79	19	English	1	57	Female	3	55	true	negative	bad
+17	negative	rude	0.78	20	English	1	57	Female	3	55	false	negative	rude
+18	negative	inaccurate	0.78	21	English	1	57	Female	3	55	false	negative	inaccurate
+19	NPositive	not rich	0.79	22	English	1	57	Female	3	55	true	positive	rich
+0	NNegative	not rude	0.99	3	English	1	21	Female	1	56	true	negative	rude
+1	NNegative	not useless	0.98	4	English	1	21	Female	1	56	true	negative	useless
+2	negative	frustrating	0.98	5	English	1	21	Female	1	56	false	negative	frustrating
+3	positive	interesting	0.92	6	English	1	21	Female	1	56	false	positive	interesting
+4	positive	happy	0.95	7	English	1	21	Female	1	56	false	positive	happy
+5	positive	kind	0.98	8	English	1	21	Female	1	56	false	positive	kind
+6	NPositive	not long	0.97	9	English	1	21	Female	1	56	true	positive	long
+7	negative	weak	1.0	10	English	1	21	Female	1	56	false	negative	weak
+8	positive	rich	0.94	11	English	1	21	Female	1	56	false	positive	rich
+9	positive	certain	0.97	12	English	1	21	Female	1	56	false	positive	certain
+10	positive	polite	0.95	13	English	1	21	Female	1	56	false	positive	polite
+11	NPositive	not possible	0.96	14	English	1	21	Female	1	56	true	positive	possible
+12	negative	sad	0.97	15	English	1	21	Female	1	56	false	negative	sad
+13	NNegative	not bad	0.95	16	English	1	21	Female	1	56	true	negative	bad
+14	negative	unlucky	0.88	17	English	1	21	Female	1	56	false	negative	unlucky
+15	NNegative	not short	0.88	18	English	1	21	Female	1	56	true	negative	short
+16	negative	unfriendly	0.87	19	English	1	21	Female	1	56	false	negative	unfriendly
+17	positive	satisfactory	0.86	20	English	1	21	Female	1	56	false	positive	satisfactory
+18	NNegative	not inaccurate	0.76	21	English	1	21	Female	1	56	true	negative	inaccurate
+19	NPositive	not fair	0.76	22	English	1	21	Female	1	56	true	positive	fair
+0	positive	accurate	0.02	3	English	2	47	Female	4	57	false	positive	accurate
+1	NPositive	not fair	0.99	4	English	2	47	Female	4	57	true	positive	fair
+2	positive	useful	0.42	5	English	2	47	Female	4	57	false	positive	useful
+3	positive	polite	0.97	6	English	2	47	Female	4	57	false	positive	polite
+4	positive	possible	0.04	7	English	2	47	Female	4	57	false	positive	possible
+5	NNegative	not uncertain	0.04	8	English	2	47	Female	4	57	true	negative	uncertain
+6	negative	mean	0.98	9	English	2	47	Female	4	57	false	negative	mean
+7	negative	short	0.89	10	English	2	47	Female	4	57	false	negative	short
+8	negative	frustrating	0.97	11	English	2	47	Female	4	57	false	negative	frustrating
+9	NPositive	not good	0.99	12	English	2	47	Female	4	57	true	positive	good
+10	positive	polite	0.97	13	English	2	47	Female	4	57	false	positive	polite
+11	negative	unfriendly	0.98	14	English	2	47	Female	4	57	false	negative	unfriendly
+12	negative	weak	0.88	15	English	2	47	Female	4	57	false	negative	weak
+13	negative	unlucky	1.0	16	English	2	47	Female	4	57	false	negative	unlucky
+14	positive	long	0.82	17	English	2	47	Female	4	57	false	positive	long
+15	negative	poor	0.98	18	English	2	47	Female	4	57	false	negative	poor
+16	negative	unsatisfactory	0.98	19	English	2	47	Female	4	57	false	negative	unsatisfactory
+17	NNegative	not uninteresting	0.97	20	English	2	47	Female	4	57	true	negative	uninteresting
+18	NPositive	not happy	0.98	21	English	2	47	Female	4	57	true	positive	happy
+19	negative	sad	0.98	22	English	2	47	Female	4	57	false	negative	sad
+0	positive	satisfactory	0.81	3	English	1	20	Female	2	58	false	positive	satisfactory
+1	negative	bad	0.98	4	English	1	20	Female	2	58	false	negative	bad
+2	negative	uninteresting	0.79	5	English	1	20	Female	2	58	false	negative	uninteresting
+3	NNegative	not unlucky	0.5	6	English	1	20	Female	2	58	true	negative	unlucky
+4	positive	friendly	0.59	7	English	1	20	Female	2	58	false	positive	friendly
+5	negative	mean	0.51	8	English	1	20	Female	2	58	false	negative	mean
+6	positive	accurate	0.3	9	English	1	20	Female	2	58	false	positive	accurate
+7	NNegative	not unfair	0.58	10	English	1	20	Female	2	58	true	negative	unfair
+8	NNegative	not rude	0.75	11	English	1	20	Female	2	58	true	negative	rude
+9	negative	impossible	0.82	12	English	1	20	Female	2	58	false	negative	impossible
+10	NPositive	not rich	0.49	13	English	1	20	Female	2	58	true	positive	rich
+11	NNegative	not unsatisfactory	0.77	14	English	1	20	Female	2	58	true	negative	unsatisfactory
+12	negative	uncertain	0.15	15	English	1	20	Female	2	58	false	negative	uncertain
+13	negative	impolite	0.79	16	English	1	20	Female	2	58	false	negative	impolite
+14	NPositive	not happy	0.96	17	English	1	20	Female	2	58	true	positive	happy
+15	positive	strong	0.39	18	English	1	20	Female	2	58	false	positive	strong
+16	negative	short	0.21	19	English	1	20	Female	2	58	false	negative	short
+17	positive	useful	0.88	20	English	1	20	Female	2	58	false	positive	useful
+18	negative	short	0.09	21	English	1	20	Female	2	58	false	negative	short
+19	NPositive	not happy	0.91	22	English	1	20	Female	2	58	true	positive	happy
+0	negative	sad	0.74	3	English	1	22	Male	2	59	false	negative	sad
+1	NNegative	not rude	0.69	4	English	1	22	Male	2	59	true	negative	rude
+2	negative	inaccurate	0.41	5	English	1	22	Male	2	59	false	negative	inaccurate
+3	NPositive	not fair	0.84	6	English	1	22	Male	2	59	true	positive	fair
+4	negative	mean	0.73	7	English	1	22	Male	2	59	false	negative	mean
+5	negative	unlucky	0.41	8	English	1	22	Male	2	59	false	negative	unlucky
+6	negative	short	0.6	9	English	1	22	Male	2	59	false	negative	short
+7	NNegative	not weak	0.56	10	English	1	22	Male	2	59	true	negative	weak
+8	positive	polite	0.75	11	English	1	22	Male	2	59	false	positive	polite
+9	negative	uncertain	0.53	12	English	1	22	Male	2	59	false	negative	uncertain
+10	NNegative	not unhappy	0.69	13	English	1	22	Male	2	59	true	negative	unhappy
+11	positive	interesting	0.6	14	English	1	22	Male	2	59	false	positive	interesting
+12	NNegative	not poor	0.52	15	English	1	22	Male	2	59	true	negative	poor
+13	negative	frustrating	0.32	16	English	1	22	Male	2	59	false	negative	frustrating
+14	negative	bad	0.62	17	English	1	22	Male	2	59	false	negative	bad
+15	NPositive	not useful	0.22	18	English	1	22	Male	2	59	true	positive	useful
+16	positive	satisfactory	0.32	19	English	1	22	Male	2	59	false	positive	satisfactory
+17	positive	friendly	0.47	20	English	1	22	Male	2	59	false	positive	friendly
+18	NPositive	not tall	0.64	21	English	1	22	Male	2	59	true	positive	tall
+19	positive	possible	0.42	22	English	1	22	Male	2	59	false	positive	possible
+0	NPositive	not polite	1.0	3	English	1	32	Male	3	60	true	positive	polite
+1	NNegative	not uninteresting	0.54	4	English	1	32	Male	3	60	true	negative	uninteresting
+2	NNegative	not rude	1.0	5	English	1	32	Male	3	60	true	negative	rude
+3	positive	happy	1.0	6	English	1	32	Male	3	60	false	positive	happy
+4	negative	unhappy	1.0	7	English	1	32	Male	3	60	false	negative	unhappy
+5	positive	satisfactory	0.29	8	English	1	32	Male	3	60	false	positive	satisfactory
+6	NPositive	not kind	1.0	9	English	1	32	Male	3	60	true	positive	kind
+7	negative	inaccurate	0.0	10	English	1	32	Male	3	60	false	negative	inaccurate
+8	negative	unfriendly	1.0	11	English	1	32	Male	3	60	false	negative	unfriendly
+9	NNegative	not uncertain	1.0	12	English	1	32	Male	3	60	true	negative	uncertain
+10	NPositive	not tall	0.0	13	English	1	32	Male	3	60	true	positive	tall
+11	NNegative	not weak	0.54	14	English	1	32	Male	3	60	true	negative	weak
+12	negative	unsatisfactory	0.0	15	English	1	32	Male	3	60	false	negative	unsatisfactory
+13	NNegative	not impossible	0.4	16	English	1	32	Male	3	60	true	negative	impossible
+14	NPositive	not fair	1.0	17	English	1	32	Male	3	60	true	positive	fair
+15	negative	poor	0.69	18	English	1	32	Male	3	60	false	negative	poor
+16	negative	bad	1.0	19	English	1	32	Male	3	60	false	negative	bad
+17	NPositive	not long	0.0	20	English	1	32	Male	3	60	true	positive	long
+18	NPositive	not useful	0.0	21	English	1	32	Male	3	60	true	positive	useful
+19	positive	lucky	1.0	22	English	1	32	Male	3	60	false	positive	lucky
+0	positive	accurate	0.18	3	English	1	31	Female	3	61	false	positive	accurate
+1	negative	unfair	0.69	4	English	1	31	Female	3	61	false	negative	unfair
+2	NPositive	not satisfactory	0.9	5	English	1	31	Female	3	61	true	positive	satisfactory
+3	NNegative	not unhappy	0.86	6	English	1	31	Female	3	61	true	negative	unhappy
+4	NNegative	not unlucky	0.7	7	English	1	31	Female	3	61	true	negative	unlucky
+5	positive	kind	0.77	8	English	1	31	Female	3	61	false	positive	kind
+6	positive	friendly	0.76	9	English	1	31	Female	3	61	false	positive	friendly
+7	NPositive	not polite	0.59	10	English	1	31	Female	3	61	true	positive	polite
+8	NNegative	not uninteresting	0.87	11	English	1	31	Female	3	61	true	negative	uninteresting
+9	positive	useful	0.39	12	English	1	31	Female	3	61	false	positive	useful
+10	negative	short	0.2	13	English	1	31	Female	3	61	false	negative	short
+11	positive	certain	0.71	14	English	1	31	Female	3	61	false	positive	certain
+12	positive	strong	0.4	15	English	1	31	Female	3	61	false	positive	strong
+13	positive	good	0.83	16	English	1	31	Female	3	61	false	positive	good
+14	NPositive	not satisfactory	0.79	17	English	1	31	Female	3	61	true	positive	satisfactory
+15	positive	rich	0.37	18	English	1	31	Female	3	61	false	positive	rich
+16	NPositive	not long	0.48	19	English	1	31	Female	3	61	true	positive	long
+17	positive	happy	0.71	20	English	1	31	Female	3	61	false	positive	happy
+18	NPositive	not polite	0.58	21	English	1	31	Female	3	61	true	positive	polite
+19	positive	possible	0.25	22	English	1	31	Female	3	61	false	positive	possible
+0	negative	unsatisfactory	0.8	3	English	1	49	Male	3	62	false	negative	unsatisfactory
+1	negative	short	0.18	4	English	1	49	Male	3	62	false	negative	short
+2	NPositive	not useful	0.71	5	English	1	49	Male	3	62	true	positive	useful
+3	positive	polite	0.22	6	English	1	49	Male	3	62	false	positive	polite
+4	positive	kind	0.59	7	English	1	49	Male	3	62	false	positive	kind
+5	NNegative	not unfriendly	0.67	8	English	1	49	Male	3	62	true	negative	unfriendly
+6	NNegative	not impossible	0.64	9	English	1	49	Male	3	62	true	negative	impossible
+7	NNegative	not inaccurate	0.64	10	English	1	49	Male	3	62	true	negative	inaccurate
+8	NNegative	not unlucky	0.65	11	English	1	49	Male	3	62	true	negative	unlucky
+9	NNegative	not bad	0.65	12	English	1	49	Male	3	62	true	negative	bad
+10	negative	short	0.21	13	English	1	49	Male	3	62	false	negative	short
+11	positive	certain	0.61	14	English	1	49	Male	3	62	false	positive	certain
+12	negative	unhappy	0.38	15	English	1	49	Male	3	62	false	negative	unhappy
+13	NNegative	not frustrating	0.62	16	English	1	49	Male	3	62	true	negative	frustrating
+14	negative	sad	0.33	17	English	1	49	Male	3	62	false	negative	sad
+15	positive	fair	0.68	18	English	1	49	Male	3	62	false	positive	fair
+16	NPositive	not rich	0.77	19	English	1	49	Male	3	62	true	positive	rich
+17	NPositive	not polite	0.81	20	English	1	49	Male	3	62	true	positive	polite
+18	negative	weak	0.29	21	English	1	49	Male	3	62	false	negative	weak
+19	positive	interesting	0.69	22	English	1	49	Male	3	62	false	positive	interesting
+0	negative	inaccurate	0.09	3	english	1	47	Female	3	63	false	negative	inaccurate
+1	NNegative	not frustrating	0.71	4	english	1	47	Female	3	63	true	negative	frustrating
+2	positive	tall	0.24	5	english	1	47	Female	3	63	false	positive	tall
+3	negative	weak	0.86	6	english	1	47	Female	3	63	false	negative	weak
+4	NPositive	not long	0.35	7	english	1	47	Female	3	63	true	positive	long
+5	NNegative	not rude	0.81	8	english	1	47	Female	3	63	true	negative	rude
+6	negative	impolite	0.7	9	english	1	47	Female	3	63	false	negative	impolite
+7	NPositive	not satisfactory	0.34	10	english	1	47	Female	3	63	true	positive	satisfactory
+8	negative	bad	0.35	11	english	1	47	Female	3	63	false	negative	bad
+9	positive	friendly	0.7	12	english	1	47	Female	3	63	false	positive	friendly
+10	negative	unhappy	0.67	13	english	1	47	Female	3	63	false	negative	unhappy
+11	NNegative	not sad	0.52	14	english	1	47	Female	3	63	true	negative	sad
+12	NPositive	not interesting	0.87	15	english	1	47	Female	3	63	true	positive	interesting
+13	negative	impossible	0.27	16	english	1	47	Female	3	63	false	negative	impossible
+14	positive	lucky	0.87	17	english	1	47	Female	3	63	false	positive	lucky
+15	NPositive	not fair	0.36	18	english	1	47	Female	3	63	true	positive	fair
+16	NPositive	not certain	0.14	19	english	1	47	Female	3	63	true	positive	certain
+17	positive	kind	0.36	20	english	1	47	Female	3	63	false	positive	kind
+18	NNegative	not useless	0.67	21	english	1	47	Female	3	63	true	negative	useless
+19	NNegative	not poor	0.18	22	english	1	47	Female	3	63	true	negative	poor
+0	NNegative	not unlucky	0.48	3	English	1	33	Female	4	64	true	negative	unlucky
+1	NPositive	not polite	0.1	4	English	1	33	Female	4	64	true	positive	polite
+2	NNegative	not uncertain	0.8	5	English	1	33	Female	4	64	true	negative	uncertain
+3	positive	accurate	0.06	6	English	1	33	Female	4	64	false	positive	accurate
+4	positive	friendly	0.01	7	English	1	33	Female	4	64	false	positive	friendly
+5	positive	satisfactory	0.02	8	English	1	33	Female	4	64	false	positive	satisfactory
+6	negative	uninteresting	0.95	9	English	1	33	Female	4	64	false	negative	uninteresting
+7	positive	rich	0.05	10	English	1	33	Female	4	64	false	positive	rich
+8	positive	fair	0.11	11	English	1	33	Female	4	64	false	positive	fair
+9	positive	kind	0.06	12	English	1	33	Female	4	64	false	positive	kind
+10	negative	unsatisfactory	0.91	13	English	1	33	Female	4	64	false	negative	unsatisfactory
+11	negative	sad	0.06	14	English	1	33	Female	4	64	false	negative	sad
+12	NNegative	not bad	0.47	15	English	1	33	Female	4	64	true	negative	bad
+13	NNegative	not impossible	0.48	16	English	1	33	Female	4	64	true	negative	impossible
+14	positive	tall	0.05	17	English	1	33	Female	4	64	false	positive	tall
+15	negative	useless	0.04	18	English	1	33	Female	4	64	false	negative	useless
+16	negative	weak	0.04	19	English	1	33	Female	4	64	false	negative	weak
+17	NNegative	not unhappy	0.53	20	English	1	33	Female	4	64	true	negative	unhappy
+18	NPositive	not polite	0.48	21	English	1	33	Female	4	64	true	positive	polite
+19	negative	short	0.05	22	English	1	33	Female	4	64	false	negative	short
+0	NNegative	not weak	1.0	3	ENglish	1	27	Male	3	65	true	negative	weak
+1	positive	accurate	0.76	4	ENglish	1	27	Male	3	65	false	positive	accurate
+2	NNegative	not impolite	1.0	5	ENglish	1	27	Male	3	65	true	negative	impolite
+3	NPositive	not long	0.32	6	ENglish	1	27	Male	3	65	true	positive	long
+4	positive	interesting	0.33	7	ENglish	1	27	Male	3	65	false	positive	interesting
+5	NPositive	not possible	0.71	8	ENglish	1	27	Male	3	65	true	positive	possible
+6	negative	poor	1.0	9	ENglish	1	27	Male	3	65	false	negative	poor
+7	NNegative	not sad	0.3	10	ENglish	1	27	Male	3	65	true	negative	sad
+8	positive	satisfactory	0.72	11	ENglish	1	27	Male	3	65	false	positive	satisfactory
+9	NPositive	not fair	0.29	12	ENglish	1	27	Male	3	65	true	positive	fair
+10	NNegative	not uncertain	0.19	13	ENglish	1	27	Male	3	65	true	negative	uncertain
+11	positive	happy	0.7	14	ENglish	1	27	Male	3	65	false	positive	happy
+12	positive	friendly	0.83	15	ENglish	1	27	Male	3	65	false	positive	friendly
+13	positive	useful	0.75	16	ENglish	1	27	Male	3	65	false	positive	useful
+14	positive	kind	0.76	17	ENglish	1	27	Male	3	65	false	positive	kind
+15	NPositive	not satisfactory	0.54	18	ENglish	1	27	Male	3	65	true	positive	satisfactory
+16	positive	good	0.75	19	ENglish	1	27	Male	3	65	false	positive	good
+17	positive	polite	0.68	20	ENglish	1	27	Male	3	65	false	positive	polite
+18	positive	lucky	0.78	21	ENglish	1	27	Male	3	65	false	positive	lucky
+19	NPositive	not tall	0.18	22	ENglish	1	27	Male	3	65	true	positive	tall
+0	positive	happy	0.88	3	english	2	30	Male	4	66	false	positive	happy
+1	NNegative	not impolite	0.9	4	english	2	30	Male	4	66	true	negative	impolite
+2	negative	unsatisfactory	0.08	5	english	2	30	Male	4	66	false	negative	unsatisfactory
+3	negative	uncertain	0.01	6	english	2	30	Male	4	66	false	negative	uncertain
+4	NNegative	not short	0.53	7	english	2	30	Male	4	66	true	negative	short
+5	negative	unlucky	0.11	8	english	2	30	Male	4	66	false	negative	unlucky
+6	negative	bad	0.03	9	english	2	30	Male	4	66	false	negative	bad
+7	NNegative	not unfair	0.84	10	english	2	30	Male	4	66	true	negative	unfair
+8	NPositive	not polite	0.05	11	english	2	30	Male	4	66	true	positive	polite
+9	positive	strong	0.86	12	english	2	30	Male	4	66	false	positive	strong
+10	NPositive	not accurate	0.04	13	english	2	30	Male	4	66	true	positive	accurate
+11	NPositive	not happy	0.03	14	english	2	30	Male	4	66	true	positive	happy
+12	NNegative	not mean	0.45	15	english	2	30	Male	4	66	true	negative	mean
+13	NPositive	not interesting	0.06	16	english	2	30	Male	4	66	true	positive	interesting
+14	negative	useless	0.08	17	english	2	30	Male	4	66	false	negative	useless
+15	NPositive	not possible	0.04	18	english	2	30	Male	4	66	true	positive	possible
+16	NNegative	not short	0.14	19	english	2	30	Male	4	66	true	negative	short
+17	negative	poor	0.09	20	english	2	30	Male	4	66	false	negative	poor
+18	NNegative	not frustrating	0.05	21	english	2	30	Male	4	66	true	negative	frustrating
+19	NNegative	not unfriendly	0.95	22	english	2	30	Male	4	66	true	negative	unfriendly
