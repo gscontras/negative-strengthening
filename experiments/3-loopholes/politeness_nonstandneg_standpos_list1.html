@@ -1,0 +1,2684 @@
+<script type="text/javascript">//written by Morris Alper -- January 2013
+    //you may copy with attribution
+
+    //Navigation.js: provides functionality for multi-page surveys
+
+    var current = 1; //the current page
+
+    var moved = []; //pages which have been moved by the randomization
+    var movedto = [];
+
+    //takes randomization into account
+    function effectivePage(pagenum) {
+        var index = moved.indexOf(pagenum);
+        if(index == -1) {
+            return pagenum;
+        }else{
+            return movedto[index];
+        }
+    }
+
+
+
+
+
+var numberText = []; //stores divs which need to be updated when the page changes
+var pntexts = []; //texts in them
+function makePageNumber(text) { //text: something like "Page 1 / 4"
+    var temp = text.split(1);
+    var texts = [temp[0], temp[1]];
+    //the following is needed if there are more 1's (e.g. if the total # of pages contains the digit 1)
+    if(temp.length > 2) {
+        for(var i = 2; i < temp.length; i++) {
+            texts[1] += 1 + temp[i];
+        }
+    }
+    document.writeln("<p><div id='pagenumberdiv" + numberText.length + "'></div></p>");
+    loadPageNumber(("pagenumberdiv" + numberText.length), texts);
+}
+function loadPageNumber(id, texts) {
+    var newone = document.getElementById(id);
+    numberText.push(newone);
+    pntexts.push(texts);
+    updatePageNumbers();
+}
+function updatePageNumbers() {
+    for(var i = 0; i < numberText.length; i++) {
+        numberText[i].innerHTML = pntexts[i][0] + current + pntexts[i][1];
+    }
+}
+
+//make one vanish and the other appear
+function swap(vanish, appear) {
+    document.getElementById(vanish).style.display = "none";
+    //document.getElementById(appear).style.display = "inline";
+    document.getElementById(appear).style.display = "";
+    updatePageNumbers();
+}
+
+//go to the next page
+function next() {
+    current++;
+    swap(effectivePage(current - 1), effectivePage(current));
+}
+
+function back() {
+    current--;
+    swap(effectivePage(current + 1), effectivePage(current));
+}
+
+//shuffles the array
+//taken from http://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array-in-javascript
+Array.prototype.shuffle = function () {
+    for (var i = this.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = this[i];
+        this[i] = this[j];
+        this[j] = tmp;
+    }
+
+    return this;
+}
+
+//randomize the order of trials i through j
+//note: don't call this on the same index twice!
+function randomize(i, j) {
+    ar = [];
+    ar2 = [];
+    for(var k = i; k <= j; k++) {
+        ar.push(k);
+        ar2.push(k);
+    }
+    ar2.shuffle();
+    for(var k = 0; k < ar.length; k++) {
+        if(moved.indexOf(ar[k]) != -1) {
+            alert("Error: same index randomized twice.");
+        }else{
+            moved.push(ar[k]);
+            movedto.push(ar2[k]);
+        }
+    }
+}
+
+function checkInp()
+{
+    var x=document.forms["myform"]["practice"].value;
+    if (x != 4)
+    {
+        alert("\nWrong answer.\n\nPlease read the instructions again and provide the correct answer to proceed with the experiment.");
+        return false;
+    }
+    else{
+    next();
+    }
+}
+
+</script>
+
+<script>
+   randomize(3, 52);
+</script>
+<style type="text/css">.wrapper {
+    height: 80%;
+    width: 100%;
+    display: table;
+}
+
+h3 {
+font-family: Helvetica;
+color: CadetBlue;
+padding-bottom: 1em;
+}
+
+h2 {
+font-family: Helvetica;
+font-size: 110%
+}
+
+h1 {
+font-family: Helvetica;
+    font-size: 100%;
+}
+
+h4 {
+font-family: Courier;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.page {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Helvetica;
+}
+
+.cell {
+    margin: 0 auto;
+    padding: 10px;
+    width: 850px;
+}
+
+
+#pagenum {
+font-family: Helvetica;
+    text-align: center;
+}
+
+.disclaimer {
+    font-weight: bold;
+    color: #555555;
+}
+
+.warning {
+    font-weight: bold;
+}
+
+body {
+background-color: Ivory;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input[type="button")]{
+    font-family: Georgia;
+}
+</style>
+<div class="wrapper">
+<div class="page" id="1">
+<div class="cell">
+<h3>Warning: Please do not use the Enter button since this will submit the survey!</h3>
+
+Welcome to our experiment. Participation requires that you give your informed consent. Before proceeding, please consider the following information:
+
+Your task consists of reading a series of short stories and answering related questions.
+The survey will take about 15 minutes to complete.
+
+There are no risks involved in this study.
+
+You will be paid for your participation at the posted rate (provided that you complete the whole study, including demographic questions).
+
+Your data will remain anonymous in all published work resulting from the study.
+
+Participation in this research study is voluntary. You may choose not to participate.
+By clicking on the box below and proceeding to the task, you certify that you have read this form and agreed to participate in accordance with the above conditions.
+
+<p><input id="consent" name="consent"  type="radio" <span class="answertext">I give my informed consent to participate in this study</span> </p>
+
+
+<h3>Please give us first some basic information about yourself:</h3>
+
+<h1>1. What is your gender?</h1>
+
+<table border="0" cellpadding="0" cellspacing="4">
+	<tbody>
+		<tr>
+			<td align="middle"><input name="Gender" type="radio" value="Male" /></td>
+			<td><span class="answertext">Male</span></td>
+		</tr>
+		<tr>
+			<td align="middle"><input name="Gender" type="radio" value="Female" /></td>
+			<td><span class="answertext">Female</span></td>
+		<tr>
+			<td align="middle"><input name="Gender" type="radio" value="Diverse" /></td>
+			<td><span class="answertext">Diverse</span></td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<h1>2. What is your age?</h1>
+
+<p><input id="age" name="age" size="10" type="text" /></p>
+&nbsp;
+
+<h1>3. What is the highest education level you completed?</h1>
+
+<p><select name="education"><option selected="selected">Some High School</option><option>High School Graduate</option><option>Some college, no degree</option><option>Associates degree</option><option>Bachelors degree</option><option>Graduate degree (Masters, Doctorate, etc.)</option> </select></p>
+&nbsp;
+
+<h1>4. What is your native language?</h1>
+
+<p><input id="lang" name="lang" size="10" type="text" /></p>
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="2" style="display: none;">
+<div class="cell">
+<h3>Welcome!</h3>
+
+<p>In this survey, you will read a series of short stories and your task is to evaluate what the person wanted to communicate. You will encounter people with two different interaction styles: one type of person who always sticks to their word and commits to what they say, and another type of person who often retracts what they said. Let's take a look at an example of the different interaction styles.
+</p> 
+ 
+<p> The person who always sticks to their word would say the following: "I finished some of our joint work" </p>
+<p>You respond: "I was expecting you to finish all of it." </p>
+<p><strong>And they confirm </strong>: "I know, but I tried my best."
+ </p>
+ <p>&nbsp;</p>
+ 
+<p> Alternatively, the person who often retracts what they said may say:  "I finished some of our joint work." </p>
+<p>You respond: "I was expecting you to finish all of it." </p>
+<p> <strong>And they deny</strong>: "I never said that I didn't finish all of it."
+ </p>
+ <p>&nbsp;</p>
+
+<p> For each story, we ask you to judge what the person wanted to communicate. Your answer can range from 1 to 7. In the following example, 1 represents "gorgeous" and 7 "ugly".
+ </p>
+
+<p>You ask a friend: How do I look?
+  Your friend tells you: <h4>"You are not gorgeous"</h4>
+
+<strong>Please judge</strong>: According to your friend, your are...
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">gorgeous </td>
+			<td align="middle"><input name="practice" type="radio" value="1" /></td>
+			<td align="middle"><input name="practice" type="radio" value="2" /></td>
+			<td align="middle"><input name="practice" type="radio" value="3" /></td>
+			<td align="middle"><input name="practice" type="radio" value="4" /></td>
+			<td align="middle"><input name="practice" type="radio" value="5" /></td>
+			<td align="middle"><input name="practice" type="radio" value="6" /></td>
+			<td align="middle"><input name="practice" type="radio" value="7" /></td>
+			<td> ugly </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+<p>&nbsp;</p>
+
+OK, let's get started now!</p>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+
+<div class="page" id="3" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your boss is planning to have some employees doing ten hours of very well
+paid overtime to complete a project on a strict deadline. One of your colleagues often retracts what they said. The colleague tells you:</p>
+
+
+<p> <h4> "Your participation is not uncertain."</h4></p>
+
+<p>According to your colleague, your participation is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">uncertain </td>
+			<td align="middle"><input name="nonstand_neg_morph_certain_uncertain " type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_certain_uncertain " type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_certain_uncertain " type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_certain_uncertain " type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_certain_uncertain " type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_certain_uncertain " type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_certain_uncertain " type="radio" value="7" /></td>
+			<td> certain </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="4" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context: </strong>You want to go to the casino with a friend and you are really counting on winning some money. That day the casino is closed. Your friends often retracts what they said. The friend tells you:</p>
+
+
+<p><h4>"You are not unlucky."</h4></p>
+
+<p>According to your friend, you are...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">unlucky </td>
+			<td align="middle"><input name="nonstand_neg_morph_lucky_unlucky" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_lucky_unlucky" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_lucky_unlucky" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_lucky_unlucky" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_lucky_unlucky" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_lucky_unlucky" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_lucky_unlucky" type="radio" value="7" /></td>
+			<td> lucky </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="5" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your legal advisor evaluates your chances to get away with the charges and tells you:   </p>
+
+
+<p> <h4>"The available evidence is not inaccurate."</h4></p>
+
+<p>According to your legal advisor, the evidence is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">inaccurate </td>
+			<td align="middle"><input name="nonstand_neg_morph_accurate_inaccurate" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_accurate_inaccurate" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_accurate_inaccurate" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_accurate_inaccurate" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_accurate_inaccurate" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_accurate_inaccurate" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_accurate_inaccurate" type="radio" value="7" /></td>
+			<td> accurate </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="6" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> After leaving your team and joining another department, one of your colleagues tells you:</p>
+
+<p><h4>"I am not happy."</h4></p>
+
+<p>Your colleague is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">happy </td>
+			<td align="middle"><input name="stand_pos_morph_happy_unhappy" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_morph_happy_unhappy" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_morph_happy_unhappy" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_morph_happy_unhappy" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_morph_happy_unhappy" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_morph_happy_unhappy" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_morph_happy_unhappy" type="radio" value="7" /></td>
+			<td> unhappy </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="7" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> During a meeting you could not attend, your collaborator presents a project in which you were involved. After attending the presentation, your officemate tells you:</p>
+
+<p><h4>"The presentation was not interesting."</h4></p>
+
+<p>According to your officemate, the presentation was...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">interesting </td>
+			<td align="middle"><input name="stand_pos_morph_interesting_uninteresting" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_morph_interesting_uninteresting" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_morph_interesting_uninteresting" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_morph_interesting_uninteresting" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_morph_interesting_uninteresting" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_morph_interesting_uninteresting" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_morph_interesting_uninteresting" type="radio" value="7" /></td>
+			<td> uninteresting </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="8" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You have lost your job because you missed an important deadline. One of your colleagues tells you: </p>
+
+<p><h4>"This is not unfair."</h4></p>
+
+<p>According to your colleague, this is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">unfair </td>
+			<td align="middle"><input name="nonstand_neg_morph_fair_unfair" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_fair_unfair" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_fair_unfair" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_fair_unfair" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_fair_unfair" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_fair_unfair" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_fair_unfair" type="radio" value="7" /></td>
+			<td> fair </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="9" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your officemate would like you to strengthen ties with some colleagues from another department. After you all meet at a corporate event, your officemate tells you: </p>
+
+
+<p><h4>"You were not polite."</h4></p>
+
+<p>According to your officemate, you were...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">polite </td>
+			<td align="middle"><input name="stand_pos_morph_polite_impolite" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_morph_polite_impolite" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_morph_polite_impolite" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_morph_polite_impolite" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_morph_polite_impolite" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_morph_polite_impolite" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_morph_polite_impolite" type="radio" value="7" /></td>
+			<td> impolite </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="10" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your company has financial problems but you do not want this to affect your employees. After talking to the financial department, your partner tells you:</p>
+
+<p><h4>"A pay cut is not impossible."</h4></p>
+
+<p>According to your partner, a pay cut is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">impossible </td>
+			<td align="middle"><input name="nonstand_neg_morph_possible_impossible" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_possible_impossible" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_possible_impossible" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_possible_impossible" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_possible_impossible" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_possible_impossible" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_possible_impossible" type="radio" value="7" /></td>
+			<td> possible </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="11" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You are collaborating with one of your colleagues to sell a project to an important client. After meeting with your collaborator to review the project budget, the finance officer tells you: </p>
+
+
+<p><h4>"The project budget was not satisfactory."</h4></p>
+
+<p>According to the finance officer, the budget was...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">satisfactory </td>
+			<td align="middle"><input name="stand_pos_morph_satisfactory_unsatisfactory" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_morph_satisfactory_unsatisfactory" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_morph_satisfactory_unsatisfactory" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_morph_satisfactory_unsatisfactory" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_morph_satisfactory_unsatisfactory" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_morph_satisfactory_unsatisfactory" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_morph_satisfactory_unsatisfactory" type="radio" value="7" /></td>
+			<td> unsatisfactory </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="12" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your officemate tells you that the new team member was very nice during their first meeting. After you all meet during lunch break, your officemate tells you:</p>
+
+<p><h4>"You were not friendly."</h4></p>
+
+<p>According to your officemate you were...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">friendly </td>
+			<td align="middle"><input name="stand_pos_morph_friendly_unfriendly" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_morph_friendly_unfriendly" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_morph_friendly_unfriendly" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_morph_friendly_unfriendly" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_morph_friendly_unfriendly" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_morph_friendly_unfriendly" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_morph_friendly_unfriendly" type="radio" value="7" /></td>
+			<td> unfriendly </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="13" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your officemate is reorganizing the office and tiding it up. You suggest throwing away some old reports. Your officemate tells you: </p>
+
+
+<p><h4>"These papers are not useless."</h4></p>
+
+<p>According to your officemate, the papers are...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">useless </td>
+			<td align="middle"><input name="nonstand_neg_morph_useful_useless" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_useful_useless" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_useful_useless" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_useful_useless" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_useful_useless" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_useful_useless" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_useful_useless" type="radio" value="7" /></td>
+			<td> useful </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="14" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You want to join a prestigious company and you are competing with one of your current colleagues. After looking at your CV, your officemate tells you: </p>
+
+
+<p><h4>"The CV is not good."</h4></p>
+
+<p>According to your officemate, the CV is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">good </td>
+			<td align="middle"><input name="stand_pos_nonmorph_good_bad" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_good_bad" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_good_bad" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_good_bad" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_good_bad" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_good_bad" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_good_bad" type="radio" value="7" /></td>
+			<td>bad</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="15" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> At a seminar on personal development organized by your company, you describe your struggles with interpersonal relationships. After discussing about your mental barriers with the group, one of your colleagues tells you:</p>
+
+
+<p><h4>"They are not weak."</h4></p>
+
+<p>According to your colleague, your mental barriers are...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">weak </td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_strong_weak" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_strong_weak" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_strong_weak" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_strong_weak" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_strong_weak" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_strong_weak" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_strong_weak" type="radio" value="7" /></td>
+			<td>strong </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="16" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your officemate received a generous support from some colleagues. After you meet these colleagues at lunch, your officemate comments on your attitude towards them and tells you:</p>
+
+
+<p><h4>"You were not mean."</h4></p>
+
+<p>According to your officemate, you were...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">mean </td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_kind_mean" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_kind_mean" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_kind_mean" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_kind_mean" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_kind_mean" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_kind_mean" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_kind_mean" type="radio" value="7" /></td>
+			<td>kind </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="17" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You are part of a team of architects that is projecting the new town hall in the old city center. The new construction should redesign the city skyline. One of your colleagues looks at your project and tells you: </p>
+
+
+<p><h4> "Your town hall is not tall."</h4></p>
+
+<p>According to your colleague, your town hall is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">tall</td>
+			<td align="middle"><input name="stand_pos_nonmorph_tall_short" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_tall_short" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_tall_short" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_tall_short" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_tall_short" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_tall_short" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_tall_short" type="radio" value="7" /></td>
+			<td>short</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="18" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> After thinking of a career change for a long time, you have decided to stay in your current job. A colleague from another department tells you:   </p>
+
+
+<p><h4>"Your team is not happy."</h4></p>
+
+<p>According to your colleague, your team is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">happy</td>
+			<td align="middle"><input name="stand_pos_nonmorph_happy_sad" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_happy_sad" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_happy_sad" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_happy_sad" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_happy_sad" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_happy_sad" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_happy_sad" type="radio" value="7" /></td>
+			<td>sad</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="19" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You give a mock interview. The colleague who is playing the role of the interviewer asks you to describe the details of your business strategy. After listening to you, your colleague tells you:</p>
+
+
+<p><h4>"Your presentation was not long."</h4></p>
+
+<p>According to your colleague, your presentation was...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">long</td>
+			<td align="middle"><input name="stand_pos_nonmorph_long_short" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_long_short" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_long_short" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_long_short" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_long_short" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_long_short" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_long_short" type="radio" value="7" /></td>
+			<td>short</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="20" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You complain to your officemate that you cannot work properly because some coworkers listen to music in the office next door. Your officemate tells you: </p>
+
+
+<p><h4>"They are not rude."</h4></p>
+
+<p>According to your officemate, they are...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">rude</td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_polite_rude" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_polite_rude" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_polite_rude" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_polite_rude" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_polite_rude" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_polite_rude" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_polite_rude" type="radio" value="7" /></td>
+			<td>polite</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="21" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You want to apply for financial aid from the government. A coworker, who is helping you with the paperwork, looks at your financial records and tells you:	</p>
+
+
+<p><h4>"You are not poor."</h4></p>
+
+<p>According to your coworker, you are...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">poor</td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_rich_poor" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_rich_poor" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_rich_poor" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_rich_poor" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_rich_poor" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_rich_poor" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_rich_poor" type="radio" value="7" /></td>
+			<td>rich</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="22" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> After the first German class with a tutor that you widely recommended after passing your language test, one of your colleagues tells you:  </p>
+
+
+<p><h4>"This tutoring is not satisfactory."</h4></p>
+
+<p>According to your coworker, the tutoring is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">satisfactory </td>
+			<td align="middle"><input name="stand_pos_nonmorph_satisfactory_frustrating" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_satisfactory_frustrating" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_satisfactory_frustrating" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_satisfactory_frustrating" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_satisfactory_frustrating" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_satisfactory_frustrating" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_satisfactory_frustrating" type="radio" value="7" /></td>
+			<td>frustrating</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="23" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your boss is planning to have some employees doing ten hours of unpaid overtime to complete a project on a strict deadline. One of your colleagues tells you:</p>
+
+
+<p> <h4> "Your participation is not certain."</h4></p>
+
+<p>According to your colleague, your participation is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">certain</td>
+			<td align="middle"><input name="stand_pos_morph_certain_uncertain " type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_morph_certain_uncertain " type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_morph_certain_uncertain " type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_morph_certain_uncertain " type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_morph_certain_uncertain " type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_morph_certain_uncertain " type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_morph_certain_uncertain " type="radio" value="7" /></td>
+			<td> uncertain </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="24" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context: </strong>You want to go the casino with your friend and you are really counting on winning some money. That day the casino is closed. Your friend tells you:</p>
+
+
+<p><h4>"You are not lucky."</h4></p>
+
+<p>According to your friend, you are...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">lucky </td>
+			<td align="middle"><input name="stand_pos_morph_lucky_unlucky" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_morph_lucky_unlucky" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_morph_lucky_unlucky" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_morph_lucky_unlucky" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_morph_lucky_unlucky" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_morph_lucky_unlucky" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_morph_lucky_unlucky" type="radio" value="7" /></td>
+			<td> unlucky </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="25" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your legal advisor evaluates your aggressors chances to get away with the charges and tells you: </p>
+
+
+<p> <h4>"The available evidence is not accurate."</h4></p>
+
+<p>According to your legal advisor, the evidence is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">inaccurate </td>
+			<td align="middle"><input name="stand_pos_morph_accurate_inaccurate" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_morph_accurate_inaccurate" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_morph_accurate_inaccurate" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_morph_accurate_inaccurate" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_morph_accurate_inaccurate" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_morph_accurate_inaccurate" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_morph_accurate_inaccurate" type="radio" value="7" /></td>
+			<td> accurate </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="26" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> After joining your team and leaving another department, one of your colleagues tells you:</p>
+
+<p><h4>"I am not unhappy."</h4></p>
+
+<p>Your colleague is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">unhappy </td>
+			<td align="middle"><input name="nonstand_neg_morph_happy_unhappy" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_happy_unhappy" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_happy_unhappy" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_happy_unhappy" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_happy_unhappy" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_happy_unhappy" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_happy_unhappy" type="radio" value="7" /></td>
+			<td> happy </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="27" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> During a meeting you could not attend, your competitor presents a project in which you were not involved. After attending the presentation, your officemate tells you:</p>
+
+<p><h4>"The presentation was not uninteresting."</h4></p>
+
+<p>According to your officemate, the presentation was...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">uninteresting </td>
+			<td align="middle"><input name="nonstand_neg_morph_interesting_uninteresting" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_interesting_uninteresting" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_interesting_uninteresting" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_interesting_uninteresting" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_interesting_uninteresting" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_interesting_uninteresting" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_interesting_uninteresting" type="radio" value="7" /></td>
+			<td> interesting </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="28" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You have lost your job because your boss does not like you even though you managed all your deadlines. One of your colleagues tells you: </p>
+
+<p><h4>"This is not fair."</h4></p>
+
+<p>According to your colleague, this is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">fair </td>
+			<td align="middle"><input name="stand_pos_morph_fair_unfair" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_morph_fair_unfair" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_morph_fair_unfair" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_morph_fair_unfair" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_morph_fair_unfair" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_morph_fair_unfair" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_morph_fair_unfair" type="radio" value="7" /></td>
+			<td> unfair </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="29" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your officemate would like you to cut ties with some colleagues from another department. After you all meet at a corporate event, your officemate tells you:  </p>
+
+
+<p><h4>"You were not impolite."</h4></p>
+
+<p>According to your officemate, you were...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">impolite </td>
+			<td align="middle"><input name="nonstand_neg_morph_polite_impolite" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_polite_impolite" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_polite_impolite" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_polite_impolite" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_polite_impolite" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_polite_impolite" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_polite_impolite" type="radio" value="7" /></td>
+			<td> polite </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="30" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your company has financial problems and you are planning a pay cut for your employees. After talking to the financial department, your partner tells you:</p>
+
+<p><h4>"A pay cut is not possible."</h4></p>
+
+<p>According to your partner, a pay cut is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">possible </td>
+			<td align="middle"><input name="stand_pos_morph_possible_impossible" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_morph_possible_impossible" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_morph_possible_impossible" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_morph_possible_impossible" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_morph_possible_impossible" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_morph_possible_impossible" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_morph_possible_impossible" type="radio" value="7" /></td>
+			<td> impossible </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="31" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You are competing with one of your colleagues to sell a project to an important client. After meeting with your competitor to review the project budget, the finance officer tells you: </p>
+
+
+<p><h4>"The project budget was not unsatisfactory."</h4></p>
+
+<p>According to the finance officer, the budget was...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">unsatisfactory </td>
+			<td align="middle"><input name="nonstand_neg_morph_satisfactory_unsatisfactory" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_satisfactory_unsatisfactory" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_satisfactory_unsatisfactory" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_satisfactory_unsatisfactory" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_satisfactory_unsatisfactory" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_satisfactory_unsatisfactory" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_satisfactory_unsatisfactory" type="radio" value="7" /></td>
+			<td> satisfactory </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="32" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your officemate tells you that the new team member was very rude during their first meeting. After you all meet during lunch break, your officemate tells you:</p>
+
+<p><h4>"You were not unfriendly."</h4></p>
+
+<p>According to your officemate you were...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">unfriendly </td>
+			<td align="middle"><input name="nonstand_neg_morph_friendly_unfriendly" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_friendly_unfriendly" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_friendly_unfriendly" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_friendly_unfriendly" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_friendly_unfriendly" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_friendly_unfriendly" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_morph_friendly_unfriendly" type="radio" value="7" /></td>
+			<td> friendly </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="33" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your officemate is reorganizing the office and tiding it up. You suggest digitalizing and archiving some old reports. Your officemate tells you:</p>
+
+
+<p><h4>"These papers are not useful."</h4></p>
+
+<p>According to your officemate, the papers are...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">useful </td>
+			<td align="middle"><input name="stand_pos_morph_useful_useless" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_morph_useful_useless" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_morph_useful_useless" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_morph_useful_useless" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_morph_useful_useless" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_morph_useful_useless" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_morph_useful_useless" type="radio" value="7" /></td>
+			<td> useless </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="34" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You want to join a prestigious company and you are competing with one of your current colleagues. After looking at your competitor's CV, your officemate tells you: </p>
+
+
+<p><h4>"The CV is not bad."</h4></p>
+
+<p>According to your officemate, the CV is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">bad </td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_good_bad" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_good_bad" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_good_bad" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_good_bad" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_good_bad" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_good_bad" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_good_bad" type="radio" value="7" /></td>
+			<td>good </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="35" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> At a seminar on personal development organized by your company, you describe your struggles with interpersonal relationships. After discussing about your motivations for personal growth with the group, one of your colleagues tells you:</p>
+
+
+<p><h4>"They are not strong."</h4></p>
+
+<p>According to your colleague, your motivations for personal growth are...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">strong</td>
+			<td align="middle"><input name="stand_pos_nonmorph_strong_weak" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_strong_weak" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_strong_weak" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_strong_weak" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_strong_weak" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_strong_weak" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_strong_weak" type="radio" value="7" /></td>
+			<td>weak </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="36" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Your officemate was bullied by some colleagues. After you meet these colleagues at lunch, your officemate comments on your attitude towards them and tells you:</p>
+
+
+<p><h4>"You were not kind."</h4></p>
+
+<p>According to your officemate, you were...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">kind</td>
+			<td align="middle"><input name="stand_pos_nonmorph_kind_mean" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_kind_mean" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_kind_mean" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_kind_mean" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_kind_mean" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_kind_mean" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_kind_mean" type="radio" value="7" /></td>
+			<td>mean</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="37" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You are part of a team of architects that is projecting the new town hall in the old city center. The new construction should have a minimal impact on the city skyline. One of your colleagues looks at your project and tells you:</p>
+
+
+<p><h4> "Your town hall is not short."</h4></p>
+
+<p>According to your colleague, your town hall is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">short </td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_tall_short" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_tall_short" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_tall_short" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_tall_short" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_tall_short" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_tall_short" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_tall_short" type="radio" value="7" /></td>
+			<td>tall</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="38" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> After thinking of a career change for a long time, you have decided to quit your current job. A colleague from another department tells you:</p>
+
+
+<p><h4>"Your team is not sad."</h4></p>
+
+<p>According to your colleague, your team is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">sad </td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_happy_sad" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_happy_sad" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_happy_sad" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_happy_sad" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_happy_sad" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_happy_sad" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_happy_sad" type="radio" value="7" /></td>
+			<td>happy </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="39" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You give a mock interview. The colleague who is playing the role of the interviewer asks you to describe your business strategy in a few words. After listening to you, your colleague tells you:</p>
+
+
+<p><h4>"Your presentation was not short."</h4></p>
+
+<p>According to your colleague, your presentation was...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">short </td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_long_short" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_long_short" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_long_short" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_long_short" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_long_short" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_long_short" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_long_short" type="radio" value="7" /></td>
+			<td>long</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="40" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> Some coworkers complain to your officemate that they cannot work properly because you listen to music in the office next door. Your officemate tells you: </p>
+
+
+<p><h4>"They are not polite."</h4></p>
+
+<p>According to your officemate, they are...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">polite</td>
+			<td align="middle"><input name="stand_pos_nonmorph_polite_rude" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_polite_rude" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_polite_rude" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_polite_rude" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_polite_rude" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_polite_rude" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_polite_rude" type="radio" value="7" /></td>
+			<td>rude</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="41" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You want to apply to join an exclusive country club. A coworker, who is helping you with the paperwork, looks at your financial records and tells you:</p>
+
+
+<p><h4>"You are not rich."</h4></p>
+
+<p>According to your coworker, you are...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">rich</td>
+			<td align="middle"><input name="stand_pos_nonmorph_rich_poor" type="radio" value="1" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_rich_poor" type="radio" value="2" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_rich_poor" type="radio" value="3" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_rich_poor" type="radio" value="4" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_rich_poor" type="radio" value="5" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_rich_poor" type="radio" value="6" /></td>
+			<td align="middle"><input name="stand_pos_nonmorph_rich_poor" type="radio" value="7" /></td>
+			<td>poor</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="42" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> After the first German class with a tutor that you widely discredited after failing your language test, one of your colleagues tells you:</p>
+
+<p><h4>"This tutoring is not frustrating."</h4></p>
+
+<p>According to your coworker, the tutoring is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">frustrating </td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_satisfactory_frustrating" type="radio" value="1" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_satisfactory_frustrating" type="radio" value="2" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_satisfactory_frustrating" type="radio" value="3" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_satisfactory_frustrating" type="radio" value="4" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_satisfactory_frustrating" type="radio" value="5" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_satisfactory_frustrating" type="radio" value="6" /></td>
+			<td align="middle"><input name="nonstand_neg_nonmorph_satisfactory_frustrating" type="radio" value="7" /></td>
+			<td>satisfactory</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+
+
+<div class="page" id="43" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You and your friend Paul are going to a wedding and you need to select an outfit. Paul tells you: </p>
+
+<p><h4>"Your outfit is pretty."</h4></p>
+
+<p>According to Paul, the outfit is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">pretty </td>
+			<td align="middle"><input name="pos_filler_pretty_hideous" type="radio" value="1" /></td>
+			<td align="middle"><input name="pos_filler_pretty_hideous" type="radio" value="2" /></td>
+			<td align="middle"><input name="pos_filler_pretty_hideous" type="radio" value="3" /></td>
+			<td align="middle"><input name="pos_filler_pretty_hideous" type="radio" value="4" /></td>
+			<td align="middle"><input name="pos_filler_pretty_hideous" type="radio" value="5" /></td>
+			<td align="middle"><input name="pos_filler_pretty_hideous" type="radio" value="6" /></td>
+			<td align="middle"><input name="pos_filler_pretty_hideous" type="radio" value="7" /></td>
+			<td> hideous </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+
+
+<div class="page" id="44" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You and your friend Sue are going to a wedding and you need to select an outfit. Sue tells you: </p>
+
+<p><h4>"Your outfit is hideous."</h4></p>
+
+<p>According to Sue, the outfit is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">hideous </td>
+			<td align="middle"><input name="neg_filler_pretty_hideous" type="radio" value="1" /></td>
+			<td align="middle"><input name="neg_filler_pretty_hideous" type="radio" value="2" /></td>
+			<td align="middle"><input name="neg_filler_pretty_hideous" type="radio" value="3" /></td>
+			<td align="middle"><input name="neg_filler_pretty_hideous" type="radio" value="4" /></td>
+			<td align="middle"><input name="neg_filler_pretty_hideous" type="radio" value="5" /></td>
+			<td align="middle"><input name="neg_filler_pretty_hideous" type="radio" value="6" /></td>
+			<td align="middle"><input name="neg_filler_pretty_hideous" type="radio" value="7" /></td>
+			<td> pretty </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="45" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You invite your friend Mary to dinner. You try out a new recipe for the first time. Mary tells you: </p>
+
+<p><h4>"The food was delicious."</h4></p>
+
+<p>According to Mary, the food was...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">delicious </td>
+			<td align="middle"><input name="pos_filler_delicious_disgusting" type="radio" value="1" /></td>
+			<td align="middle"><input name="pos_filler_delicious_disgusting" type="radio" value="2" /></td>
+			<td align="middle"><input name="pos_filler_delicious_disgusting" type="radio" value="3" /></td>
+			<td align="middle"><input name="pos_filler_delicious_disgusting" type="radio" value="4" /></td>
+			<td align="middle"><input name="pos_filler_delicious_disgusting" type="radio" value="5" /></td>
+			<td align="middle"><input name="pos_filler_delicious_disgusting" type="radio" value="6" /></td>
+			<td align="middle"><input name="pos_filler_delicious_disgusting" type="radio" value="7" /></td>
+			<td> disgusting </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+
+
+<div class="page" id="46" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You invite your friend John to dinner. You try out a new recipe for the first time. John tells you: </p>
+
+<p><h4>"The food was disgusting."</h4></p>
+
+<p>According to John, the food was...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">disgusting </td>
+			<td align="middle"><input name="neg_filler_delicious_disgusting" type="radio" value="1" /></td>
+			<td align="middle"><input name="neg_filler_delicious_disgusting" type="radio" value="2" /></td>
+			<td align="middle"><input name="neg_filler_delicious_disgusting" type="radio" value="3" /></td>
+			<td align="middle"><input name="neg_filler_delicious_disgusting" type="radio" value="4" /></td>
+			<td align="middle"><input name="neg_filler_delicious_disgusting" type="radio" value="5" /></td>
+			<td align="middle"><input name="neg_filler_delicious_disgusting" type="radio" value="6" /></td>
+			<td align="middle"><input name="neg_filler_delicious_disgusting" type="radio" value="7" /></td>
+			<td> delicious </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="47" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You and your friend Leo meet up for coffee after a long time. You describe your new job. Leo comments: </p>
+
+<p><h4>"Your job sounds boring."</h4></p>
+
+<p>According to Leo, the job is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">boring </td>
+			<td align="middle"><input name="neg_filler_exciting_boring" type="radio" value="1" /></td>
+			<td align="middle"><input name="neg_filler_exciting_boring" type="radio" value="2" /></td>
+			<td align="middle"><input name="neg_filler_exciting_boring" type="radio" value="3" /></td>
+			<td align="middle"><input name="neg_filler_exciting_boring" type="radio" value="4" /></td>
+			<td align="middle"><input name="neg_filler_exciting_boring" type="radio" value="5" /></td>
+			<td align="middle"><input name="neg_filler_exciting_boring" type="radio" value="6" /></td>
+			<td align="middle"><input name="neg_filler_exciting_boring" type="radio" value="7" /></td>
+			<td> exciting </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="48" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You and your friend April meet up for coffee after a long time. You describe your new job. April comments: </p>
+
+<p><h4>"Your job sounds exciting."</h4></p>
+
+<p>According to April, the job is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">exciting </td>
+			<td align="middle"><input name="pos_filler_exciting_boring" type="radio" value="1" /></td>
+			<td align="middle"><input name="pos_filler_exciting_boring" type="radio" value="2" /></td>
+			<td align="middle"><input name="pos_filler_exciting_boring" type="radio" value="3" /></td>
+			<td align="middle"><input name="pos_filler_exciting_boring" type="radio" value="4" /></td>
+			<td align="middle"><input name="pos_filler_exciting_boring" type="radio" value="5" /></td>
+			<td align="middle"><input name="pos_filler_exciting_boring" type="radio" value="6" /></td>
+			<td align="middle"><input name="pos_filler_exciting_boring" type="radio" value="7" /></td>
+			<td> boring</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="49" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You and your friend Alex go to the cinema together. You bring along a colleague. The next day Alex tells you: </p>
+
+
+<p><h4>"Your colleague is smart."</h4></p>
+
+<p>According to Alex, your colleague is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">smart </td>
+			<td align="middle"><input name="pos_filler_smart_stupid" type="radio" value="1" /></td>
+			<td align="middle"><input name="pos_filler_smart_stupid" type="radio" value="2" /></td>
+			<td align="middle"><input name="pos_filler_smart_stupid" type="radio" value="3" /></td>
+			<td align="middle"><input name="pos_filler_smart_stupid" type="radio" value="4" /></td>
+			<td align="middle"><input name="pos_filler_smart_stupid" type="radio" value="5" /></td>
+			<td align="middle"><input name="pos_filler_smart_stupid" type="radio" value="6" /></td>
+			<td align="middle"><input name="pos_filler_smart_stupid" type="radio" value="7" /></td>
+			<td> stupid </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+<div class="page" id="50" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You and your friend Kylie go to the cinema together. You bring along a colleague. The next day Kylie tells you: </p>
+
+<p><h4>"Your colleague is stupid."</h4></p>
+
+<p>According to Kylie, your colleague is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">stupid </td>
+			<td align="middle"><input name="neg_filler_smart_stupid" type="radio" value="1" /></td>
+			<td align="middle"><input name="neg_filler_smart_stupid" type="radio" value="2" /></td>
+			<td align="middle"><input name="neg_filler_smart_stupid" type="radio" value="3" /></td>
+			<td align="middle"><input name="neg_filler_smart_stupid" type="radio" value="4" /></td>
+			<td align="middle"><input name="neg_filler_smart_stupid" type="radio" value="5" /></td>
+			<td align="middle"><input name="neg_filler_smart_stupid" type="radio" value="6" /></td>
+			<td align="middle"><input name="neg_filler_smart_stupid" type="radio" value="7" /></td>
+			<td> smart </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+
+<div class="page" id="51" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You invite your friend Jason to your new house. He sits down on your couch. Jason says: </p>
+
+<p><h4>"Your couch is comfortable."</h4></p>
+
+<p>According to Jason, the couch is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">comfortable </td>
+			<td align="middle"><input name="pos_filler_comfortable_uncomfortable" type="radio" value="1" /></td>
+			<td align="middle"><input name="pos_filler_comfortable_uncomfortable" type="radio" value="2" /></td>
+			<td align="middle"><input name="pos_filler_comfortable_uncomfortable" type="radio" value="3" /></td>
+			<td align="middle"><input name="pos_filler_comfortable_uncomfortable" type="radio" value="4" /></td>
+			<td align="middle"><input name="pos_filler_comfortable_uncomfortable" type="radio" value="5" /></td>
+			<td align="middle"><input name="pos_filler_comfortable_uncomfortable" type="radio" value="6" /></td>
+			<td align="middle"><input name="pos_filler_comfortable_uncomfortable" type="radio" value="7" /></td>
+			<td> uncomfortable </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+
+
+<div class="page" id="52" style="display: none;">
+<div class="cell">
+
+
+<p><strong>Context:</strong> You invite your friend Jane to your new house. She sits down on your couch. Jane says:  </p>
+
+<p><h4>"Your couch is uncomfortable."</h4></p>
+
+<p>According to Jane, the couch is...</p>
+
+
+<table border="0" cellpadding="0" cellspacing="8" height="44" width="214">
+	<tbody>
+		<tr>
+		</tr>
+		<tr>
+			<td align="top">uncomfortable </td>
+			<td align="middle"><input name="neg_filler_comfortable_uncomfortable" type="radio" value="1" /></td>
+			<td align="middle"><input name="neg_filler_comfortable_uncomfortable" type="radio" value="2" /></td>
+			<td align="middle"><input name="neg_filler_comfortable_uncomfortable" type="radio" value="3" /></td>
+			<td align="middle"><input name="neg_filler_comfortable_uncomfortable" type="radio" value="4" /></td>
+			<td align="middle"><input name="neg_filler_comfortable_uncomfortable" type="radio" value="5" /></td>
+			<td align="middle"><input name="neg_filler_comfortable_uncomfortable" type="radio" value="6" /></td>
+			<td align="middle"><input name="neg_filler_comfortable_uncomfortable" type="radio" value="7" /></td>
+			<td> comfortable </td>
+		</tr>
+		<tr>
+			<td></td>
+			<td align="middle">1</td>
+			<td align="middle">2</td>
+			<td align="middle">3</td>
+			<td align="middle">4</td>
+			<td align="middle">5</td>
+			<td align="middle">6</td>
+			<td align="middle">7</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+
+
+
+
+
+<p>&nbsp;</p>
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+
+<div class="page" id="53" style="display: none;">
+<div class="cell">
+<p>Thank you very much for participating in this study.</p>
+
+<p>Please enter any comments you have in the box below:</p>
+<textarea cols="50" id="comments" name="comments" rows="4"></textarea><br />
+<br />
+<input onclick="next();" type="button" value="Continue" /></div>
+</div>
+
+
+
+<div class="page" id="54" style="display: none;">
+<div class="cell">
+<p>Thank you for your help!</p>
+<br />
+<button type="submit" disabled style="display: none;" aria-hidden="true"></button> <!--this prevents accidental submission via enter.-->
+<input type="submit" value="Submit" /></div>
+</div>
+</div>
+
+<center><script>makePageNumber("Page 1 / 54");</script></center>
